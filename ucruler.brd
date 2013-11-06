@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -51,7 +51,7 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -481,22 +481,22 @@
 <vertex x="3" y="20"/>
 <vertex x="0" y="20"/>
 </polygon>
-<hole x="2" y="5" drill="0.4"/>
-<hole x="2" y="7" drill="0.5"/>
-<hole x="2" y="9" drill="0.6"/>
-<hole x="2" y="11" drill="0.7"/>
-<hole x="2" y="13" drill="0.8"/>
-<hole x="2" y="15" drill="0.9"/>
-<hole x="2" y="17" drill="1"/>
-<hole x="2" y="19" drill="1.1"/>
-<text x="3.5" y="5" size="1.016" layer="21" align="center-left">0.4mm</text>
-<text x="3.5" y="7" size="1.016" layer="21" align="center-left">0.5mm</text>
-<text x="3.5" y="9" size="1.016" layer="21" align="center-left">0.6mm</text>
-<text x="3.5" y="11" size="1.016" layer="21" align="center-left">0.7mm</text>
-<text x="3.5" y="13" size="1.016" layer="21" align="center-left">0.8mm</text>
-<text x="3.5" y="15" size="1.016" layer="21" align="center-left">0.9mm</text>
-<text x="3.5" y="17" size="1.016" layer="21" align="center-left">1.0mm</text>
-<text x="3.5" y="19" size="1.016" layer="21" align="center-left">1.1mm</text>
+<hole x="3" y="3.8" drill="0.4"/>
+<hole x="3" y="5.6" drill="0.5"/>
+<hole x="3" y="7.4" drill="0.6"/>
+<hole x="3" y="9.2" drill="0.7"/>
+<hole x="3" y="11" drill="0.8"/>
+<hole x="3" y="12.8" drill="0.9"/>
+<hole x="3" y="14.6" drill="1"/>
+<hole x="3" y="16.4" drill="1.1"/>
+<text x="4.5" y="3.8" size="1.016" layer="21" align="center-left">0.4mm</text>
+<text x="4.5" y="5.6" size="1.016" layer="21" align="center-left">0.5mm</text>
+<text x="4.5" y="7.4" size="1.016" layer="21" align="center-left">0.6mm</text>
+<text x="4.5" y="9.2" size="1.016" layer="21" align="center-left">0.7mm</text>
+<text x="4.5" y="11" size="1.016" layer="21" align="center-left">0.8mm</text>
+<text x="4.5" y="12.8" size="1.016" layer="21" align="center-left">0.9mm</text>
+<text x="4.5" y="14.6" size="1.016" layer="21" align="center-left">1.0mm</text>
+<text x="4.5" y="16.4" size="1.016" layer="21" align="center-left">1.1mm</text>
 <wire x1="0" y1="0" x2="0" y2="4.445" width="0.25" layer="21"/>
 <wire x1="50.8" y1="0" x2="50.8" y2="3.81" width="0.25" layer="21"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.25" layer="21"/>
@@ -676,7 +676,24 @@
 <text x="161" y="21" size="2" layer="21" font="fixed" align="top-left">16</text>
 <text x="171" y="21" size="2" layer="21" font="fixed" align="top-left">17</text>
 <text x="181" y="21" size="2" layer="21" font="fixed" align="top-left">18</text>
-<text x="191" y="21" size="2" layer="21" font="fixed" align="top-left">19</text>
+<hole x="3" y="18.2" drill="1.2"/>
+<hole x="3" y="20" drill="1.3"/>
+<hole x="197" y="3.6" drill="1.4"/>
+<hole x="197" y="5.9" drill="1.5"/>
+<hole x="197" y="13.5" drill="1.6"/>
+<hole x="197" y="11" drill="1.7"/>
+<hole x="197" y="8.4" drill="1.8"/>
+<hole x="197" y="16.2" drill="1.9"/>
+<hole x="197" y="19" drill="2"/>
+<text x="4.5" y="18.2" size="1.016" layer="21" align="center-left">1.2mm</text>
+<text x="4.5" y="20" size="1.016" layer="21" align="center-left">1.3mm</text>
+<text x="195.5" y="3.6" size="1" layer="21" font="fixed" align="center-right">1.4mm</text>
+<text x="195.5" y="5.9" size="1" layer="21" font="fixed" align="center-right">1.5mm</text>
+<text x="195.5" y="8.4" size="1" layer="21" font="fixed" align="center-right">1.6mm</text>
+<text x="195.5" y="11" size="1" layer="21" font="fixed" align="center-right">1.7mm</text>
+<text x="195.5" y="13.5" size="1" layer="21" font="fixed" align="center-right">1.8mm</text>
+<text x="195.5" y="16.2" size="1" layer="21" font="fixed" align="center-right">1.9mm</text>
+<text x="195.5" y="19" size="1" layer="21" font="fixed" align="center-right">2.0mm</text>
 </plain>
 <libraries>
 </libraries>
