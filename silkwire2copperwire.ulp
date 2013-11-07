@@ -1,0 +1,38 @@
+string buf;
+string cmd= "layer 1;\n";
+cmd += "GRID MM 1 ;\n";
+int count = 100;
+
+board(B) {
+    B.wires(W) {
+        if ( W.layer != 21) {
+            continue;
+        }
+        sprintf(buf, "WIRE 'S$%u' %f (%f %f) (%f %f);\n",
+                count,
+                u2mm(W.width),
+                u2mm(W.x1), u2mm(W.y1),
+                u2mm(W.x2), u2mm(W.y2)
+               );
+
+        cmd += buf;
+        count++;
+    }
+}
+
+int Result = dlgDialog("Descriptions") {
+    dlgLabel("<b>WARNING</b>");
+    dlgLabel( "THIS WILL SAVE YOUR BOARD/SCHEMATIC AT CURRENT STATE AND RELOAD AFTERWARDS,\nWITHOUT ANY HISTORY!");
+    dlgHBoxLayout {
+        dlgVBoxLayout { dlgSpacing(500); }
+        dlgTextEdit(cmd);
+    }
+    dlgHBoxLayout {
+        dlgPushButton("+Execute") dlgAccept();
+        dlgSpacing(100);
+        dlgPushButton("-Cancel") dlgReject();
+    }
+};
+if (Result == 0) exit(0);
+exit(cmd);
+// vim: ft=c
