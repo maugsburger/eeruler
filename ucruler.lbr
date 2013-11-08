@@ -667,6 +667,20 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0.1" y1="-0.8" x2="-0.2" y2="-1.1" width="0.15" layer="21"/>
 <wire x1="0.5" y1="1.5" x2="-0.8" y2="0.2" width="0.15" layer="21"/>
 </package>
+<package name="SILK-DIODE">
+<wire x1="0" y1="1" x2="0" y2="0" width="0.15" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-1" width="0.15" layer="21"/>
+<wire x1="0" y1="1" x2="1.5" y2="0" width="0.15" layer="21"/>
+<wire x1="0" y1="-1" x2="1.5" y2="0" width="0.15" layer="21"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="0" width="0.15" layer="21"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="0" y1="0" x2="-3" y2="0" width="0.15" layer="21"/>
+<wire x1="1.5" y1="0" x2="3.5" y2="0" width="0.15" layer="21"/>
+<text x="0" y="0.3" size="1.5" layer="21" align="bottom-right">A</text>
+<text x="1.8" y="0" size="1.5" layer="21" rot="R180" align="bottom-right">-</text>
+<text x="0" y="0" size="1.5" layer="21" align="top-right">+</text>
+<text x="1.8" y="0.3" size="1.5" layer="21" rot="R180" align="top-right">C</text>
+</package>
 </packages>
 <symbols>
 </symbols>
