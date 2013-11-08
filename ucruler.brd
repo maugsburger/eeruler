@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mic"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
@@ -183,11 +183,11 @@
 </text>
 <rectangle x1="142.24" y1="2.54" x2="194.31" y2="8.89" layer="22" rot="R180"/>
 <text x="194.31" y="10.16" size="1.016" layer="22" rot="MR0" align="top-left">Besitzer</text>
-<hole x="48.26" y="2.54" drill="0.8"/>
-<hole x="45.72" y="2.54" drill="0.8"/>
-<hole x="43.18" y="2.54" drill="0.8"/>
-<hole x="40.64" y="2.54" drill="0.8"/>
-<hole x="38.1" y="2.54" drill="0.8"/>
+<hole x="201.295" y="1.905" drill="0.8"/>
+<hole x="198.755" y="1.905" drill="0.8"/>
+<hole x="196.215" y="1.905" drill="0.8"/>
+<hole x="193.675" y="1.905" drill="0.8"/>
+<hole x="191.135" y="1.905" drill="0.8"/>
 <text x="65" y="27" size="1.8" layer="21" align="top-left">VIA Current
 [mm] [A]
 0,2  1
@@ -211,6 +211,30 @@
 <text x="76.835" y="2.54" size="2" layer="21" font="fixed">3</text>
 <text x="127.635" y="2.54" size="2" layer="21" font="fixed">5</text>
 <text x="178.435" y="2.54" size="2" layer="21" font="fixed">7</text>
+<hole x="19.939" y="0.889" drill="0.6"/>
+<hole x="18.669" y="0.889" drill="0.6"/>
+<hole x="17.399" y="0.889" drill="0.6"/>
+<hole x="16.129" y="0.889" drill="0.6"/>
+<hole x="14.859" y="0.889" drill="0.6"/>
+<hole x="13.589" y="0.889" drill="0.6"/>
+<hole x="12.319" y="0.889" drill="0.6"/>
+<hole x="11.049" y="0.889" drill="0.6"/>
+<hole x="9.779" y="0.889" drill="0.6"/>
+<hole x="8.509" y="0.889" drill="0.6"/>
+<hole x="7.239" y="0.889" drill="0.6"/>
+<hole x="5.969" y="0.889" drill="0.6"/>
+<hole x="4.699" y="0.889" drill="0.6"/>
+<hole x="3.429" y="0.889" drill="0.6"/>
+<hole x="2.159" y="0.889" drill="0.6"/>
+<hole x="0.889" y="0.889" drill="0.6"/>
+<hole x="-0.381" y="0.889" drill="0.6"/>
+<hole x="0.889" y="-0.381" drill="0.6"/>
+<hole x="198.755" y="-0.635" drill="0.8"/>
+<hole x="188.595" y="1.905" drill="0.8"/>
+<hole x="186.055" y="1.905" drill="0.8"/>
+<hole x="183.515" y="1.905" drill="0.8"/>
+<hole x="180.975" y="1.905" drill="0.8"/>
+<hole x="178.435" y="1.905" drill="0.8"/>
 </plain>
 <libraries>
 <library name="ucruler">
