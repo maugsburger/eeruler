@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -203,10 +203,10 @@
 <text x="180" y="16" size="1.8" layer="21" font="fixed" align="center-right">0,65mm</text>
 <text x="180" y="13" size="1.8" layer="21" font="fixed" align="center-right">0,8mm</text>
 <text x="0.5" y="29.5" size="2" layer="21" font="fixed" align="top-left">0</text>
-<hole x="198" y="23" drill="2.1"/>
-<text x="195" y="23" size="1.8" layer="21" font="fixed" align="center-right">2.1mm</text>
-<hole x="198" y="26" drill="2.2"/>
-<text x="195" y="26" size="1.8" layer="21" font="fixed" align="center-right">2.2mm</text>
+<hole x="198" y="23" drill="2.2"/>
+<text x="195" y="23" size="1.8" layer="21" font="fixed" align="center-right">2.2mm</text>
+<hole x="197.75" y="26.5" drill="3.2"/>
+<text x="195" y="26.5" size="1.8" layer="21" font="fixed" align="center-right">3.2mm</text>
 <text x="26.035" y="2.54" size="2" layer="21" font="fixed">1</text>
 <text x="76.835" y="2.54" size="2" layer="21" font="fixed">3</text>
 <text x="127.635" y="2.54" size="2" layer="21" font="fixed">5</text>
