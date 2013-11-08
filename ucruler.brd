@@ -28,9 +28,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -548,6 +548,32 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0.3" y1="0.2" x2="0.3" y2="-0.2" width="0.15" layer="21"/>
 <wire x1="0.4" y1="0.1" x2="0.4" y2="-0.1" width="0.15" layer="21"/>
 </package>
+<package name="SILK-MFET-N-4">
+<circle x="0" y="0" radius="2" width="0.15" layer="21"/>
+<wire x1="1" y1="1.2" x2="1" y2="4" width="0.15" layer="21"/>
+<wire x1="1" y1="-1.2" x2="1" y2="-4" width="0.15" layer="21"/>
+<wire x1="-0.8" y1="-1.5" x2="-3.9" y2="-1.5" width="0.15" layer="21"/>
+<text x="1" y="-4" size="1.5" layer="21" rot="R180" align="top-left">S</text>
+<text x="-4" y="0.5" size="1.5" layer="21" align="top-left">G</text>
+<text x="1" y="4" size="1.5" layer="21" align="top-right">D</text>
+<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1.6" x2="-0.5" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-1.6" x2="-0.5" y2="-1.2" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-1.2" x2="-0.5" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0.4" x2="-0.5" y2="0" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.4" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-1.2" x2="1" y2="-1.2" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1.2" x2="1" y2="1.2" width="0.15" layer="21"/>
+<wire x1="0.6" y1="-0.6" x2="0.6" y2="0.6" width="0.15" layer="21"/>
+<wire x1="0.6" y1="0.6" x2="0" y2="0" width="0.15" layer="21"/>
+<wire x1="0" y1="0" x2="0.6" y2="-0.6" width="0.15" layer="21"/>
+<wire x1="0.5" y1="0.4" x2="0.5" y2="-0.4" width="0.15" layer="21"/>
+<wire x1="0.4" y1="-0.3" x2="0.4" y2="0.3" width="0.15" layer="21"/>
+<wire x1="0.3" y1="-0.2" x2="0.3" y2="0.2" width="0.15" layer="21"/>
+<wire x1="0.2" y1="-0.1" x2="0.2" y2="0.1" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0" x2="1" y2="0" width="0.15" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="-1.2" width="0.15" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -753,6 +779,7 @@ einem neuen Namen ab.
 <element name="E$21" library="ucruler" package="SILK-T-PNP" value="" x="111" y="9" rot="MR0"/>
 <element name="E$22" library="ucruler" package="SILK-MFET-N" value="" x="122" y="22" rot="MR0"/>
 <element name="E$23" library="ucruler" package="SILK-MFET-P" value="" x="122" y="9" rot="MR0"/>
+<element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="131" y="22" rot="MR0"/>
 </elements>
 <signals>
 <signal name="S$1">
