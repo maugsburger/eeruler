@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -214,8 +214,24 @@
 <rectangle x1="0" y1="30" x2="200" y2="32" layer="30"/>
 <rectangle x1="195" y1="0" x2="200" y2="32" layer="30"/>
 <hole x="1.5" y="3" drill="0.3"/>
-<text x="158" y="10" size="1.2" layer="22" rot="MR0">P-Type</text>
-<text x="158" y="27.8" size="1.2" layer="22" rot="MR0">N-Type</text>
+<text x="152" y="10" size="1.2" layer="22" rot="MR0">N-Type</text>
+<text x="152" y="27.8" size="1.2" layer="22" rot="MR0">P-Type</text>
+<wire x1="155" y1="29" x2="163" y2="29" width="0.15" layer="22"/>
+<wire x1="163" y1="29" x2="163" y2="21" width="0.15" layer="22"/>
+<wire x1="163" y1="18" x2="163" y2="10" width="0.15" layer="22"/>
+<wire x1="163" y1="10" x2="155" y2="10" width="0.15" layer="22"/>
+<text x="162.5" y="28.5" size="1.2" layer="22" rot="MR0" align="top-left">U_DD</text>
+<text x="162.5" y="10.5" size="1.2" layer="22" rot="MR0">U_SS</text>
+<wire x1="158.5" y1="26.5" x2="159" y2="26.5" width="0.15" layer="22"/>
+<wire x1="159" y1="26.5" x2="159" y2="19.5" width="0.15" layer="22"/>
+<wire x1="159" y1="19.5" x2="159" y2="12.5" width="0.15" layer="22"/>
+<wire x1="159" y1="12.5" x2="158.5" y2="12.5" width="0.15" layer="22"/>
+<wire x1="159" y1="19.5" x2="160" y2="19.5" width="0.15" layer="22"/>
+<circle x="163" y="20.75" radius="0.25" width="0.15" layer="22"/>
+<circle x="163" y="18.25" radius="0.25" width="0.15" layer="22"/>
+<circle x="160.25" y="19.5" radius="0.25" width="0.15" layer="22"/>
+<wire x1="160.25" y1="19.5" x2="163" y2="20.75" width="0.15" layer="22"/>
+<text x="161" y="14.25" size="1.2" layer="22" rot="MR90">CMOS  NOT</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -1960,11 +1976,11 @@ einem neuen Namen ab.
 <element name="E$17" library="ucruler" package="PACK-SOT23-6" value="" x="148" y="18"/>
 <element name="E$18" library="ucruler" package="PACK-SOT89" value="" x="148" y="14"/>
 <element name="E$19" library="ucruler" package="PACK-SOT223" value="" x="148" y="8"/>
-<element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="160" y="24.8" rot="MR0"/>
-<element name="E$25" library="ucruler" package="SILK-MFET-P-4" value="" x="160" y="14" rot="MR0"/>
-<element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="151" y="24.8" rot="MR0"/>
-<element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="151" y="14" rot="MR0"/>
-<element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="155.4" y="19.6" rot="MR0"/>
+<element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="154" y="14" rot="MR0"/>
+<element name="E$25" library="ucruler" package="SILK-MFET-P-4" value="" x="154" y="25" rot="MR0"/>
+<element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="145" y="14" rot="MR0"/>
+<element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="145" y="25" rot="MR0"/>
+<element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="149" y="19.5" rot="MR0"/>
 <element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="14" y="25"/>
 <element name="E$22" library="ucruler" package="SILK-FONT" value="" x="141" y="29" rot="MR270"/>
 <element name="E$23" library="ucruler" package="SILK-TABLE-SMDR" value="" x="193" y="29" rot="MR0"/>
