@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,20 +23,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -214,6 +214,8 @@
 <rectangle x1="0" y1="30" x2="200" y2="32" layer="30"/>
 <rectangle x1="195" y1="0" x2="200" y2="32" layer="30"/>
 <hole x="1.5" y="3" drill="0.3"/>
+<text x="158" y="10" size="1.2" layer="22" rot="MR0">P-Type</text>
+<text x="158" y="27.8" size="1.2" layer="22" rot="MR0">N-Type</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -543,40 +545,40 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0" y1="-0.2" x2="6" y2="-0.2" width="0.1" layer="1"/>
 </package>
 <package name="SILK-FONT">
-<text x="0.5" y="-4" size="1.2" layer="21" font="fixed" rot="R90" align="top-left">Font size</text>
-<text x="2.3" y="3" size="1.8" layer="21" font="fixed">1,8</text>
-<text x="2.3" y="1.2" size="1.6" layer="21" font="fixed">1,6</text>
-<text x="2.3" y="-0.4" size="1.4" layer="21" font="fixed">1,4</text>
-<text x="2.3" y="-1.8" size="1.2" layer="21" font="fixed">1,2</text>
-<text x="2.3" y="-3" size="1" layer="21" font="fixed">1,0</text>
-<text x="2.3" y="-4" size="0.8" layer="21" font="fixed">0,8</text>
-<text x="6.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">8%</text>
-<wire x1="2" y1="5" x2="2" y2="-4" width="0.15" layer="21"/>
-<text x="21.3" y="3" size="1.8" layer="21" font="fixed" ratio="15">1,8</text>
-<text x="21.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="15">1,6</text>
-<text x="21.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="15">1,4</text>
-<text x="21.3" y="-1.8" size="1.2" layer="21" font="fixed" ratio="15">1,2</text>
-<text x="21.3" y="-3" size="1" layer="21" font="fixed" ratio="15">1,0</text>
-<text x="21.3" y="-4" size="0.8" layer="21" font="fixed" ratio="15">0,8</text>
-<text x="25.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">15%</text>
-<wire x1="21" y1="5" x2="21" y2="-4" width="0.15" layer="21"/>
-<text x="14.3" y="3" size="1.8" layer="21" font="fixed">8,3%</text>
-<text x="14.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="9">9,3%</text>
-<text x="14.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="11">11%</text>
-<text x="14.3" y="-1.8" size="1.2" layer="21" font="fixed" ratio="13">13%</text>
-<text x="14.3" y="-3" size="1" layer="21" font="fixed" ratio="15">15%</text>
-<text x="14.3" y="-4" size="0.8" layer="21" font="fixed" ratio="19">19%</text>
-<text x="20.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">0,15mm</text>
-<wire x1="14" y1="5" x2="14" y2="-4" width="0.15" layer="21"/>
-<text x="7.3" y="3" size="1.8" layer="21" font="fixed" ratio="5">5,6%</text>
-<text x="7.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="6">6,3%</text>
-<text x="7.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="7">7,1%</text>
-<text x="7.3" y="-1.8" size="1.2" layer="21" font="fixed">8,3%</text>
-<text x="7.3" y="-3" size="1" layer="21" font="fixed" ratio="10">10%</text>
-<text x="7.3" y="-4" size="0.8" layer="21" font="fixed" ratio="13">13%</text>
-<text x="13.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">0,1mm</text>
-<wire x1="7" y1="5" x2="7" y2="-4" width="0.15" layer="21"/>
-<wire x1="26" y1="5" x2="26" y2="-4" width="0.15" layer="21"/>
+<text x="0" y="0" size="1.2" layer="21" font="fixed" rot="R90" align="top-left">Font size</text>
+<text x="1.8" y="7" size="1.8" layer="21" font="fixed">1.8</text>
+<text x="1.8" y="5.2" size="1.6" layer="21" font="fixed">1.6</text>
+<text x="1.8" y="3.6" size="1.4" layer="21" font="fixed">1.4</text>
+<text x="1.8" y="2.2" size="1.2" layer="21" font="fixed">1.2</text>
+<text x="1.8" y="1" size="1" layer="21" font="fixed">1.0</text>
+<text x="1.8" y="0" size="0.8" layer="21" font="fixed">0.8</text>
+<text x="6" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">8%</text>
+<wire x1="1.5" y1="9" x2="1.5" y2="0" width="0.15" layer="21"/>
+<text x="20.8" y="7" size="1.8" layer="21" font="fixed" ratio="15">1.8</text>
+<text x="20.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="15">1.6</text>
+<text x="20.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="15">1.4</text>
+<text x="20.8" y="2.2" size="1.2" layer="21" font="fixed" ratio="15">1.2</text>
+<text x="20.8" y="1" size="1" layer="21" font="fixed" ratio="15">1.0</text>
+<text x="20.8" y="0" size="0.8" layer="21" font="fixed" ratio="15">0.8</text>
+<text x="25" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">15%</text>
+<wire x1="20.5" y1="9" x2="20.5" y2="0" width="0.15" layer="21"/>
+<text x="13.8" y="7" size="1.8" layer="21" font="fixed">8.3%</text>
+<text x="13.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="9">9.3%</text>
+<text x="13.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="11">11%</text>
+<text x="13.8" y="2.2" size="1.2" layer="21" font="fixed" ratio="13">13%</text>
+<text x="13.8" y="1" size="1" layer="21" font="fixed" ratio="15">15%</text>
+<text x="13.8" y="0" size="0.8" layer="21" font="fixed" ratio="19">19%</text>
+<text x="20" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">0.15mm</text>
+<wire x1="13.5" y1="9" x2="13.5" y2="0" width="0.15" layer="21"/>
+<text x="6.8" y="7" size="1.8" layer="21" font="fixed" ratio="5">5.6%</text>
+<text x="6.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="6">6.3%</text>
+<text x="6.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="7">7.1%</text>
+<text x="6.8" y="2.2" size="1.2" layer="21" font="fixed">8.3%</text>
+<text x="6.8" y="1" size="1" layer="21" font="fixed" ratio="10">10%</text>
+<text x="6.8" y="0" size="0.8" layer="21" font="fixed" ratio="13">13%</text>
+<text x="13" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">0.1mm</text>
+<wire x1="6.5" y1="9" x2="6.5" y2="0" width="0.15" layer="21"/>
+<wire x1="25.5" y1="9" x2="25.5" y2="0" width="0.15" layer="21"/>
 </package>
 <package name="SILK-TABLE-SMDR">
 <text x="0.5" y="-2.4" size="1.2" layer="21" align="top-left">0201 (0603) 0.6x0.3mm  0.05 
@@ -1958,14 +1960,14 @@ einem neuen Namen ab.
 <element name="E$17" library="ucruler" package="PACK-SOT23-6" value="" x="148" y="18"/>
 <element name="E$18" library="ucruler" package="PACK-SOT89" value="" x="148" y="14"/>
 <element name="E$19" library="ucruler" package="PACK-SOT223" value="" x="148" y="8"/>
-<element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="119.57" y="22" rot="MR0"/>
-<element name="E$25" library="ucruler" package="SILK-MFET-P-4" value="" x="119.57" y="12.54" rot="MR0"/>
-<element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="111.3" y="22" rot="MR0"/>
-<element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="111.3" y="12.54" rot="MR0"/>
-<element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="115.57" y="6.81" rot="MR0"/>
+<element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="160" y="24.8" rot="MR0"/>
+<element name="E$25" library="ucruler" package="SILK-MFET-P-4" value="" x="160" y="14" rot="MR0"/>
+<element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="151" y="24.8" rot="MR0"/>
+<element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="151" y="14" rot="MR0"/>
+<element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="155.4" y="19.6" rot="MR0"/>
 <element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="14" y="25"/>
-<element name="E$22" library="ucruler" package="SILK-FONT" value="" x="137.16" y="29.21" rot="MR270"/>
-<element name="E$23" library="ucruler" package="SILK-TABLE-SMDR" value="" x="193.04" y="27.94" rot="MR0"/>
+<element name="E$22" library="ucruler" package="SILK-FONT" value="" x="141" y="29" rot="MR270"/>
+<element name="E$23" library="ucruler" package="SILK-TABLE-SMDR" value="" x="193" y="29" rot="MR0"/>
 </elements>
 <signals>
 <signal name="S$1">
