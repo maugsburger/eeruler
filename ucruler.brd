@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -220,8 +220,8 @@
 <wire x1="163" y1="29" x2="163" y2="21" width="0.15" layer="22"/>
 <wire x1="163" y1="18" x2="163" y2="10" width="0.15" layer="22"/>
 <wire x1="163" y1="10" x2="155" y2="10" width="0.15" layer="22"/>
-<text x="162.5" y="28.5" size="1.2" layer="22" rot="MR0" align="top-left">U_DD</text>
-<text x="162.5" y="10.5" size="1.2" layer="22" rot="MR0">U_SS</text>
+<text x="162.5" y="28.5" size="1.2" layer="22" rot="MR0" align="top-left">U</text>
+<text x="162.5" y="10.5" size="1.2" layer="22" rot="MR0">U</text>
 <wire x1="158.5" y1="26.5" x2="159" y2="26.5" width="0.15" layer="22"/>
 <wire x1="159" y1="26.5" x2="159" y2="19.5" width="0.15" layer="22"/>
 <wire x1="159" y1="19.5" x2="159" y2="12.5" width="0.15" layer="22"/>
@@ -232,6 +232,8 @@
 <circle x="160.25" y="19.5" radius="0.25" width="0.15" layer="22"/>
 <wire x1="160.25" y1="19.5" x2="163" y2="20.75" width="0.15" layer="22"/>
 <text x="161" y="14.25" size="1.2" layer="22" rot="MR90">CMOS  NOT</text>
+<text x="161.5" y="27" size="0.8" layer="22" ratio="10" rot="MR0">DD</text>
+<text x="161.5" y="10.3" size="0.8" layer="22" ratio="10" rot="MR0">SS</text>
 </plain>
 <libraries>
 <library name="ucruler">
