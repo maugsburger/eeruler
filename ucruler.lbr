@@ -3,10 +3,10 @@
 <eagle version="6.4">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.3" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -687,40 +687,40 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0" y1="-0.2" x2="6" y2="-0.2" width="0.1" layer="1"/>
 </package>
 <package name="SILK-FONT">
-<text x="0.5" y="-4" size="1.2" layer="21" font="fixed" rot="R90" align="top-left">Font size</text>
-<text x="2.3" y="3" size="1.8" layer="21" font="fixed">1,8</text>
-<text x="2.3" y="1.2" size="1.6" layer="21" font="fixed">1,6</text>
-<text x="2.3" y="-0.4" size="1.4" layer="21" font="fixed">1,4</text>
-<text x="2.3" y="-1.8" size="1.2" layer="21" font="fixed">1,2</text>
-<text x="2.3" y="-3" size="1" layer="21" font="fixed">1,0</text>
-<text x="2.3" y="-4" size="0.8" layer="21" font="fixed">0,8</text>
-<text x="6.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">8%</text>
-<wire x1="2" y1="5" x2="2" y2="-4" width="0.15" layer="21"/>
-<text x="21.3" y="3" size="1.8" layer="21" font="fixed" ratio="15">1,8</text>
-<text x="21.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="15">1,6</text>
-<text x="21.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="15">1,4</text>
-<text x="21.3" y="-1.8" size="1.2" layer="21" font="fixed" ratio="15">1,2</text>
-<text x="21.3" y="-3" size="1" layer="21" font="fixed" ratio="15">1,0</text>
-<text x="21.3" y="-4" size="0.8" layer="21" font="fixed" ratio="15">0,8</text>
-<text x="25.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">15%</text>
-<wire x1="21" y1="5" x2="21" y2="-4" width="0.15" layer="21"/>
-<text x="14.3" y="3" size="1.8" layer="21" font="fixed">8,3%</text>
-<text x="14.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="9">9,3%</text>
-<text x="14.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="11">11%</text>
-<text x="14.3" y="-1.8" size="1.2" layer="21" font="fixed" ratio="13">13%</text>
-<text x="14.3" y="-3" size="1" layer="21" font="fixed" ratio="15">15%</text>
-<text x="14.3" y="-4" size="0.8" layer="21" font="fixed" ratio="19">19%</text>
-<text x="20.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">0,15mm</text>
-<wire x1="14" y1="5" x2="14" y2="-4" width="0.15" layer="21"/>
-<text x="7.3" y="3" size="1.8" layer="21" font="fixed" ratio="5">5,6%</text>
-<text x="7.3" y="1.2" size="1.6" layer="21" font="fixed" ratio="6">6,3%</text>
-<text x="7.3" y="-0.4" size="1.4" layer="21" font="fixed" ratio="7">7,1%</text>
-<text x="7.3" y="-1.8" size="1.2" layer="21" font="fixed">8,3%</text>
-<text x="7.3" y="-3" size="1" layer="21" font="fixed" ratio="10">10%</text>
-<text x="7.3" y="-4" size="0.8" layer="21" font="fixed" ratio="13">13%</text>
-<text x="13.5" y="-4" size="1" layer="21" font="fixed" ratio="10" rot="R90">0,1mm</text>
-<wire x1="7" y1="5" x2="7" y2="-4" width="0.15" layer="21"/>
-<wire x1="26" y1="5" x2="26" y2="-4" width="0.15" layer="21"/>
+<text x="0" y="0" size="1.2" layer="21" font="fixed" rot="R90" align="top-left">Font size</text>
+<text x="1.8" y="7" size="1.8" layer="21" font="fixed">1.8</text>
+<text x="1.8" y="5.2" size="1.6" layer="21" font="fixed">1.6</text>
+<text x="1.8" y="3.6" size="1.4" layer="21" font="fixed">1.4</text>
+<text x="1.8" y="2.2" size="1.2" layer="21" font="fixed">1.2</text>
+<text x="1.8" y="1" size="1" layer="21" font="fixed">1.0</text>
+<text x="1.8" y="0" size="0.8" layer="21" font="fixed">0.8</text>
+<text x="6" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">8%</text>
+<wire x1="1.5" y1="9" x2="1.5" y2="0" width="0.15" layer="21"/>
+<text x="20.8" y="7" size="1.8" layer="21" font="fixed" ratio="15">1.8</text>
+<text x="20.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="15">1.6</text>
+<text x="20.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="15">1.4</text>
+<text x="20.8" y="2.2" size="1.2" layer="21" font="fixed" ratio="15">1.2</text>
+<text x="20.8" y="1" size="1" layer="21" font="fixed" ratio="15">1.0</text>
+<text x="20.8" y="0" size="0.8" layer="21" font="fixed" ratio="15">0.8</text>
+<text x="25" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">15%</text>
+<wire x1="20.5" y1="9" x2="20.5" y2="0" width="0.15" layer="21"/>
+<text x="13.8" y="7" size="1.8" layer="21" font="fixed">8.3%</text>
+<text x="13.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="9">9.3%</text>
+<text x="13.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="11">11%</text>
+<text x="13.8" y="2.2" size="1.2" layer="21" font="fixed" ratio="13">13%</text>
+<text x="13.8" y="1" size="1" layer="21" font="fixed" ratio="15">15%</text>
+<text x="13.8" y="0" size="0.8" layer="21" font="fixed" ratio="19">19%</text>
+<text x="20" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">0.15mm</text>
+<wire x1="13.5" y1="9" x2="13.5" y2="0" width="0.15" layer="21"/>
+<text x="6.8" y="7" size="1.8" layer="21" font="fixed" ratio="5">5.6%</text>
+<text x="6.8" y="5.2" size="1.6" layer="21" font="fixed" ratio="6">6.3%</text>
+<text x="6.8" y="3.6" size="1.4" layer="21" font="fixed" ratio="7">7.1%</text>
+<text x="6.8" y="2.2" size="1.2" layer="21" font="fixed">8.3%</text>
+<text x="6.8" y="1" size="1" layer="21" font="fixed" ratio="10">10%</text>
+<text x="6.8" y="0" size="0.8" layer="21" font="fixed" ratio="13">13%</text>
+<text x="13" y="0" size="1" layer="21" font="fixed" ratio="10" rot="R90">0.1mm</text>
+<wire x1="6.5" y1="9" x2="6.5" y2="0" width="0.15" layer="21"/>
+<wire x1="25.5" y1="9" x2="25.5" y2="0" width="0.15" layer="21"/>
 </package>
 <package name="SILK-TABLE-SMDR">
 <text x="0.5" y="-2.4" size="1.2" layer="21" align="top-left">0201 (0603) 0.6x0.3mm  0.05 
