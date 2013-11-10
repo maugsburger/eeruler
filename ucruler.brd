@@ -439,9 +439,9 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="1" y1="1.2" x2="1" y2="4" width="0.15" layer="21"/>
 <wire x1="1" y1="-1.2" x2="1" y2="-4" width="0.15" layer="21"/>
 <wire x1="-0.6" y1="-1.5" x2="-3.9" y2="-1.5" width="0.15" layer="21"/>
-<text x="1" y="-4" size="1.5" layer="21" rot="R180" align="top-left">S</text>
-<text x="-3.5" y="0.3" size="1.5" layer="21" align="top-left">G</text>
-<text x="1" y="4" size="1.5" layer="21" align="top-right">D</text>
+<text x="1" y="-4" size="1.2" layer="21" rot="R180" align="top-left">S</text>
+<text x="-3.5" y="-1.1" size="1.2" layer="21">G</text>
+<text x="1" y="4" size="1.2" layer="21" align="top-right">D</text>
 <wire x1="-0.6" y1="-1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
 <wire x1="-0.3" y1="1.6" x2="-0.3" y2="0.8" width="0.15" layer="21"/>
 <wire x1="-0.3" y1="-1.6" x2="-0.3" y2="-1.2" width="0.15" layer="21"/>
@@ -465,9 +465,9 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="1" y1="1.2" x2="1" y2="4" width="0.15" layer="21"/>
 <wire x1="1" y1="-1.2" x2="1" y2="-4" width="0.15" layer="21"/>
 <wire x1="-0.6" y1="1.5" x2="-3.9" y2="1.5" width="0.15" layer="21"/>
-<text x="1" y="-4" size="1.5" layer="21" rot="R180" align="top-left">D</text>
-<text x="-3.5" y="-0.3" size="1.5" layer="21">G</text>
-<text x="1" y="4" size="1.5" layer="21" align="top-right">S</text>
+<text x="1" y="-4" size="1.2" layer="21" rot="R180" align="top-left">D</text>
+<text x="-3.5" y="1.1" size="1.2" layer="21" rot="R180" align="bottom-right">G</text>
+<text x="1" y="4" size="1.2" layer="21" align="top-right">S</text>
 <wire x1="-0.6" y1="1.5" x2="-0.6" y2="-1.5" width="0.15" layer="21"/>
 <wire x1="-0.3" y1="1.6" x2="-0.3" y2="0.8" width="0.15" layer="21"/>
 <wire x1="-0.3" y1="-1.6" x2="-0.3" y2="-1.2" width="0.15" layer="21"/>
@@ -491,9 +491,9 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0.5" y1="1.5" x2="0.5" y2="4" width="0.15" layer="21"/>
 <wire x1="0.5" y1="-1.5" x2="0.5" y2="-4" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0" x2="-3.9" y2="0" width="0.15" layer="21"/>
-<text x="2.3" y="-4" size="1.5" layer="21" rot="R180" align="top-left">E</text>
-<text x="-3.5" y="0.3" size="1.5" layer="21">B</text>
-<text x="2.3" y="4" size="1.5" layer="21" align="top-right">C</text>
+<text x="2" y="-4" size="1.2" layer="21" rot="R180" align="top-left">E</text>
+<text x="-3.5" y="0.4" size="1.2" layer="21">B</text>
+<text x="2" y="4" size="1.2" layer="21" align="top-right">C</text>
 <wire x1="-0.8" y1="1.5" x2="-0.8" y2="0.2" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0.2" x2="-0.8" y2="0" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0" x2="-0.8" y2="-0.2" width="0.15" layer="21"/>
@@ -518,9 +518,9 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="0.5" y1="1.5" x2="0.5" y2="4" width="0.15" layer="21"/>
 <wire x1="0.5" y1="-1.5" x2="0.5" y2="-4" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0" x2="-3.9" y2="0" width="0.15" layer="21"/>
-<text x="2.3" y="-4" size="1.5" layer="21" rot="R180" align="top-left">C</text>
-<text x="-3.5" y="0.3" size="1.5" layer="21">B</text>
-<text x="2.3" y="4" size="1.5" layer="21" align="top-right">E</text>
+<text x="2" y="-4" size="1.2" layer="21" rot="R180" align="top-left">C</text>
+<text x="-3.5" y="0.4" size="1.2" layer="21">B</text>
+<text x="2" y="4" size="1.2" layer="21" align="top-right">E</text>
 <wire x1="-0.8" y1="1.5" x2="-0.8" y2="0.2" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0.2" x2="-0.8" y2="0" width="0.15" layer="21"/>
 <wire x1="-0.8" y1="0" x2="-0.8" y2="-0.2" width="0.15" layer="21"/>
@@ -550,10 +550,10 @@ http://www.fairchildsemi.com/dwg/MA/MA03C.pdf</description>
 <wire x1="1.5" y1="0" x2="1.5" y2="-1" width="0.15" layer="21"/>
 <wire x1="0" y1="0" x2="-3" y2="0" width="0.15" layer="21"/>
 <wire x1="1.5" y1="0" x2="3.5" y2="0" width="0.15" layer="21"/>
-<text x="0" y="0.3" size="1.5" layer="21" align="bottom-right">A</text>
+<text x="0" y="0.3" size="1.5" layer="21" font="vector" align="bottom-right">A</text>
 <text x="1.8" y="0" size="1.5" layer="21" rot="R180" align="bottom-right">-</text>
 <text x="0" y="0" size="1.5" layer="21" align="top-right">+</text>
-<text x="1.8" y="0.3" size="1.5" layer="21" rot="R180" align="top-right">C</text>
+<text x="1.8" y="0.3" size="1.5" layer="21" font="vector" rot="R180" align="top-right">C</text>
 </package>
 <package name="COPPER-0,1">
 <wire x1="0" y1="0" x2="6" y2="0" width="0.1" layer="1"/>
