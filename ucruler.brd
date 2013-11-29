@@ -4891,6 +4891,41 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="2.5" y1="-2.3" x2="2.3" y2="-2.5" width="0.15" layer="21" curve="-90"/>
 <circle x="0" y="0" radius="1.4142125" width="0.15" layer="21"/>
 </package>
+<package name="PACK-0201">
+<smd name="P$1" x="-0.225" y="0" dx="0.3" dy="0.15" layer="1" rot="R90"/>
+<smd name="P$2" x="0.225" y="0" dx="0.3" dy="0.15" layer="1" rot="R90"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
+</package>
+<package name="PACK-0402">
+<smd name="P$1" x="-0.375" y="0" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="0.375" y="0" dx="0.5" dy="0.25" layer="1" rot="R90"/>
+<rectangle x1="-0.25" y1="0.1" x2="0.25" y2="0.25" layer="21"/>
+<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="-0.1" layer="21"/>
+</package>
+<package name="PACK-0603">
+<smd name="P$1" x="-0.65" y="0" dx="0.3" dy="0.8" layer="1"/>
+<smd name="P$2" x="0.65" y="0" dx="0.3" dy="0.8" layer="1"/>
+<rectangle x1="-0.5" y1="0.25" x2="0.5" y2="0.4" layer="21"/>
+<rectangle x1="-0.5" y1="-0.4" x2="0.5" y2="-0.25" layer="21"/>
+</package>
+<package name="PACK-0805">
+<smd name="P$1" x="0.8" y="0" dx="0.4" dy="1.25" layer="1"/>
+<smd name="P$2" x="-0.8" y="0" dx="0.4" dy="1.25" layer="1"/>
+<rectangle x1="-0.6" y1="0.475" x2="0.6" y2="0.625" layer="21"/>
+<rectangle x1="-0.6" y1="-0.625" x2="0.6" y2="-0.475" layer="21"/>
+</package>
+<package name="PACK-1206">
+<smd name="P$1" x="-1.35" y="0" dx="0.5" dy="1.6" layer="1"/>
+<smd name="P$2" x="1.35" y="0" dx="0.5" dy="1.6" layer="1"/>
+<rectangle x1="-1.1" y1="0.65" x2="1.1" y2="0.8" layer="21"/>
+<rectangle x1="-1.1" y1="-0.8" x2="1.1" y2="-0.65" layer="21"/>
+</package>
+<package name="PACK-1210">
+<smd name="P$1" x="-1.35" y="0" dx="0.5" dy="2.5" layer="1"/>
+<smd name="P$2" x="1.35" y="0" dx="0.5" dy="2.5" layer="1"/>
+<rectangle x1="-1.1" y1="1.1" x2="1.1" y2="1.25" layer="21"/>
+<rectangle x1="-1.1" y1="-1.25" x2="1.1" y2="-1.1" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -5113,6 +5148,12 @@ einem neuen Namen ab.
 <element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="123.19" y="19.05" rot="R90"/>
 <element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="123.19" y="15.24" rot="R90"/>
 <element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="123.19" y="10.16"/>
+<element name="E$41" library="ucruler" package="PACK-0201" value="" x="57.15" y="25.4"/>
+<element name="E$42" library="ucruler" package="PACK-0402" value="" x="57.15" y="24.13"/>
+<element name="E$43" library="ucruler" package="PACK-0603" value="" x="57.15" y="22.86"/>
+<element name="E$44" library="ucruler" package="PACK-0805" value="" x="57.15" y="20.32"/>
+<element name="E$45" library="ucruler" package="PACK-1206" value="" x="57.15" y="17.78"/>
+<element name="E$46" library="ucruler" package="PACK-1210" value="" x="57.15" y="13.97"/>
 </elements>
 <signals>
 <signal name="S$1">
