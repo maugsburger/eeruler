@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -224,6 +224,8 @@
 <text x="161" y="14.25" size="1.2" layer="22" rot="MR90">CMOS  NOT</text>
 <text x="161.5" y="27" size="0.8" layer="22" ratio="10" rot="MR0">DD</text>
 <text x="161.5" y="10.3" size="0.8" layer="22" ratio="10" rot="MR0">SS</text>
+<text x="162.43" y="14.02" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">TO-252/DPAK</text>
+<text x="170.05" y="11.48" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">TO-263/D2PAK</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -4711,6 +4713,56 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="0" y1="-21.3" x2="30" y2="-21.3" width="0.15" layer="21"/>
 <wire x1="30" y1="-21.3" x2="30" y2="-1.5" width="0.15" layer="21"/>
 </package>
+<package name="PACK-TO252">
+<description>http://www.infineon.com/dgdl/PG-TO252-3-313-Package_Overview.pdf?folderId=db3a30432b57a660012b81890ade72d2&amp;fileId=db3a30432b57a660012b8193af2872eb&lt;br/&gt;
+&lt;s&gt;http://www.fairchildsemi.com/dwg/TO/TO252A03.pdf&lt;/s&gt;</description>
+<wire x1="-3.25" y1="0" x2="3.25" y2="0" width="0.15" layer="21"/>
+<wire x1="3.25" y1="0" x2="3.25" y2="6.22" width="0.15" layer="21"/>
+<wire x1="3.25" y1="6.22" x2="-3.25" y2="6.22" width="0.15" layer="21"/>
+<wire x1="-3.25" y1="6.22" x2="-3.25" y2="0" width="0.15" layer="21"/>
+<smd name="P$1" x="0" y="6.78" dx="5.4" dy="0.9" layer="1"/>
+<smd name="P$2" x="-2.285" y="-2.11" dx="0.75" dy="1.3" layer="1"/>
+<smd name="P$3" x="2.285" y="-2.11" dx="0.75" dy="1.3" layer="1"/>
+<rectangle x1="-0.375" y1="-0.8" x2="0.375" y2="0" layer="21"/>
+<polygon width="0" layer="1">
+<vertex x="-2" y="6.08"/>
+<vertex x="-2" y="5.68"/>
+<vertex x="-2.5" y="5.68"/>
+<vertex x="-2.5" y="1.98"/>
+<vertex x="2.5" y="1.98"/>
+<vertex x="2.5" y="5.68"/>
+<vertex x="2" y="5.68"/>
+<vertex x="2" y="6.08"/>
+<vertex x="2.7" y="6.08"/>
+<vertex x="2.7" y="7"/>
+<vertex x="-2.7" y="7"/>
+<vertex x="-2.7" y="6.08"/>
+</polygon>
+<rectangle x1="-2.66" y1="-1.4" x2="-1.91" y2="0" layer="21"/>
+<rectangle x1="1.91" y1="-1.4" x2="2.66" y2="0" layer="21"/>
+</package>
+<package name="PACK-TO263">
+<description>http://www.infineon.com/cms/packages/SMD_-_Surface_Mounted_Devices/P-PG-TO263/P-TO263-03-02.html?__locale=de_DE&lt;br/&gt;
+&lt;s&gt;http://www.fairchildsemi.com/dwg/TO/TO263A02.pdf&lt;/s&gt;</description>
+<wire x1="-5" y1="0" x2="5" y2="0" width="0.15" layer="21"/>
+<wire x1="5" y1="0" x2="5" y2="9.25" width="0.15" layer="21"/>
+<wire x1="5" y1="9.25" x2="-5" y2="9.25" width="0.15" layer="21"/>
+<wire x1="-5" y1="9.25" x2="-5" y2="0" width="0.15" layer="21"/>
+<smd name="P$1" x="0" y="9.8" dx="10" dy="0.9" layer="1"/>
+<polygon width="0.15" layer="1">
+<vertex x="-4.25" y="9.5"/>
+<vertex x="-4.25" y="3.95"/>
+<vertex x="-3" y="2.7"/>
+<vertex x="3" y="2.7"/>
+<vertex x="4.25" y="3.95"/>
+<vertex x="4.25" y="9.5"/>
+</polygon>
+<smd name="P$2" x="-2.54" y="-3.35" dx="0.75" dy="2.7" layer="1"/>
+<smd name="P$3" x="2.54" y="-3.35" dx="0.75" dy="2.7" layer="1"/>
+<rectangle x1="-0.525" y1="-1.3" x2="0.525" y2="0" layer="21"/>
+<rectangle x1="2.015" y1="-1.8" x2="3.065" y2="0" layer="21"/>
+<rectangle x1="-3.065" y1="-1.8" x2="-2.015" y2="0" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -4923,6 +4975,8 @@ einem neuen Namen ab.
 <element name="E$28" library="ucruler" package="SILK-TABLE-THVIA" value="" x="131" y="27" rot="MR0"/>
 <element name="E$29" library="ucruler" package="SILK-TABLE-MM-MIL" value="" x="121" y="29" rot="MR0"/>
 <element name="E$30" library="ucruler" package="SILK-TABLE-CURRENT-35-TRACE-IPC-2221A" value="" x="112.5" y="27" rot="MR0"/>
+<element name="E$31" library="ucruler" package="PACK-TO252" value="" x="157.48" y="17.78"/>
+<element name="E$32" library="ucruler" package="PACK-TO263" value="" x="168.91" y="7.62" rot="R90"/>
 </elements>
 <signals>
 <signal name="S$1">
