@@ -4800,30 +4800,96 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 </package>
 <package name="PACK-MELF">
 <description>http://www.vishay.com/docs/28713/melfprof.pdf</description>
-<wire x1="-1.1" y1="0" x2="-1.1" y2="1.6" width="0.15" layer="21"/>
-<wire x1="1.1" y1="1.6" x2="1.1" y2="0" width="0.15" layer="21"/>
 <smd name="P$1" x="0" y="2.325" dx="2.2" dy="1.15" layer="1"/>
-<wire x1="1.1" y1="0" x2="1.1" y2="-1.6" width="0.15" layer="21"/>
-<wire x1="-1.1" y1="-1.6" x2="-1.1" y2="0" width="0.15" layer="21"/>
+<wire x1="1" y1="1.6" x2="1" y2="-1.6" width="0.15" layer="21"/>
+<wire x1="-1" y1="-1.6" x2="-1" y2="1.6" width="0.15" layer="21"/>
 <smd name="P$2" x="0" y="-2.325" dx="2.2" dy="1.15" layer="1" rot="R180"/>
 </package>
 <package name="PACK-MELF-MINI">
 <description>http://www.vishay.com/docs/28713/melfprof.pdf</description>
-<wire x1="-0.7" y1="0" x2="-0.7" y2="0.85" width="0.15" layer="21"/>
 <smd name="P$1" x="0" y="1.4" dx="1.4" dy="0.8" layer="1"/>
-<wire x1="0.7" y1="0.85" x2="0.7" y2="0" width="0.15" layer="21"/>
-<wire x1="0.7" y1="0" x2="0.7" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="0.6" y1="0.85" x2="0.6" y2="-0.85" width="0.15" layer="21"/>
 <smd name="P$2" x="0" y="-1.4" dx="1.4" dy="0.8" layer="1" rot="R180"/>
-<wire x1="-0.7" y1="-0.85" x2="-0.7" y2="0" width="0.15" layer="21"/>
+<wire x1="-0.6" y1="-0.85" x2="-0.6" y2="0.85" width="0.15" layer="21"/>
 </package>
 <package name="PACK-MELF-MICRO">
 <description>http://www.vishay.com/docs/28713/melfprof.pdf</description>
-<wire x1="-0.55" y1="0" x2="-0.55" y2="0.55" width="0.15" layer="21"/>
 <smd name="P$1" x="0" y="0.9" dx="1.1" dy="0.4" layer="1"/>
-<wire x1="0.55" y1="0.55" x2="0.55" y2="0" width="0.15" layer="21"/>
-<wire x1="0.55" y1="0" x2="0.55" y2="-0.55" width="0.15" layer="21"/>
+<wire x1="0.45" y1="0.55" x2="0.45" y2="-0.55" width="0.15" layer="21"/>
 <smd name="P$2" x="0" y="-0.9" dx="1.1" dy="0.4" layer="1" rot="R180"/>
-<wire x1="-0.55" y1="-0.55" x2="-0.55" y2="0" width="0.15" layer="21"/>
+<wire x1="-0.45" y1="-0.55" x2="-0.45" y2="0.55" width="0.15" layer="21"/>
+</package>
+<package name="PACK-PLCC-4">
+<description>http://datasheet.octopart.com/HSML-A431-X90M1-Avago-datasheet-8821826.pdf</description>
+<wire x1="-1.4" y1="-0.8" x2="-1.4" y2="1.4" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="1.4" x2="-1.2" y2="1.6" width="0.15" layer="21" curve="-90"/>
+<wire x1="-1.2" y1="1.6" x2="1.2" y2="1.6" width="0.15" layer="21"/>
+<wire x1="1.2" y1="1.6" x2="1.4" y2="1.4" width="0.15" layer="21" curve="-90"/>
+<smd name="P$1" x="-0.75" y="1.7" dx="0.7" dy="0.1" layer="1"/>
+<smd name="P$2" x="0.75" y="1.7" dx="0.7" dy="0.1" layer="1"/>
+<polygon width="0" layer="1">
+<vertex x="-1.1" y="1.7"/>
+<vertex x="-1.1" y="0.95"/>
+<vertex x="-0.4" y="0.95"/>
+<vertex x="-0.4" y="1.7"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0.4" y="1.7"/>
+<vertex x="0.4" y="0.95"/>
+<vertex x="1.1" y="0.95"/>
+<vertex x="1.1" y="1.7"/>
+</polygon>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="1.2" y2="-1.6" width="0.15" layer="21" curve="-90"/>
+<wire x1="1.2" y1="-1.6" x2="-0.6" y2="-1.6" width="0.15" layer="21"/>
+<wire x1="-0.6" y1="-1.6" x2="-1.2" y2="-1.6" width="0.15" layer="21"/>
+<wire x1="-1.2" y1="-1.6" x2="-1.4" y2="-1.4" width="0.15" layer="21" curve="-90"/>
+<smd name="P$3" x="0.75" y="-1.7" dx="0.7" dy="0.1" layer="1" rot="R180"/>
+<smd name="P$4" x="-0.75" y="-1.7" dx="0.7" dy="0.1" layer="1" rot="R180"/>
+<polygon width="0" layer="1">
+<vertex x="1.1" y="-1.7"/>
+<vertex x="1.1" y="-0.95"/>
+<vertex x="0.4" y="-0.95"/>
+<vertex x="0.4" y="-1.7"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="-0.4" y="-1.7"/>
+<vertex x="-0.4" y="-0.95"/>
+<vertex x="-1.1" y="-0.95"/>
+<vertex x="-1.1" y="-1.7"/>
+</polygon>
+<wire x1="-1.4" y1="-0.8" x2="-0.6" y2="-1.6" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="0.806225" width="0.15" layer="21"/>
+</package>
+<package name="PACK-PLCC-6">
+<smd name="P$1" x="1.6" y="2.65" dx="1" dy="0.1" layer="1"/>
+<rectangle x1="1.1" y1="1.7" x2="2.1" y2="2.7" layer="1"/>
+<smd name="P$2" x="-1.6" y="2.65" dx="1" dy="0.1" layer="1"/>
+<rectangle x1="-2.1" y1="1.7" x2="-1.1" y2="2.7" layer="1"/>
+<smd name="P$3" x="0" y="2.65" dx="1" dy="0.1" layer="1"/>
+<rectangle x1="-0.5" y1="1.7" x2="0.5" y2="2.7" layer="1"/>
+<wire x1="-2.3" y1="2.5" x2="2.3" y2="2.5" width="0.15" layer="21"/>
+<wire x1="2.5" y1="2.3" x2="2.5" y2="2" width="0.15" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.15" layer="21"/>
+<wire x1="2.3" y1="-2.5" x2="-1.7" y2="-2.5" width="0.15" layer="21"/>
+<smd name="P$4" x="-1.6" y="-2.65" dx="1" dy="0.1" layer="1" rot="R180"/>
+<rectangle x1="-2.1" y1="-2.7" x2="-1.1" y2="-1.7" layer="1" rot="R180"/>
+<smd name="P$5" x="1.6" y="-2.65" dx="1" dy="0.1" layer="1" rot="R180"/>
+<rectangle x1="1.1" y1="-2.7" x2="2.1" y2="-1.7" layer="1" rot="R180"/>
+<smd name="P$6" x="0" y="-2.65" dx="1" dy="0.1" layer="1" rot="R180"/>
+<rectangle x1="-0.5" y1="-2.7" x2="0.5" y2="-1.7" layer="1" rot="R180"/>
+<wire x1="-2.5" y1="-1.7" x2="-2.5" y2="2.3" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="-2.3" x2="-2.5" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-2.5" x2="-2.3" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-2.3" y1="-2.5" x2="-2.5" y2="-2.3" width="0.15" layer="21" curve="-90"/>
+<wire x1="-2.5" y1="-1.7" x2="-1.7" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="-2.3" x2="-2.3" y2="-2.5" width="0.15" layer="21" curve="90"/>
+<wire x1="-2.5" y1="2.3" x2="-2.3" y2="2.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.3" y1="2.5" x2="2.5" y2="2.3" width="0.15" layer="21" curve="-90"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="-2.3" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.3" y2="-2.5" width="0.15" layer="21" curve="-90"/>
+<circle x="0" y="0" radius="1.4142125" width="0.15" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5045,6 +5111,8 @@ einem neuen Namen ab.
 <element name="E$36" library="ucruler" package="PACK-MELF" value="" x="123.19" y="24.13" rot="R90"/>
 <element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="123.19" y="21.59" rot="R90"/>
 <element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="123.19" y="19.05" rot="R90"/>
+<element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="123.19" y="15.24" rot="R90"/>
+<element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="123.19" y="10.16"/>
 </elements>
 <signals>
 <signal name="S$1">
