@@ -242,6 +242,7 @@ MELF</text>
 MELF</text>
 <text x="120" y="15" size="1.2" layer="21" ratio="10">PLCC-4</text>
 <text x="120" y="10" size="1.2" layer="21" ratio="10">PLCC-6</text>
+<text x="97" y="24" size="1.2" layer="21" ratio="10">SOIC-N/W</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -4942,6 +4943,76 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <rectangle x1="-1.1" y1="1.1" x2="1.1" y2="1.25" layer="21"/>
 <rectangle x1="-1.1" y1="-1.25" x2="1.1" y2="-1.1" layer="21"/>
 </package>
+<package name="PACK-SOIC">
+<description>http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf</description>
+<smd name="P$1" x="0.4" y="-12.065" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$2" x="0.4" y="-10.795" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$3" x="0.4" y="-9.525" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$4" x="0.4" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$5" x="0.4" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$6" x="0.4" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$7" x="0.4" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$8" x="0.4" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$9" x="0.4" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$10" x="0.4" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$11" x="0.4" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$12" x="0.4" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$13" x="0.4" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$14" x="0.4" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$15" x="9.9" y="-12.065" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$16" x="9.9" y="-10.795" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$17" x="9.9" y="-9.525" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$18" x="9.9" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$19" x="9.9" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$20" x="9.9" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$21" x="9.9" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$22" x="9.9" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$23" x="9.9" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$24" x="9.9" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$25" x="9.9" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$26" x="9.9" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$27" x="9.9" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$28" x="9.9" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<wire x1="1.05" y1="-4.95" x2="1.05" y2="-3.68" width="0.15" layer="21"/>
+<wire x1="1.05" y1="-3.68" x2="1.05" y2="-2.41" width="0.15" layer="21"/>
+<wire x1="1.05" y1="-2.41" x2="1.05" y2="0.13" width="0.15" layer="21"/>
+<wire x1="1.05" y1="0.13" x2="1.05" y2="4.95" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-12.76" x2="1.4" y2="-10.22" width="0.15" layer="21"/>
+<smd name="P$35" x="5.6" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$36" x="5.6" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$37" x="5.6" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$38" x="5.6" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$39" x="5.6" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$40" x="5.6" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$41" x="5.6" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$42" x="5.6" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<wire x1="1.4" y1="-10.22" x2="1.4" y2="-7.68" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-7.68" x2="1.4" y2="-5.14" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-5.14" x2="1.4" y2="5.14" width="0.15" layer="21"/>
+<wire x1="4.95" y1="-4.95" x2="4.95" y2="-3.68" width="0.15" layer="21"/>
+<wire x1="4.95" y1="-3.68" x2="4.95" y2="-2.41" width="0.15" layer="21"/>
+<wire x1="4.95" y1="-2.41" x2="4.95" y2="0.13" width="0.15" layer="21"/>
+<wire x1="4.95" y1="0.13" x2="4.95" y2="4.95" width="0.15" layer="21"/>
+<wire x1="8.9" y1="-12.76" x2="8.9" y2="-10.22" width="0.15" layer="21"/>
+<wire x1="8.9" y1="-10.22" x2="8.9" y2="-7.68" width="0.15" layer="21"/>
+<wire x1="8.9" y1="-7.68" x2="8.9" y2="-5.14" width="0.15" layer="21"/>
+<wire x1="8.9" y1="-5.14" x2="8.9" y2="5.14" width="0.15" layer="21"/>
+<wire x1="1.4" y1="5.14" x2="8.9" y2="5.14" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-12.76" x2="8.9" y2="-12.76" width="0.15" layer="21"/>
+<wire x1="1.05" y1="4.95" x2="4.95" y2="4.95" width="0.15" layer="21"/>
+<wire x1="1.05" y1="-4.95" x2="4.95" y2="-4.95" width="0.15" layer="21"/>
+<wire x1="1.05" y1="0.13" x2="4.95" y2="0.13" width="0.1" layer="21"/>
+<wire x1="1.05" y1="-3.68" x2="4.95" y2="-3.68" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-5.14" x2="8.9" y2="-5.14" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-7.68" x2="8.9" y2="-7.68" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-10.22" x2="8.9" y2="-10.22" width="0.1" layer="21"/>
+<text x="1.651" y="0.381" size="1" layer="21">8</text>
+<text x="1.651" y="-3.429" size="1" layer="21">14</text>
+<text x="1.651" y="-4.826" size="1" layer="21">16</text>
+<text x="1.651" y="-7.493" size="1" layer="21">20</text>
+<text x="1.651" y="-10.033" size="1" layer="21">24</text>
+<text x="1.651" y="-12.573" size="1" layer="21">28</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -5170,6 +5241,7 @@ einem neuen Namen ab.
 <element name="E$44" library="ucruler" package="PACK-0805" value="" x="112" y="10.4" rot="R180"/>
 <element name="E$45" library="ucruler" package="PACK-1206" value="" x="111.4" y="8.5"/>
 <element name="E$46" library="ucruler" package="PACK-1210" value="" x="111.4" y="6"/>
+<element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="96" y="18"/>
 </elements>
 <signals>
 <signal name="S$1">
