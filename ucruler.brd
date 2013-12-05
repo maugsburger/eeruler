@@ -234,7 +234,7 @@
 <text x="109" y="25.25" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">SMA</text>
 <text x="115" y="25.25" size="1.2" layer="21" ratio="13" distance="20" align="center">SMB</text>
 <text x="123" y="25.25" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">SMC</text>
-<text x="112.5" y="20.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MELF</text>
+<text x="111.5" y="20.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MELF</text>
 <text x="110.5" y="17.5" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MiniMELF
 SOD80</text>
 <text x="110.5" y="15" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MikroMELF</text>
@@ -6150,17 +6150,17 @@ einem neuen Namen ab.
 <element name="E$33" library="ucruler" package="PACK-DO214AA-SMB" value="" x="115" y="24.25" rot="R270"/>
 <element name="E$34" library="ucruler" package="PACK-DO214AB-SMC" value="" x="123" y="23" rot="R270"/>
 <element name="E$35" library="ucruler" package="PACK-DO214AC-SMA" value="" x="109" y="24.75" rot="R270"/>
-<element name="E$36" library="ucruler" package="PACK-MELF" value="" x="109" y="20.75" rot="R90"/>
+<element name="E$36" library="ucruler" package="PACK-MELF" value="" x="108" y="20.75" rot="R90"/>
 <element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="108" y="17.5" rot="R270"/>
 <element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="108" y="15" rot="R270"/>
 <element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="123" y="9" rot="R90"/>
 <element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="123" y="15" rot="R90"/>
-<element name="E$41" library="ucruler" package="PACK-0201" value="" x="79" y="25.6" rot="R180"/>
-<element name="E$42" library="ucruler" package="PACK-0402" value="" x="79" y="24.2" rot="R180"/>
-<element name="E$43" library="ucruler" package="PACK-0603" value="" x="79" y="22.8" rot="R180"/>
-<element name="E$44" library="ucruler" package="PACK-0805" value="" x="79" y="21.4" rot="R180"/>
-<element name="E$45" library="ucruler" package="PACK-1206" value="" x="78.4" y="19.5"/>
-<element name="E$46" library="ucruler" package="PACK-1210" value="" x="78.4" y="17"/>
+<element name="E$41" library="ucruler" package="PACK-0201" value="" x="78.5" y="25.6" rot="R180"/>
+<element name="E$42" library="ucruler" package="PACK-0402" value="" x="78.5" y="24.45" rot="R180"/>
+<element name="E$43" library="ucruler" package="PACK-0603" value="" x="78.5" y="23.05" rot="R180"/>
+<element name="E$44" library="ucruler" package="PACK-0805" value="" x="78.5" y="21.4" rot="R180"/>
+<element name="E$45" library="ucruler" package="PACK-1206" value="" x="78.5" y="19.5"/>
+<element name="E$46" library="ucruler" package="PACK-1210" value="" x="78.5" y="17"/>
 <element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="48" y="14"/>
 <element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="25.75" y="25"/>
 <element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="108" y="12.25" rot="R90"/>
