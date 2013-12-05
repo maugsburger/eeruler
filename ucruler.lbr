@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.325" altunitdist="mm" altunit="mm"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.07" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -5066,73 +5066,68 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 </package>
 <package name="PACK-SOIC">
 <description>http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf</description>
-<smd name="P$1" x="0.4" y="-12.065" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$2" x="0.4" y="-10.795" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$3" x="0.4" y="-9.525" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$4" x="0.4" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$5" x="0.4" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$6" x="0.4" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$7" x="0.4" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$8" x="0.4" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$9" x="0.4" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$10" x="0.4" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$11" x="0.4" y="0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$12" x="0.4" y="1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$13" x="0.4" y="3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$14" x="0.4" y="4.445" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$15" x="9.9" y="-12.065" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$16" x="9.9" y="-10.795" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$17" x="9.9" y="-9.525" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$18" x="9.9" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$19" x="9.9" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$20" x="9.9" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$21" x="9.9" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$22" x="9.9" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$23" x="9.9" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$24" x="9.9" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$25" x="9.9" y="0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$26" x="9.9" y="1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$27" x="9.9" y="3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$28" x="9.9" y="4.445" dx="0.8" dy="0.4" layer="1"/>
-<wire x1="1.05" y1="-4.95" x2="1.05" y2="-3.68" width="0.15" layer="21"/>
-<wire x1="1.05" y1="-3.68" x2="1.05" y2="-2.41" width="0.15" layer="21"/>
-<wire x1="1.05" y1="-2.41" x2="1.05" y2="0.13" width="0.15" layer="21"/>
-<wire x1="1.05" y1="0.13" x2="1.05" y2="4.95" width="0.15" layer="21"/>
-<wire x1="1.4" y1="-12.76" x2="1.4" y2="-10.22" width="0.15" layer="21"/>
-<smd name="P$35" x="5.6" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$36" x="5.6" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$37" x="5.6" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$38" x="5.6" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$39" x="5.6" y="0.635" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$40" x="5.6" y="1.905" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$41" x="5.6" y="3.175" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$42" x="5.6" y="4.445" dx="0.8" dy="0.4" layer="1"/>
-<wire x1="1.4" y1="-10.22" x2="1.4" y2="-7.68" width="0.15" layer="21"/>
-<wire x1="1.4" y1="-7.68" x2="1.4" y2="-5.14" width="0.15" layer="21"/>
-<wire x1="1.4" y1="-5.14" x2="1.4" y2="5.14" width="0.15" layer="21"/>
-<wire x1="4.95" y1="-4.95" x2="4.95" y2="-3.68" width="0.15" layer="21"/>
-<wire x1="4.95" y1="-3.68" x2="4.95" y2="-2.41" width="0.15" layer="21"/>
-<wire x1="4.95" y1="-2.41" x2="4.95" y2="0.13" width="0.15" layer="21"/>
-<wire x1="4.95" y1="0.13" x2="4.95" y2="4.95" width="0.15" layer="21"/>
-<wire x1="8.9" y1="-12.76" x2="8.9" y2="-10.22" width="0.15" layer="21"/>
-<wire x1="8.9" y1="-10.22" x2="8.9" y2="-7.68" width="0.15" layer="21"/>
-<wire x1="8.9" y1="-7.68" x2="8.9" y2="-5.14" width="0.15" layer="21"/>
-<wire x1="8.9" y1="-5.14" x2="8.9" y2="5.14" width="0.15" layer="21"/>
-<wire x1="1.4" y1="5.14" x2="8.9" y2="5.14" width="0.15" layer="21"/>
-<wire x1="1.4" y1="-12.76" x2="8.9" y2="-12.76" width="0.15" layer="21"/>
-<wire x1="1.05" y1="4.95" x2="4.95" y2="4.95" width="0.15" layer="21"/>
-<wire x1="1.05" y1="-4.95" x2="4.95" y2="-4.95" width="0.15" layer="21"/>
-<wire x1="1.05" y1="0.13" x2="4.95" y2="0.13" width="0.1" layer="21"/>
-<wire x1="1.05" y1="-3.68" x2="4.95" y2="-3.68" width="0.1" layer="21"/>
-<wire x1="1.4" y1="-5.14" x2="8.9" y2="-5.14" width="0.1" layer="21"/>
-<wire x1="1.4" y1="-7.68" x2="8.9" y2="-7.68" width="0.1" layer="21"/>
-<wire x1="1.4" y1="-10.22" x2="8.9" y2="-10.22" width="0.1" layer="21"/>
-<text x="1.651" y="0.381" size="1" layer="21">8</text>
-<text x="1.651" y="-3.429" size="1" layer="21">14</text>
-<text x="1.651" y="-4.826" size="1" layer="21">16</text>
-<text x="1.651" y="-7.493" size="1" layer="21">20</text>
-<text x="1.651" y="-10.033" size="1" layer="21">24</text>
-<text x="1.651" y="-12.573" size="1" layer="21">28</text>
+<smd name="P$1" x="-4.75" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$2" x="-4.75" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$3" x="-4.75" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$4" x="-4.75" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$5" x="-4.75" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$6" x="-4.75" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$7" x="-4.75" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$8" x="-4.75" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$9" x="-4.75" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$10" x="-4.75" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$11" x="-4.75" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$12" x="-4.75" y="5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$13" x="-4.75" y="6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$14" x="-4.75" y="8.255" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$15" x="4.75" y="-8.255" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$16" x="4.75" y="-6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$17" x="4.75" y="-5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$18" x="4.75" y="-4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$19" x="4.75" y="-3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$20" x="4.75" y="-1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$21" x="4.75" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$22" x="4.75" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$23" x="4.75" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$24" x="4.75" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$25" x="4.75" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$26" x="4.75" y="5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$27" x="4.75" y="6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$28" x="4.75" y="8.255" dx="0.8" dy="0.4" layer="1"/>
+<wire x1="-4.1" y1="-1.14" x2="-4.1" y2="0.13" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="0.13" x2="-4.1" y2="3.94" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="3.94" x2="-4.1" y2="8.76" width="0.15" layer="21"/>
+<smd name="P$35" x="0.45" y="-0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$36" x="0.45" y="0.635" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$37" x="0.45" y="1.905" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$38" x="0.45" y="3.175" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$39" x="0.45" y="4.445" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$40" x="0.45" y="5.715" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$41" x="0.45" y="6.985" dx="0.8" dy="0.4" layer="1"/>
+<smd name="P$42" x="0.45" y="8.255" dx="0.8" dy="0.4" layer="1"/>
+<wire x1="-3.75" y1="-8.95" x2="-3.75" y2="-7.045" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-7.045" x2="-3.75" y2="-4.505" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-4.505" x2="-3.75" y2="-1.965" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-1.965" x2="-3.75" y2="8.95" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="-1.14" x2="-0.2" y2="0.13" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="0.13" x2="-0.2" y2="3.94" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="3.94" x2="-0.2" y2="8.76" width="0.15" layer="21"/>
+<wire x1="3.75" y1="-8.95" x2="3.75" y2="8.95" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="8.95" x2="3.75" y2="8.95" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-8.95" x2="3.75" y2="-8.95" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="8.76" x2="-0.2" y2="8.76" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="-1.14" x2="-0.2" y2="-1.14" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="3.94" x2="-0.2" y2="3.94" width="0.1" layer="21"/>
+<wire x1="-4.1" y1="0.13" x2="-0.2" y2="0.13" width="0.1" layer="21"/>
+<text x="-3.499" y="4.191" size="1" layer="21">8</text>
+<text x="-3.499" y="0.381" size="1" layer="21">14</text>
+<text x="-3.499" y="-1.016" size="1" layer="21">16</text>
+<text x="-3.499" y="-3.683" size="1" layer="21">20</text>
+<text x="-3.499" y="-6.223" size="1" layer="21">24</text>
+<text x="-3.499" y="-8.763" size="1" layer="21">28</text>
+<wire x1="-3.75" y1="-7.045" x2="0" y2="-7.045" width="0.1" layer="21"/>
+<wire x1="-3.75" y1="-4.505" x2="0" y2="-4.505" width="0.1" layer="21"/>
+<wire x1="-3.75" y1="-1.965" x2="0" y2="-1.965" width="0.1" layer="21"/>
 </package>
 <package name="PACK-QFN-32">
 <description>http://cds.linear.com/docs/en/packaging/QFN_32_05-08-1693.pdf</description>
@@ -5633,14 +5628,8 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <package name="PACK-SSOP">
 <description>http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf S. 340</description>
 <wire x1="-2.65" y1="-5.1" x2="2.65" y2="-5.1" width="0.15" layer="21"/>
-<wire x1="2.65" y1="-5.1" x2="2.65" y2="-3.8" width="0.15" layer="21"/>
-<wire x1="2.65" y1="-3.8" x2="2.65" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="2.65" y1="-2.5" x2="2.65" y2="-1.2" width="0.15" layer="21"/>
-<wire x1="2.65" y1="-1.2" x2="2.65" y2="-0.55" width="0.15" layer="21"/>
-<wire x1="2.65" y1="-0.55" x2="2.65" y2="1.4" width="0.15" layer="21"/>
-<wire x1="2.65" y1="1.4" x2="2.65" y2="5.1" width="0.15" layer="21"/>
+<wire x1="2.65" y1="-5.1" x2="2.65" y2="5.1" width="0.15" layer="21"/>
 <wire x1="2.65" y1="5.1" x2="-2.65" y2="5.1" width="0.15" layer="21"/>
-<wire x1="-2.65" y1="5.1" x2="-2.65" y2="1.4" width="0.15" layer="21"/>
 <smd name="P$7" x="-3.575" y="4.225" dx="0.65" dy="0.3" layer="1"/>
 <rectangle x1="-3.3" y1="4.075" x2="-2.65" y2="4.375" layer="1"/>
 <smd name="P$1" x="-3.575" y="3.575" dx="0.65" dy="0.3" layer="1"/>
@@ -5701,21 +5690,25 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <rectangle x1="2.65" y1="3.425" x2="3.3" y2="3.725" layer="1" rot="R180"/>
 <smd name="P$30" x="3.575" y="4.225" dx="0.65" dy="0.3" layer="1" rot="R180"/>
 <rectangle x1="2.65" y1="4.075" x2="3.3" y2="4.375" layer="1" rot="R180"/>
+<wire x1="-2.65" y1="5.1" x2="-2.65" y2="1.4" width="0.15" layer="21"/>
+<text x="-2.275" y="-4.46875" size="1" layer="21" align="center-left">28</text>
+<text x="-2.275" y="-3.16875" size="1" layer="21" align="center-left">24</text>
+<text x="-2.275" y="-1.86875" size="1" layer="21" align="center-left">20</text>
+<text x="-2.275" y="-0.56875" size="1" layer="21" align="center-left">16</text>
 <wire x1="-2.65" y1="1.4" x2="-2.65" y2="-1.2" width="0.15" layer="21"/>
 <wire x1="-2.65" y1="-1.2" x2="-2.65" y2="-2.5" width="0.15" layer="21"/>
 <wire x1="-2.65" y1="-2.5" x2="-2.65" y2="-3.8" width="0.15" layer="21"/>
 <wire x1="-2.65" y1="-3.8" x2="-2.65" y2="-5.1" width="0.15" layer="21"/>
-<wire x1="-2.65" y1="-3.8" x2="2.65" y2="-3.8" width="0.15" layer="21"/>
-<text x="-2.275" y="-4.46875" size="1" layer="21" align="center-left">28</text>
-<text x="-2.275" y="-3.16875" size="1" layer="21" align="center-left">24</text>
-<text x="-2.275" y="-1.86875" size="1" layer="21" align="center-left">20</text>
-<wire x1="-2.65" y1="-2.5" x2="2.65" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="-2.65" y1="-1.2" x2="2.65" y2="-1.2" width="0.15" layer="21"/>
-<text x="-2.275" y="-0.56875" size="1" layer="21" align="center-left">16</text>
+<wire x1="-2.65" y1="-3.8" x2="0" y2="-3.8" width="0.1" layer="21"/>
+<wire x1="-2.65" y1="-2.5" x2="0" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="-2.65" y1="-1.2" x2="0" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="-2.65" y1="1.4" x2="0" y2="1.4" width="0.1" layer="21"/>
+<text x="-2.275" y="2.03125" size="1" layer="21" align="center-left">8</text>
 </package>
 <package name="PACK-TSSOP">
 <description>http://www.analog.com/static/imported-files/packages/249854663RU_28.pdf</description>
-<wire x1="-2.2" y1="4.85" x2="-2.2" y2="-0.95" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="4.85" x2="-2.2" y2="1" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="1" x2="-2.2" y2="-0.95" width="0.15" layer="21"/>
 <wire x1="-2.2" y1="-0.95" x2="-2.2" y2="-2.25" width="0.15" layer="21"/>
 <wire x1="-2.2" y1="-2.25" x2="-2.2" y2="-3.55" width="0.15" layer="21"/>
 <wire x1="-2.2" y1="-3.55" x2="-2.2" y2="-4.85" width="0.15" layer="21"/>
@@ -5785,6 +5778,8 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="-2.2" y1="-3.55" x2="0" y2="-3.55" width="0.1" layer="21"/>
 <wire x1="-2.2" y1="-2.25" x2="0" y2="-2.25" width="0.1" layer="21"/>
 <wire x1="-2.2" y1="-0.95" x2="0" y2="-0.95" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="1" x2="0" y2="1" width="0.1" layer="21"/>
+<text x="-1.95" y="1.625" size="1" layer="21" align="center-left">8</text>
 </package>
 </packages>
 <symbols>
