@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
@@ -83,13 +83,13 @@
 <hole x="1.5" y="17.6" drill="1"/>
 <hole x="1.5" y="19.6" drill="1.1"/>
 <text x="4.5" y="5" size="1.2" layer="21" align="center-left">0.4mm</text>
-<text x="4.5" y="7.1" size="1.2" layer="21" align="center-left">0.5mm</text>
-<text x="4.5" y="9.2" size="1.2" layer="21" align="center-left">0.6mm</text>
-<text x="4.5" y="11.3" size="1.2" layer="21" align="center-left">0.7mm</text>
-<text x="4.5" y="13.4" size="1.2" layer="21" align="center-left">0.8mm</text>
-<text x="4.5" y="15.5" size="1.2" layer="21" align="center-left">0.9mm</text>
-<text x="4.5" y="17.6" size="1.2" layer="21" align="center-left">1.0mm</text>
-<text x="4.5" y="19.7" size="1.2" layer="21" align="center-left">1.1mm</text>
+<text x="4.5" y="7.1" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
+<text x="4.5" y="9.2" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
+<text x="4.5" y="11.3" size="1.2" layer="21" ratio="13" align="center-left">0.7mm</text>
+<text x="4.5" y="13.4" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
+<text x="4.5" y="15.5" size="1.2" layer="21" ratio="13" align="center-left">0.9mm</text>
+<text x="4.5" y="17.6" size="1.2" layer="21" ratio="13" align="center-left">1.0mm</text>
+<text x="4.5" y="19.7" size="1.2" layer="21" ratio="13" align="center-left">1.1mm</text>
 <text x="51.435" y="2.54" size="2" layer="21" font="fixed">2</text>
 <text x="102.235" y="2.54" size="2" layer="21" font="fixed">4</text>
 <text x="153.035" y="2.54" size="2" layer="21" font="fixed">6</text>
@@ -120,26 +120,26 @@
 <hole x="198" y="8" drill="1.6"/>
 <hole x="198" y="17" drill="1.9"/>
 <hole x="198" y="20" drill="2"/>
-<text x="4.5" y="21.8" size="1.2" layer="21" align="center-left">1.2mm</text>
-<text x="4.5" y="23.9" size="1.2" layer="21" align="center-left">1.3mm</text>
-<text x="4.5" y="26" size="1.2" layer="21" font="fixed" rot="R180" align="center-right">1.4mm</text>
+<text x="4.5" y="21.8" size="1.2" layer="21" ratio="13" align="center-left">1.2mm</text>
+<text x="4.5" y="23.9" size="1.2" layer="21" ratio="13" align="center-left">1.3mm</text>
+<text x="4.5" y="26" size="1.2" layer="21" font="fixed" ratio="13" rot="R180" align="center-right">1.4mm</text>
 <text x="195" y="5" size="1.2" layer="21" font="fixed" align="center-right">1.5mm</text>
-<text x="195" y="8" size="1.2" layer="21" font="fixed" align="center-right">1.6mm</text>
-<text x="195" y="11" size="1.2" layer="21" font="fixed" align="center-right">1.7mm</text>
-<text x="195" y="14" size="1.2" layer="21" font="fixed" align="center-right">1.8mm</text>
-<text x="195" y="17" size="1.2" layer="21" font="fixed" align="center-right">1.9mm</text>
-<text x="195" y="20" size="1.2" layer="21" font="fixed" align="center-right">2.0mm</text>
-<text x="21" y="26" size="1.2" layer="21" align="center-left">0,15mm</text>
-<text x="21" y="23.8" size="1.2" layer="21" align="center-left">0,2mm</text>
-<text x="21" y="21.6" size="1.2" layer="21" align="center-left">0,3mm</text>
-<text x="21" y="19" size="1.2" layer="21" align="center-left">0,4mm</text>
-<text x="21" y="16" size="1.2" layer="21" align="center-left">0,5mm</text>
-<text x="21" y="12" size="1.2" layer="21" align="center-left">0,6mm</text>
-<text x="21" y="7" size="1.2" layer="21" align="center-left">0,8mm</text>
-<text x="37.25" y="16" size="1.2" layer="21" rot="R180" align="center-right">1mm</text>
-<text x="37.25" y="8" size="1.2" layer="21" rot="R180" align="center-right">1,5mm</text>
-<rectangle x1="29.5" y1="4" x2="36.5" y2="19" layer="29"/>
-<rectangle x1="13.5" y1="4" x2="20.5" y2="27" layer="29"/>
+<text x="195" y="8" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.6mm</text>
+<text x="195" y="11" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.7mm</text>
+<text x="195" y="14" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.8mm</text>
+<text x="195" y="17" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.9mm</text>
+<text x="195" y="20" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">2.0mm</text>
+<text x="17.5" y="24.25" size="1.2" layer="21" ratio="13" align="center-left">0,15mm</text>
+<text x="17.5" y="22.55" size="1.2" layer="21" ratio="13" align="center-left">0,2mm</text>
+<text x="17.5" y="20.6" size="1.2" layer="21" ratio="13" align="center-left">0,3mm</text>
+<text x="17.5" y="18" size="1.2" layer="21" ratio="13" align="center-left">0,4mm</text>
+<text x="17.5" y="15" size="1.2" layer="21" ratio="13" align="center-left">0,5mm</text>
+<text x="17.5" y="11.25" size="1.2" layer="21" ratio="13" align="center-left">0,6mm</text>
+<text x="17.5" y="6.75" size="1.2" layer="21" ratio="13" align="center-left">0,8mm</text>
+<text x="30.25" y="17" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1mm</text>
+<text x="30.25" y="9" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1,5mm</text>
+<rectangle x1="23" y1="5" x2="30" y2="20" layer="29"/>
+<rectangle x1="10" y1="4.25" x2="17" y2="26.75" layer="29"/>
 <text x="194.75" y="3" size="1.5" layer="22" rot="MR90" align="top-left">Owner</text>
 <hole x="198.755" y="1.905" drill="0.8"/>
 <hole x="196.215" y="1.905" drill="0.8"/>
@@ -154,15 +154,15 @@
 0,6  3,5
 0,7  4
 0,8  5</text>
-<text x="185" y="25" size="1.2" layer="21" font="fixed" rot="R180" align="center-right">0,4mm</text>
-<text x="156" y="2" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">0,5mm</text>
-<text x="156" y="8" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">0,635mm</text>
-<text x="156" y="16" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">0,65mm</text>
+<text x="184" y="24.75" size="1.2" layer="21" font="fixed" ratio="13" rot="R180" align="center-right">0,4mm</text>
+<text x="157.5" y="4.25" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0,5mm</text>
+<text x="157.5" y="9.75" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0,635mm</text>
+<text x="157.5" y="17.5" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0,65mm</text>
 <text x="0.5" y="29.5" size="2" layer="21" font="fixed" align="top-left">0</text>
 <hole x="198" y="23" drill="2.2"/>
-<text x="195" y="23" size="1.2" layer="21" font="fixed" align="center-right">2.2mm</text>
+<text x="195" y="23" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">2.2mm</text>
 <hole x="197.75" y="26.5" drill="3.2"/>
-<text x="195" y="26.5" size="1.2" layer="21" font="fixed" align="center-right">3.2mm</text>
+<text x="195" y="26.5" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">3.2mm</text>
 <text x="26.035" y="2.54" size="2" layer="21" font="fixed">1</text>
 <text x="76.835" y="2.54" size="2" layer="21" font="fixed">3</text>
 <text x="127.635" y="2.54" size="2" layer="21" font="fixed">5</text>
@@ -188,11 +188,11 @@
 <hole x="183.515" y="1.905" drill="0.8"/>
 <hole x="180.975" y="1.905" drill="0.8"/>
 <hole x="178.435" y="1.905" drill="0.8"/>
-<text x="133" y="24" size="1.2" layer="21" font="fixed" distance="20" align="center-right">SC70</text>
-<text x="133" y="21" size="1.2" layer="21" font="fixed" distance="20" align="center-right">SOT23</text>
-<text x="133" y="18" size="1.2" layer="21" font="fixed" distance="20" align="center-right">SOT23-6</text>
-<text x="132" y="14" size="1.2" layer="21" font="fixed" distance="20" align="center-right">SOT89</text>
-<text x="131" y="8" size="1.2" layer="21" font="fixed" distance="20" align="center-right">SOT223</text>
+<text x="47" y="25" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R180" align="center-right">SC70</text>
+<text x="63.25" y="23" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R180" align="center-right">SOT23</text>
+<text x="58.25" y="25" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R180" align="center-right">SOT23-6</text>
+<text x="59.75" y="21" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R180" align="center-right">SOT89</text>
+<text x="71.1" y="20" size="1.2" layer="21" font="fixed" ratio="13" distance="20" align="top-center">SOT223</text>
 <rectangle x1="142" y1="3" x2="193" y2="9" layer="22"/>
 <rectangle x1="0" y1="0" x2="3" y2="32" layer="29"/>
 <rectangle x1="195" y1="0" x2="200" y2="32" layer="29"/>
@@ -223,32 +223,45 @@
 <text x="161" y="14.25" size="1.2" layer="22" rot="MR90">CMOS  NOT</text>
 <text x="161.5" y="27" size="0.8" layer="22" ratio="10" rot="MR0">DD</text>
 <text x="161.5" y="10.3" size="0.8" layer="22" ratio="10" rot="MR0">SS</text>
-<text x="149.43" y="14.02" size="1.2" layer="21" font="fixed" distance="20" rot="R270" align="center-right">TO-252/DPAK</text>
-<text x="153.05" y="12.48" size="1.2" layer="21" font="fixed" distance="20" rot="R270" align="center-right">TO-263/D2PAK</text>
-<text x="101" y="5.5" size="1.2" layer="21" ratio="10" distance="20">1210</text>
-<text x="101" y="7.9" size="1.2" layer="21" ratio="10" distance="20">1206</text>
-<text x="101" y="14" size="1.2" layer="21" ratio="10" distance="20">0201</text>
-<text x="101" y="12.6" size="1.2" layer="21" ratio="10" distance="20">0402</text>
-<text x="101" y="11.2" size="1.2" layer="21" ratio="10" distance="20">0603</text>
-<text x="101" y="9.8" size="1.2" layer="21" ratio="10" distance="20">0805</text>
-<text x="118" y="21.5" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SMA</text>
-<text x="118" y="14.5" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SMB</text>
-<text x="118" y="6.5" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SMC</text>
-<text x="102" y="25" size="1.2" layer="21" ratio="10" distance="20">MELF</text>
-<text x="102" y="20.5" size="1.2" layer="21" ratio="10" distance="20">MINI-
-MELF/
+<text x="75.25" y="4" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R270" align="center-right">TO-252/DPAK</text>
+<text x="66" y="4" size="1.2" layer="21" font="fixed" ratio="13" distance="20" rot="R270" align="center-right">TO-263/D2PAK</text>
+<text x="81" y="16.5" size="1.2" layer="21" ratio="13" distance="20">1210</text>
+<text x="81" y="18.9" size="1.2" layer="21" ratio="13" distance="20">1206</text>
+<text x="81" y="25" size="1.2" layer="21" ratio="13" distance="20">0201</text>
+<text x="81" y="23.6" size="1.2" layer="21" ratio="13" distance="20">0402</text>
+<text x="81" y="22.2" size="1.2" layer="21" ratio="13" distance="20">0603</text>
+<text x="81" y="20.8" size="1.2" layer="21" ratio="13" distance="20">0805</text>
+<text x="109" y="25.25" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">SMA</text>
+<text x="115" y="25.25" size="1.2" layer="21" ratio="13" distance="20" align="center">SMB</text>
+<text x="123" y="25.25" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">SMC</text>
+<text x="112.5" y="20.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MELF</text>
+<text x="110.5" y="17.5" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MiniMELF
 SOD80</text>
-<text x="102" y="17" size="1.2" layer="21" ratio="10" distance="20">MIKRO-
-MELF</text>
-<text x="107" y="15" size="1.2" layer="21" ratio="10" distance="20">PLCC-4</text>
-<text x="107" y="10" size="1.2" layer="21" ratio="10" distance="20">PLCC-6</text>
-<text x="91" y="8" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SOIC-N/W</text>
-<text x="94" y="23" size="1.2" layer="21" ratio="10" distance="20">QFN-32</text>
-<text x="115.5" y="14.75" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SOD323/SC76</text>
-<text x="124.25" y="15.5" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SC79</text>
-<text x="59.25" y="4.25" size="1.2" layer="21" ratio="10" distance="20" rot="R90">SSOP</text>
-<text x="49.75" y="4.5" size="1.2" layer="21" ratio="10" distance="20" rot="R90">TSSOP</text>
-<text x="156" y="23" size="1.2" layer="21" font="fixed" rot="R270" align="center-right">0,8mm</text>
+<text x="110.5" y="15" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MikroMELF</text>
+<text x="120" y="10.5" size="1.2" layer="21" ratio="13" distance="20" align="center-left">PLCC-4</text>
+<text x="123" y="18.5" size="1.2" layer="21" ratio="13" distance="20" align="center">PLCC-6</text>
+<text x="51.25" y="14.25" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SOIC-N/W</text>
+<text x="24.25" y="26" size="1.2" layer="21" ratio="13" distance="20">QFN-32</text>
+<text x="110.5" y="12.25" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SOD323
+SC76</text>
+<text x="110.5" y="9.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SC79</text>
+<text x="38.25" y="10.5" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SSOP</text>
+<text x="38" y="21.25" size="1.2" layer="21" ratio="13" distance="20" rot="R90">TSSOP</text>
+<text x="157.5" y="24" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0,8mm</text>
+<text x="17.5" y="26" size="1.2" layer="21" ratio="13" align="center-left">0,1mm</text>
+<text x="83" y="10" size="1.2" layer="21" ratio="13" distance="20" align="center">G</text>
+<text x="93" y="9" size="1.2" layer="21" ratio="13" distance="20" align="center">E</text>
+<text x="93" y="20" size="1.2" layer="21" ratio="13" distance="20" align="center">F</text>
+<text x="101" y="9" size="1.2" layer="21" ratio="13" distance="20" align="center">D/D8</text>
+<text x="101" y="17" size="1.2" layer="21" ratio="13" distance="20" align="center">C</text>
+<text x="100.5" y="24" size="1.2" layer="21" ratio="13" distance="20" align="center">B</text>
+<rectangle x1="128.75" y1="6" x2="131.75" y2="26" layer="29"/>
+<rectangle x1="134" y1="6" x2="136.5" y2="26" layer="29"/>
+<rectangle x1="141" y1="6" x2="143.5" y2="26" layer="29"/>
+<rectangle x1="148" y1="6" x2="150.5" y2="26" layer="29"/>
+<rectangle x1="153" y1="6" x2="154.25" y2="26" layer="29"/>
+<text x="107" y="3" size="2.5" layer="21" ratio="13" distance="20">Your AD
+HERE!</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -5853,6 +5866,78 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="0" y1="-23" x2="-1.2" y2="-23" width="0.1" layer="21"/>
 <text x="-0.3" y="-22.4" size="1" layer="21" align="center-right">20</text>
 </package>
+<package name="COPPER-FONT-INV">
+<text x="0" y="0" size="1.2" layer="41" font="fixed" rot="R90" align="top-left">Font size</text>
+<text x="1.8" y="7" size="1.8" layer="41" font="fixed">1.8</text>
+<text x="1.8" y="5.2" size="1.6" layer="41" font="fixed">1.6</text>
+<text x="1.8" y="3.6" size="1.4" layer="41" font="fixed">1.4</text>
+<text x="1.8" y="2.2" size="1.2" layer="41" font="fixed">1.2</text>
+<text x="1.8" y="1" size="1" layer="41" font="fixed">1.0</text>
+<text x="1.8" y="0" size="0.8" layer="41" font="fixed">0.8</text>
+<text x="6" y="0" size="1" layer="41" font="fixed" ratio="10" rot="R90">8%</text>
+<wire x1="1.5" y1="9" x2="1.5" y2="0" width="0.15" layer="41"/>
+<text x="20.8" y="7" size="1.8" layer="41" font="fixed" ratio="15">1.8</text>
+<text x="20.8" y="5.2" size="1.6" layer="41" font="fixed" ratio="15">1.6</text>
+<text x="20.8" y="3.6" size="1.4" layer="41" font="fixed" ratio="15">1.4</text>
+<text x="20.8" y="2.2" size="1.2" layer="41" font="fixed" ratio="15">1.2</text>
+<text x="20.8" y="1" size="1" layer="41" font="fixed" ratio="15">1.0</text>
+<text x="20.8" y="0" size="0.8" layer="41" font="fixed" ratio="15">0.8</text>
+<text x="25" y="0" size="1" layer="41" font="fixed" ratio="10" rot="R90">15%</text>
+<wire x1="20.5" y1="9" x2="20.5" y2="0" width="0.15" layer="41"/>
+<text x="13.8" y="7" size="1.8" layer="41" font="fixed">8.3%</text>
+<text x="13.8" y="5.2" size="1.6" layer="41" font="fixed" ratio="9">9.3%</text>
+<text x="13.8" y="3.6" size="1.4" layer="41" font="fixed" ratio="11">11%</text>
+<text x="13.8" y="2.2" size="1.2" layer="41" font="fixed" ratio="13">13%</text>
+<text x="13.8" y="1" size="1" layer="41" font="fixed" ratio="15">15%</text>
+<text x="13.8" y="0" size="0.8" layer="41" font="fixed" ratio="19">19%</text>
+<text x="20" y="0" size="1" layer="41" font="fixed" ratio="10" rot="R90">0.15mm</text>
+<wire x1="13.5" y1="9" x2="13.5" y2="0" width="0.15" layer="41"/>
+<text x="6.8" y="7" size="1.8" layer="41" font="fixed" ratio="5">5.6%</text>
+<text x="6.8" y="5.2" size="1.6" layer="41" font="fixed" ratio="6">6.3%</text>
+<text x="6.8" y="3.6" size="1.4" layer="41" font="fixed" ratio="7">7.1%</text>
+<text x="6.8" y="2.2" size="1.2" layer="41" font="fixed">8.3%</text>
+<text x="6.8" y="1" size="1" layer="41" font="fixed" ratio="10">10%</text>
+<text x="6.8" y="0" size="0.8" layer="41" font="fixed" ratio="13">13%</text>
+<text x="13" y="0" size="1" layer="41" font="fixed" ratio="10" rot="R90">0.1mm</text>
+<wire x1="6.5" y1="9" x2="6.5" y2="0" width="0.15" layer="41"/>
+<wire x1="25.5" y1="9" x2="25.5" y2="0" width="0.15" layer="41"/>
+</package>
+<package name="COPPER-FONT">
+<text x="0" y="0" size="1.2" layer="1" font="fixed" rot="R90" align="top-left">Font size</text>
+<text x="1.8" y="7" size="1.8" layer="1" font="fixed">1.8</text>
+<text x="1.8" y="5.2" size="1.6" layer="1" font="fixed">1.6</text>
+<text x="1.8" y="3.6" size="1.4" layer="1" font="fixed">1.4</text>
+<text x="1.8" y="2.2" size="1.2" layer="1" font="fixed">1.2</text>
+<text x="1.8" y="1" size="1" layer="1" font="fixed">1.0</text>
+<text x="1.8" y="0" size="0.8" layer="1" font="fixed">0.8</text>
+<text x="6" y="0" size="1" layer="1" font="fixed" ratio="10" rot="R90">8%</text>
+<text x="20.8" y="7" size="1.8" layer="1" font="fixed" ratio="15">1.8</text>
+<text x="20.8" y="5.2" size="1.6" layer="1" font="fixed" ratio="15">1.6</text>
+<text x="20.8" y="3.6" size="1.4" layer="1" font="fixed" ratio="15">1.4</text>
+<text x="20.8" y="2.2" size="1.2" layer="1" font="fixed" ratio="15">1.2</text>
+<text x="20.8" y="1" size="1" layer="1" font="fixed" ratio="15">1.0</text>
+<text x="20.8" y="0" size="0.8" layer="1" font="fixed" ratio="15">0.8</text>
+<text x="25" y="0" size="1" layer="1" font="fixed" ratio="10" rot="R90">15%</text>
+<text x="13.8" y="7" size="1.8" layer="1" font="fixed">8.3%</text>
+<text x="13.8" y="5.2" size="1.6" layer="1" font="fixed" ratio="9">9.3%</text>
+<text x="13.8" y="3.6" size="1.4" layer="1" font="fixed" ratio="11">11%</text>
+<text x="13.8" y="2.2" size="1.2" layer="1" font="fixed" ratio="13">13%</text>
+<text x="13.8" y="1" size="1" layer="1" font="fixed" ratio="15">15%</text>
+<text x="13.8" y="0" size="0.8" layer="1" font="fixed" ratio="19">19%</text>
+<text x="20" y="0" size="1" layer="1" font="fixed" ratio="10" rot="R90">0.15mm</text>
+<text x="6.8" y="7" size="1.8" layer="1" font="fixed" ratio="5">5.6%</text>
+<text x="6.8" y="5.2" size="1.6" layer="1" font="fixed" ratio="6">6.3%</text>
+<text x="6.8" y="3.6" size="1.4" layer="1" font="fixed" ratio="7">7.1%</text>
+<text x="6.8" y="2.2" size="1.2" layer="1" font="fixed">8.3%</text>
+<text x="6.8" y="1" size="1" layer="1" font="fixed" ratio="10">10%</text>
+<text x="6.8" y="0" size="0.8" layer="1" font="fixed" ratio="13">13%</text>
+<text x="13" y="0" size="1" layer="1" font="fixed" ratio="10" rot="R90">0.1mm</text>
+<wire x1="25.5" y1="0" x2="25.5" y2="9" width="0.15" layer="1"/>
+<wire x1="20.5" y1="0" x2="20.5" y2="9" width="0.15" layer="1"/>
+<wire x1="13.5" y1="0" x2="13.5" y2="9" width="0.15" layer="1"/>
+<wire x1="6.5" y1="0" x2="6.5" y2="9" width="0.15" layer="1"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="9" width="0.15" layer="1"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -6035,64 +6120,66 @@ einem neuen Namen ab.
 </pass>
 </autorouter>
 <elements>
-<element name="E$1" library="ucruler" package="COPPER-0,15" value="" x="14" y="26"/>
-<element name="E$2" library="ucruler" package="COPPER-0,2" value="" x="14" y="23.8"/>
-<element name="E$3" library="ucruler" package="COPPER-0,3" value="" x="14" y="21.6"/>
-<element name="E$4" library="ucruler" package="COPPER-0,4" value="" x="14" y="19"/>
-<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="14" y="16"/>
-<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="14" y="12"/>
-<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="14" y="7"/>
-<element name="E$13" library="ucruler" package="COPPER-1,0" value="" x="30" y="16"/>
-<element name="E$14" library="ucruler" package="COPPER-1,5" value="" x="30" y="8"/>
-<element name="E$15" library="ucruler" package="PACK-SC70-6" value="" x="135" y="24"/>
-<element name="E$16" library="ucruler" package="PACK-SOT23-3" value="" x="135" y="21"/>
-<element name="E$17" library="ucruler" package="PACK-SOT23-6" value="" x="135" y="18"/>
-<element name="E$18" library="ucruler" package="PACK-SOT89" value="" x="135" y="14"/>
-<element name="E$19" library="ucruler" package="PACK-SOT223" value="" x="135" y="8"/>
+<element name="E$1" library="ucruler" package="COPPER-0,15" value="" x="10.5" y="24.25"/>
+<element name="E$2" library="ucruler" package="COPPER-0,2" value="" x="10.5" y="22.55"/>
+<element name="E$3" library="ucruler" package="COPPER-0,3" value="" x="10.5" y="20.6"/>
+<element name="E$4" library="ucruler" package="COPPER-0,4" value="" x="10.5" y="18"/>
+<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="10.5" y="15"/>
+<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="10.5" y="11.25"/>
+<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="10.5" y="6.75"/>
+<element name="E$13" library="ucruler" package="COPPER-1,0" value="" x="23.5" y="17"/>
+<element name="E$14" library="ucruler" package="COPPER-1,5" value="" x="23.5" y="9"/>
+<element name="E$15" library="ucruler" package="PACK-SC70-6" value="" x="45" y="25" rot="R90"/>
+<element name="E$16" library="ucruler" package="PACK-SOT23-3" value="" x="61.25" y="23"/>
+<element name="E$17" library="ucruler" package="PACK-SOT23-6" value="" x="56.25" y="25"/>
+<element name="E$18" library="ucruler" package="PACK-SOT89" value="" x="57" y="21"/>
+<element name="E$19" library="ucruler" package="PACK-SOT223" value="" x="71" y="19"/>
 <element name="E$24" library="ucruler" package="SILK-MFET-N-4" value="" x="154" y="14" rot="MR0"/>
 <element name="E$25" library="ucruler" package="SILK-MFET-P-4" value="" x="154" y="25" rot="MR0"/>
 <element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="145" y="14" rot="MR0"/>
 <element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="145" y="25" rot="MR0"/>
 <element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="149" y="19.5" rot="MR0"/>
-<element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="14" y="25"/>
+<element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="10.5" y="26"/>
 <element name="E$22" library="ucruler" package="SILK-FONT" value="" x="141" y="29" rot="MR270"/>
 <element name="E$23" library="ucruler" package="SILK-TABLE-SMDR" value="" x="193" y="29" rot="MR0"/>
 <element name="E$28" library="ucruler" package="SILK-TABLE-THVIA" value="" x="131" y="27" rot="MR0"/>
 <element name="E$29" library="ucruler" package="SILK-TABLE-MM-MIL" value="" x="121" y="29" rot="MR0"/>
 <element name="E$30" library="ucruler" package="SILK-TABLE-CURRENT-35-TRACE-IPC-2221A" value="" x="112.5" y="27" rot="MR0"/>
-<element name="E$31" library="ucruler" package="PACK-TO252" value="" x="144.48" y="17.78"/>
-<element name="E$32" library="ucruler" package="PACK-TO263" value="" x="149.91" y="8.62" rot="R90"/>
-<element name="E$33" library="ucruler" package="PACK-DO214AA-SMB" value="" x="121" y="16" rot="R180"/>
-<element name="E$34" library="ucruler" package="PACK-DO214AB-SMC" value="" x="119.75" y="8" rot="R180"/>
-<element name="E$35" library="ucruler" package="PACK-DO214AC-SMA" value="" x="121.5" y="23" rot="R180"/>
-<element name="E$36" library="ucruler" package="PACK-MELF" value="" x="110" y="25" rot="R90"/>
-<element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="110" y="22" rot="R270"/>
-<element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="110" y="18.5" rot="R270"/>
-<element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="110" y="13" rot="R90"/>
-<element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="110" y="7" rot="R90"/>
-<element name="E$41" library="ucruler" package="PACK-0201" value="" x="99" y="14.6" rot="R180"/>
-<element name="E$42" library="ucruler" package="PACK-0402" value="" x="99" y="13.2" rot="R180"/>
-<element name="E$43" library="ucruler" package="PACK-0603" value="" x="99" y="11.8" rot="R180"/>
-<element name="E$44" library="ucruler" package="PACK-0805" value="" x="99" y="10.4" rot="R180"/>
-<element name="E$45" library="ucruler" package="PACK-1206" value="" x="98.4" y="8.5"/>
-<element name="E$46" library="ucruler" package="PACK-1210" value="" x="98.4" y="6"/>
-<element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="88" y="16"/>
-<element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="96" y="21"/>
-<element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="115" y="13"/>
-<element name="E$50" library="ucruler" package="PACK-SC79" value="" x="124" y="14"/>
-<element name="E$51" library="ucruler" package="PACK-ECAP-4.3" value="" x="79" y="22"/>
-<element name="E$52" library="ucruler" package="PACK-ECAP-5.3" value="" x="79" y="15"/>
-<element name="E$53" library="ucruler" package="PACK-ECAP-6.6" value="" x="79" y="7"/>
-<element name="E$54" library="ucruler" package="PACK-ECAP-8.3-E" value="" x="69" y="20"/>
-<element name="E$55" library="ucruler" package="PACK-ECAP-8.3-F" value="" x="69" y="9"/>
-<element name="E$56" library="ucruler" package="PACK-ECAP-10.3" value="" x="58" y="21"/>
-<element name="E$57" library="ucruler" package="PACK-SSOP" value="" x="57" y="9"/>
-<element name="E$58" library="ucruler" package="PACK-TSSOP" value="" x="48" y="9"/>
+<element name="E$31" library="ucruler" package="PACK-TO252" value="" x="71" y="7"/>
+<element name="E$32" library="ucruler" package="PACK-TO263" value="" x="60" y="8"/>
+<element name="E$33" library="ucruler" package="PACK-DO214AA-SMB" value="" x="115" y="24.25" rot="R270"/>
+<element name="E$34" library="ucruler" package="PACK-DO214AB-SMC" value="" x="123" y="23" rot="R270"/>
+<element name="E$35" library="ucruler" package="PACK-DO214AC-SMA" value="" x="109" y="24.75" rot="R270"/>
+<element name="E$36" library="ucruler" package="PACK-MELF" value="" x="109" y="20.75" rot="R90"/>
+<element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="108" y="17.5" rot="R270"/>
+<element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="108" y="15" rot="R270"/>
+<element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="117.75" y="10.5" rot="R90"/>
+<element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="123" y="15" rot="R90"/>
+<element name="E$41" library="ucruler" package="PACK-0201" value="" x="79" y="25.6" rot="R180"/>
+<element name="E$42" library="ucruler" package="PACK-0402" value="" x="79" y="24.2" rot="R180"/>
+<element name="E$43" library="ucruler" package="PACK-0603" value="" x="79" y="22.8" rot="R180"/>
+<element name="E$44" library="ucruler" package="PACK-0805" value="" x="79" y="21.4" rot="R180"/>
+<element name="E$45" library="ucruler" package="PACK-1206" value="" x="78.4" y="19.5"/>
+<element name="E$46" library="ucruler" package="PACK-1210" value="" x="78.4" y="17"/>
+<element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="48" y="14"/>
+<element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="25.75" y="25"/>
+<element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="108" y="12.25" rot="R90"/>
+<element name="E$50" library="ucruler" package="PACK-SC79" value="" x="108" y="9.75" rot="R90"/>
+<element name="E$51" library="ucruler" package="PACK-ECAP-4.3" value="" x="101" y="24"/>
+<element name="E$52" library="ucruler" package="PACK-ECAP-5.3" value="" x="101" y="17"/>
+<element name="E$53" library="ucruler" package="PACK-ECAP-6.6" value="" x="101" y="9"/>
+<element name="E$54" library="ucruler" package="PACK-ECAP-8.3-E" value="" x="93" y="9"/>
+<element name="E$55" library="ucruler" package="PACK-ECAP-8.3-F" value="" x="93" y="20"/>
+<element name="E$56" library="ucruler" package="PACK-ECAP-10.3" value="" x="83" y="10"/>
+<element name="E$57" library="ucruler" package="PACK-SSOP" value="" x="36" y="10"/>
+<element name="E$58" library="ucruler" package="PACK-TSSOP" value="" x="36" y="22"/>
 <element name="E$59" library="ucruler" package="PINCOUNT-0.4" value="" x="186" y="23"/>
 <element name="E$6" library="ucruler" package="PINCOUNT-0,5" value="" x="158" y="6" rot="R90"/>
 <element name="E$7" library="ucruler" package="PINCOUNT-0,635" value="" x="158" y="12" rot="R90"/>
 <element name="E$10" library="ucruler" package="PINCOUNT-0,65" value="" x="158" y="18" rot="R90"/>
 <element name="E$9" library="ucruler" package="PINCOUNT-0,8" value="" x="158" y="24" rot="R90"/>
+<element name="E$8" library="ucruler" package="COPPER-FONT-INV" value="" x="129" y="17"/>
+<element name="E$60" library="ucruler" package="COPPER-FONT" value="" x="129" y="6"/>
 </elements>
 <signals>
 <signal name="S$1">
@@ -7823,6 +7910,14 @@ einem neuen Namen ab.
 </signal>
 <signal name="S$658">
 <wire x1="199.39" y1="1.27" x2="199.39" y2="0" width="0.15" layer="1"/>
+</signal>
+<signal name="S$16">
+<polygon width="0.1" layer="1">
+<vertex x="128" y="26.5"/>
+<vertex x="155" y="26.5"/>
+<vertex x="155" y="16"/>
+<vertex x="128" y="16"/>
+</polygon>
 </signal>
 </signals>
 </board>
