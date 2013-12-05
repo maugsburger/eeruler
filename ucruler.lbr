@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.15" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -5407,6 +5407,17 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <vertex x="0" y="-0.3" curve="90"/>
 </polygon>
 <circle x="0" y="0" radius="0.335409375" width="0.1" layer="21"/>
+</package>
+<package name="PACK-SOD323">
+<description>http://www.infineon.com/dgdl/SOD323-Package_Overview.pdf?folderId=db3a30431936bc4b011952aab84f3bbe&amp;fileId=db3a30431936bc4b011952beed653be3</description>
+<wire x1="-0.65" y1="-0.8" x2="0.6" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="0.6" y1="-0.8" x2="0.6" y2="0.8" width="0.15" layer="21"/>
+<wire x1="0.6" y1="0.8" x2="-0.65" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.65" y1="0.8" x2="-0.65" y2="-0.8" width="0.15" layer="21"/>
+<smd name="P$1" x="0" y="1.1375" dx="0.3" dy="0.325" layer="1"/>
+<smd name="P$2" x="0" y="-1.1375" dx="0.3" dy="0.325" layer="1"/>
+<rectangle x1="-0.15" y1="0.875" x2="0.15" y2="1" layer="1"/>
+<rectangle x1="-0.15" y1="-1" x2="0.15" y2="-0.875" layer="1"/>
 </package>
 </packages>
 <symbols>
