@@ -1727,15 +1727,15 @@ http://www.fairchildsemi.com/an/AN/AN-1028.pdf&lt;br/&gt;
 http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 &lt;br/&gt;
 &lt;br/&gt;</description>
-<text x="0.5" y="-3.8" size="1.2" layer="21" font="vector" align="top-left">0.3  210
+<text x="0.5" y="-4" size="1.2" layer="21" font="vector" align="top-left">0.3  210
 0.35 180
 0.4  160
 0.5  130
 0.7   95
 1.0   65
 &gt;1</text>
-<text x="4.35" y="-14.6" size="1.2" layer="21" align="top-left">65/ø</text>
-<wire x1="0" y1="-16" x2="9.4" y2="-16" width="0.15" layer="21"/>
+<text x="4.35" y="-14.8" size="1.2" layer="21" align="top-left">65/ø</text>
+<wire x1="0" y1="-16.4" x2="9.4" y2="-16.4" width="0.15" layer="21"/>
 <wire x1="6.2013" y1="-2.3757" x2="6.5731" y2="-2.3757" width="0.15" layer="21"/>
 <wire x1="6.5731" y1="-2.3757" x2="6.5974" y2="-2.4" width="0.15" layer="21"/>
 <wire x1="6.5974" y1="-2.4" x2="6.6826" y2="-2.4852" width="0.15" layer="21"/>
@@ -2542,8 +2542,11 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="7.0319" y1="-0.15" x2="7.3551" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="7.5223" y1="-0.15" x2="8.3379" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="8.5052" y1="-0.15" x2="9.4" y2="-0.15" width="0.15" layer="21"/>
-<wire x1="0" y1="-16" x2="0" y2="-3.5" width="0.15" layer="21"/>
-<wire x1="9.4" y1="-16" x2="9.4" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="0" y1="-16.4" x2="0" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="0" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="9.4" y1="-16.4" x2="9.4" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="9.4" y1="-3.6" x2="9.4" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="9.4" y2="-3.6" width="0.127" layer="21"/>
 </package>
 <package name="SILK-TABLE-MM-MIL">
 <text x="0.3" y="-2.4" size="1.2" layer="21" align="top-left">0.10  4
@@ -26077,23 +26080,26 @@ K16 18.0 19.0 16.5 +
 <wire x1="2.6118" y1="-0.15" x2="3.4267" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="3.594" y1="-0.15" x2="5.5818" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="6.2405" y1="-0.15" x2="7.9" y2="-0.15" width="0.15" layer="21"/>
-<text x="0.59" y="-3.77" size="1.2" layer="21" align="top-left">0.2
+<text x="0.5" y="-4" size="1.2" layer="21" align="top-left">0.2
 0.3
 0.4
 0.5
 0.6
 0.7
 0.8</text>
-<wire x1="0" y1="-3.5" x2="0" y2="-16" width="0.15" layer="21"/>
-<wire x1="0" y1="-16" x2="7.9" y2="-16" width="0.15" layer="21"/>
-<wire x1="7.9" y1="-16" x2="7.9" y2="-3.5" width="0.15" layer="21"/>
-<text x="4.8" y="-3.7" size="1.2" layer="21" align="top-left">1
+<wire x1="0" y1="-3.5" x2="0" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="0" y2="-16.4" width="0.15" layer="21"/>
+<wire x1="0" y1="-16.4" x2="7.9" y2="-16.4" width="0.15" layer="21"/>
+<wire x1="7.9" y1="-16.4" x2="7.9" y2="-3.6" width="0.15" layer="21"/>
+<text x="4.8" y="-4" size="1.2" layer="21" align="top-left">1
 2
 2.5
 3.0
 3.5
 4
 5</text>
+<wire x1="7.9" y1="-3.6" x2="7.9" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="7.9" y2="-3.6" width="0.127" layer="21"/>
 </package>
 <package name="SILK-GRAPH-SIDETODIAM">
 <description>&lt;pre&gt;0.5 .70710678118654752440

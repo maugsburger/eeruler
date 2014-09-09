@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,14 +46,14 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -1715,15 +1715,15 @@ http://www.fairchildsemi.com/an/AN/AN-1028.pdf&lt;br/&gt;
 http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 &lt;br/&gt;
 &lt;br/&gt;</description>
-<text x="0.5" y="-3.8" size="1.2" layer="21" font="vector" align="top-left">0.3  210
+<text x="0.5" y="-4" size="1.2" layer="21" font="vector" align="top-left">0.3  210
 0.35 180
 0.4  160
 0.5  130
 0.7   95
 1.0   65
 &gt;1</text>
-<text x="4.35" y="-14.6" size="1.2" layer="21" align="top-left">65/ø</text>
-<wire x1="0" y1="-16" x2="9.4" y2="-16" width="0.15" layer="21"/>
+<text x="4.35" y="-14.8" size="1.2" layer="21" align="top-left">65/ø</text>
+<wire x1="0" y1="-16.4" x2="9.4" y2="-16.4" width="0.15" layer="21"/>
 <wire x1="6.2013" y1="-2.3757" x2="6.5731" y2="-2.3757" width="0.15" layer="21"/>
 <wire x1="6.5731" y1="-2.3757" x2="6.5974" y2="-2.4" width="0.15" layer="21"/>
 <wire x1="6.5974" y1="-2.4" x2="6.6826" y2="-2.4852" width="0.15" layer="21"/>
@@ -2530,8 +2530,11 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="7.0319" y1="-0.15" x2="7.3551" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="7.5223" y1="-0.15" x2="8.3379" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="8.5052" y1="-0.15" x2="9.4" y2="-0.15" width="0.15" layer="21"/>
-<wire x1="0" y1="-16" x2="0" y2="-3.5" width="0.15" layer="21"/>
-<wire x1="9.4" y1="-16" x2="9.4" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="0" y1="-16.4" x2="0" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="0" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="9.4" y1="-16.4" x2="9.4" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="9.4" y1="-3.6" x2="9.4" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="9.4" y2="-3.6" width="0.127" layer="21"/>
 </package>
 <package name="SILK-TABLE-MM-MIL">
 <text x="0.3" y="-2.4" size="1.2" layer="21" align="top-left">0.10  4
@@ -18340,23 +18343,26 @@ K16 18.0 19.0 16.5 +
 <wire x1="2.6118" y1="-0.15" x2="3.4267" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="3.594" y1="-0.15" x2="5.5818" y2="-0.15" width="0.15" layer="21"/>
 <wire x1="6.2405" y1="-0.15" x2="7.9" y2="-0.15" width="0.15" layer="21"/>
-<text x="0.59" y="-3.77" size="1.2" layer="21" align="top-left">0.2
+<text x="0.5" y="-4" size="1.2" layer="21" align="top-left">0.2
 0.3
 0.4
 0.5
 0.6
 0.7
 0.8</text>
-<wire x1="0" y1="-3.5" x2="0" y2="-16" width="0.15" layer="21"/>
-<wire x1="0" y1="-16" x2="7.9" y2="-16" width="0.15" layer="21"/>
-<wire x1="7.9" y1="-16" x2="7.9" y2="-3.5" width="0.15" layer="21"/>
-<text x="4.8" y="-3.7" size="1.2" layer="21" align="top-left">1
+<wire x1="0" y1="-3.5" x2="0" y2="-3.6" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="0" y2="-16.4" width="0.15" layer="21"/>
+<wire x1="0" y1="-16.4" x2="7.9" y2="-16.4" width="0.15" layer="21"/>
+<wire x1="7.9" y1="-16.4" x2="7.9" y2="-3.6" width="0.15" layer="21"/>
+<text x="4.8" y="-4" size="1.2" layer="21" align="top-left">1
 2
 2.5
 3.0
 3.5
 4
 5</text>
+<wire x1="7.9" y1="-3.6" x2="7.9" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.6" x2="7.9" y2="-3.6" width="0.127" layer="21"/>
 </package>
 <package name="SILK-TABLE-MTHREADING">
 <text x="0.4" y="-3.9" size="1.2" layer="21" align="top-left">
@@ -23516,9 +23522,9 @@ einem neuen Namen ab.
 <element name="E$65" library="ucruler" package="SILK-TABLE-VIA-CURRENT" value="" x="25.5" y="29.1" rot="MR0"/>
 <element name="E$66" library="ucruler" package="SILK-TABLE-MTHREADING" value="" x="35.8" y="12" rot="MR0"/>
 <element name="E$69" library="grafiken" package="PM-PILL-5" value="" x="36.1" y="1.9" rot="MR90"/>
-<element name="E$70" library="grafiken" package="PM-DROP-5" value="" x="41.9" y="6.8" rot="MR0"/>
-<element name="E$72" library="grafiken" package="PM-DROP-5" value="" x="47.7" y="6.8" rot="MR0"/>
-<element name="E$73" library="grafiken" package="PM-DROP-5" value="" x="54.2" y="6.8" rot="MR0"/>
+<element name="E$70" library="grafiken" package="PM-DROP-5" value="" x="41.5" y="6.75" rot="MR0"/>
+<element name="E$72" library="grafiken" package="PM-DROP-5" value="" x="48.5" y="6.75" rot="MR0"/>
+<element name="E$73" library="grafiken" package="PM-DROP-5" value="" x="54.5" y="6.75" rot="MR0"/>
 <element name="E$75" library="grafiken" package="PM-GHOSTA-5" value="" x="60.5" y="5.4" rot="MR0"/>
 <element name="E$76" library="ucruler" package="HEADER-E-ROW-SMALL" value="" x="54.1" y="7.7" rot="MR0"/>
 <element name="E$68" library="creative-commons" package="CC_TPLACE_HS" value="" x="105" y="3"/>
