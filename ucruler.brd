@@ -340,6 +340,7 @@ SC76</text>
 <wire x1="4.7" y1="11" x2="3.8" y2="11" width="0.2" layer="22"/>
 <wire x1="3.8" y1="11" x2="3.8" y2="12" width="0.2" layer="22"/>
 <wire x1="3.8" y1="12" x2="4.7" y2="12" width="0.2" layer="22"/>
+<text x="192" y="9.4" size="1" layer="22" rot="MR0">https://github.com/maugsburger/ucruler</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -23139,22 +23140,6 @@ K16 18.0 19.0 16.5 +
 <vertex x="3.925" y="2.125"/>
 </polygon>
 </package>
-<package name="ND_TPLACE_HS">
-<description>&lt;h2&gt;tPlace layer&lt;/h2&gt;</description>
-<circle x="2.5" y="2.5" radius="2.25" width="0.5" layer="21"/>
-<polygon width="0" layer="21">
-<vertex x="1.6" y="3.1"/>
-<vertex x="3.45" y="3.1"/>
-<vertex x="3.45" y="2.65"/>
-<vertex x="1.6" y="2.65"/>
-</polygon>
-<polygon width="0" layer="21">
-<vertex x="1.6" y="2.3"/>
-<vertex x="3.45" y="2.3"/>
-<vertex x="3.45" y="1.85"/>
-<vertex x="1.6" y="1.85"/>
-</polygon>
-</package>
 <package name="SA_TPLACE_HS">
 <circle x="2.5" y="2.5" radius="2.25" width="0.5" layer="21"/>
 <polygon width="0" layer="21">
@@ -23178,6 +23163,31 @@ K16 18.0 19.0 16.5 +
 <vertex x="3.725" y="2.375" curve="-94.996202"/>
 <vertex x="2.5" y="1.1"/>
 <vertex x="2.35" y="1.1" curve="-90"/>
+</polygon>
+</package>
+<package name="BY_TPLACE_HS">
+<circle x="2.5" y="2.5" radius="2.25" width="0.5" layer="21"/>
+<polygon width="0" layer="21">
+<vertex x="1.825" y="2.1"/>
+<vertex x="2.1" y="2.1"/>
+<vertex x="2.1" y="0.875"/>
+<vertex x="2.9" y="0.875"/>
+<vertex x="2.9" y="2.075"/>
+<vertex x="3.175" y="2.075"/>
+<vertex x="3.175" y="3.15" curve="90"/>
+<vertex x="3.05" y="3.275"/>
+<vertex x="1.95" y="3.275" curve="90"/>
+<vertex x="1.825" y="3.15"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="2.45" y="4.1"/>
+<vertex x="2.55" y="4.1" curve="-90"/>
+<vertex x="2.85" y="3.8"/>
+<vertex x="2.85" y="3.7" curve="-90"/>
+<vertex x="2.55" y="3.4"/>
+<vertex x="2.45" y="3.4" curve="-90"/>
+<vertex x="2.15" y="3.7"/>
+<vertex x="2.15" y="3.8" curve="-90"/>
 </polygon>
 </package>
 </packages>
@@ -23434,10 +23444,10 @@ einem neuen Namen ab.
 <element name="E$73" library="grafiken" package="PM-DROP-5" value="" x="54.2" y="6.8" rot="MR0"/>
 <element name="E$75" library="grafiken" package="PM-GHOSTA-5" value="" x="60.5" y="5.4" rot="MR0"/>
 <element name="E$76" library="ucruler" package="HEADER-E-ROW-SMALL" value="" x="54.1" y="7.7" rot="MR0"/>
-<element name="E$68" library="creative-commons" package="CC_TPLACE_HS" value="" x="106" y="3"/>
-<element name="E$67" library="creative-commons" package="ND_TPLACE_HS" value="" x="111" y="3"/>
-<element name="E$71" library="creative-commons" package="SA_TPLACE_HS" value="" x="116" y="3"/>
+<element name="E$68" library="creative-commons" package="CC_TPLACE_HS" value="" x="105" y="3"/>
+<element name="E$71" library="creative-commons" package="SA_TPLACE_HS" value="" x="115.8" y="3"/>
 <element name="E$74" library="ucruler" package="SILKTABLE-AWG-MM" value="" x="16.8" y="29.1" rot="MR0"/>
+<element name="E$77" library="creative-commons" package="BY_TPLACE_HS" value="" x="110.4" y="3"/>
 </elements>
 <signals>
 <signal name="S$1">
