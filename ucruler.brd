@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,14 +46,14 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -137,13 +137,13 @@
 <text x="17.5" y="22.55" size="1.2" layer="21" ratio="13" align="center-left">0.2mm</text>
 <text x="17.5" y="20.6" size="1.2" layer="21" ratio="13" align="center-left">0.3mm</text>
 <text x="17.5" y="18" size="1.2" layer="21" ratio="13" align="center-left">0.4mm</text>
-<text x="17.5" y="15" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
-<text x="17.5" y="11.25" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
-<text x="17.5" y="6.75" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
+<text x="17.5" y="14.8" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
+<text x="17.5" y="10.85" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
+<text x="17.5" y="6.15" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
 <text x="30.25" y="17" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1mm</text>
 <text x="30.25" y="9" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1.5mm</text>
-<rectangle x1="23" y1="5" x2="30" y2="20" layer="29"/>
-<rectangle x1="10" y1="4.25" x2="17" y2="26.75" layer="29"/>
+<rectangle x1="23" y1="4.8" x2="30" y2="20" layer="29"/>
+<rectangle x1="10" y1="3.6" x2="17" y2="26.75" layer="29"/>
 <text x="194.75" y="3" size="1.5" layer="22" rot="MR90" align="top-left">Owner</text>
 <hole x="198.755" y="1.905" drill="0.8"/>
 <hole x="196.215" y="1.905" drill="0.8"/>
@@ -459,7 +459,7 @@ SC76</text>
 <smd name="P$3" x="3" y="-1.6" dx="6" dy="0.8" layer="1"/>
 </package>
 <package name="COPPER-1,0">
-<smd name="P$1" x="3.1" y="2" dx="6" dy="1" layer="1"/>
+<smd name="P$1" x="3" y="2" dx="6" dy="1" layer="1"/>
 <smd name="P$2" x="3" y="0" dx="6" dy="1" layer="1"/>
 <smd name="P$3" x="3" y="-2" dx="6" dy="1" layer="1"/>
 </package>
@@ -23539,9 +23539,9 @@ einem neuen Namen ab.
 <element name="E$2" library="ucruler" package="COPPER-0,2" value="" x="10.5" y="22.55"/>
 <element name="E$3" library="ucruler" package="COPPER-0,3" value="" x="10.5" y="20.6"/>
 <element name="E$4" library="ucruler" package="COPPER-0,4" value="" x="10.5" y="18"/>
-<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="10.5" y="15"/>
-<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="10.5" y="11.25"/>
-<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="10.5" y="6.75"/>
+<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="10.5" y="14.8"/>
+<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="10.5" y="10.85"/>
+<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="10.5" y="6.15"/>
 <element name="E$13" library="ucruler" package="COPPER-1,0" value="" x="23.5" y="17"/>
 <element name="E$14" library="ucruler" package="COPPER-1,5" value="" x="23.5" y="9"/>
 <element name="E$15" library="ucruler" package="PACK-SC70-6" value="" x="56" y="26" rot="R180"/>
