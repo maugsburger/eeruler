@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5628,10 +5628,6 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <vertex x="1.95" y="-3.825" curve="90"/>
 <vertex x="1.85" y="-3.925"/>
 <vertex x="1.85" y="-4.3"/>
-</polygon>
-<polygon width="0" layer="16">
-<vertex x="3.45" y="-3.4" curve="-90"/>
-<vertex x="3.4" y="-3.45"/>
 </polygon>
 <circle x="0" y="0" radius="0.335409375" width="0.1" layer="21"/>
 <polygon width="0.1" layer="1">
