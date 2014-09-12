@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -67,10 +67,6 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -236,7 +232,7 @@ SOD80</text>
 <text x="123" y="11.25" size="1.2" layer="21" ratio="13" distance="20" align="center">PLCC-4</text>
 <text x="123" y="18.5" size="1.2" layer="21" ratio="13" distance="20" align="center">PLCC-6</text>
 <text x="41.75" y="12.75" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SOIC-N/W</text>
-<text x="28" y="22" size="1.2" layer="21" ratio="13" distance="20" align="top-center">QFN-32</text>
+<text x="26.5" y="22.5" size="1.2" layer="21" ratio="13" distance="20" align="top-center">QFN-32</text>
 <text x="110.5" y="12.25" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SOD323
 SC76</text>
 <text x="110.5" y="9.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SC79</text>
@@ -422,7 +418,7 @@ SC76</text>
 <text x="38.5" y="23" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">QFN-16</text>
 <text x="33" y="25.5" size="1.2" layer="21" ratio="13" distance="20" rot="R270" align="center">4x4</text>
 <text x="43" y="25.5" size="1.2" layer="21" ratio="13" distance="20" rot="R270" align="center">3x3</text>
-<text x="24.5" y="25" size="1.2" layer="21" ratio="13" distance="20" rot="R270" align="center">5x5</text>
+<text x="30" y="25.5" size="1.2" layer="21" ratio="13" distance="20" rot="R270" align="center">5x5</text>
 </plain>
 <libraries>
 <library name="ucruler">
@@ -23869,7 +23865,7 @@ einem neuen Namen ab.
 <element name="E$45" library="ucruler" package="PACK-1206" value="" x="80.5" y="20.5"/>
 <element name="E$46" library="ucruler" package="PACK-1210" value="" x="80.5" y="18"/>
 <element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="38.5" y="12.5"/>
-<element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="27.75" y="25"/>
+<element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="26.5" y="25.5"/>
 <element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="108" y="12.25" rot="R90"/>
 <element name="E$50" library="ucruler" package="PACK-SC79" value="" x="108" y="9.75" rot="R90"/>
 <element name="E$51" library="ucruler" package="PACK-ECAP-4.3" value="" x="101" y="24"/>
