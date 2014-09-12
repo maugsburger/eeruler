@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5942,12 +5942,14 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <text x="-2.275" y="2.03125" size="1" layer="21" align="center-left">8</text>
 </package>
 <package name="PACK-TSSOP">
-<description>http://www.analog.com/static/imported-files/packages/249854663RU_28.pdf</description>
-<wire x1="-2.2" y1="4.85" x2="-2.2" y2="1" width="0.15" layer="21"/>
-<wire x1="-2.2" y1="1" x2="-2.2" y2="-0.95" width="0.15" layer="21"/>
-<wire x1="-2.2" y1="-0.95" x2="-2.2" y2="-2.25" width="0.15" layer="21"/>
-<wire x1="-2.2" y1="-2.25" x2="-2.2" y2="-3.55" width="0.15" layer="21"/>
-<wire x1="-2.2" y1="-3.55" x2="-2.2" y2="-4.85" width="0.15" layer="21"/>
+<description>&lt;pre&gt;
+http://www.analog.com/en/technical-library/packages/sop-small-outline-package/tssop-thin-1_2mm/index.html
+&lt;/pre&gt;</description>
+<wire x1="-2.2" y1="4.85" x2="-2.2" y2="1.75" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="1.75" x2="-2.2" y2="-0.55" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="-0.55" x2="-2.2" y2="-1.95" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="-3.25" width="0.15" layer="21"/>
+<wire x1="-2.2" y1="-3.25" x2="-2.2" y2="-4.85" width="0.15" layer="21"/>
 <wire x1="-2.2" y1="-4.85" x2="2.2" y2="-4.85" width="0.15" layer="21"/>
 <wire x1="2.2" y1="-4.85" x2="2.2" y2="4.85" width="0.15" layer="21"/>
 <wire x1="2.2" y1="4.85" x2="-2.2" y2="4.85" width="0.15" layer="21"/>
@@ -6007,15 +6009,15 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <rectangle x1="2.2" y1="0.85" x2="2.7" y2="1.1" layer="1" rot="R180"/>
 <smd name="P$28" x="2.95" y="0.325" dx="0.5" dy="0.25" layer="1" rot="R180"/>
 <rectangle x1="2.2" y1="0.2" x2="2.7" y2="0.45" layer="1" rot="R180"/>
-<text x="-1.95" y="-4.225" size="1" layer="21" align="center-left">28</text>
-<text x="-1.95" y="-2.925" size="1" layer="21" align="center-left">24</text>
-<text x="-1.95" y="-1.625" size="1" layer="21" align="center-left">20</text>
-<text x="-1.95" y="-0.325" size="1" layer="21" align="center-left">16</text>
-<wire x1="-2.2" y1="-3.55" x2="0" y2="-3.55" width="0.1" layer="21"/>
-<wire x1="-2.2" y1="-2.25" x2="0" y2="-2.25" width="0.1" layer="21"/>
-<wire x1="-2.2" y1="-0.95" x2="0" y2="-0.95" width="0.1" layer="21"/>
-<wire x1="-2.2" y1="1" x2="0" y2="1" width="0.1" layer="21"/>
-<text x="-1.95" y="1.625" size="1" layer="21" align="center-left">8</text>
+<text x="-1.95" y="-4.175" size="1" layer="21" align="center-left">28</text>
+<text x="-1.95" y="-2.6125" size="1" layer="21" align="center-left">24</text>
+<text x="-1.95" y="-1.3" size="1" layer="21" align="center-left">20</text>
+<text x="-1.95" y="0.0875" size="1" layer="21" align="center-left">16</text>
+<text x="-1.95" y="2.3875" size="1" layer="21" align="center-left">8</text>
+<wire x1="-2.2" y1="1.75" x2="0" y2="1.75" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-0.55" x2="0" y2="-0.55" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-1.95" x2="0" y2="-1.95" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-3.25" x2="0" y2="-3.25" width="0.1" layer="21"/>
 </package>
 <package name="PINCOUNT-0.4">
 <smd name="P$1" x="1.5" y="-3.3" dx="3" dy="0.2" layer="1"/>
