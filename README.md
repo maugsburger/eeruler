@@ -5,6 +5,21 @@ inspired by dave jone's [µruler](http://www.eevblog.com/projects/uruler/) and a
 
 As the project started on mikrocontroller.net, the next-best name µc-ruler was taken. It's currently too similar to »µruler«, but I couldn't figure out a better one until now.
 
+### Preview
+This is what it will look like, may be slightly outdated. Click for full size version.
+
+<a href="https://raw.githubusercontent.com/maugsburger/ucruler/master/render/gerbsim-top.png">
+<img src="render/gerbsim-top.png" /></a>
+<a href="https://raw.githubusercontent.com/maugsburger/ucruler/master/render/gerbsim-bot.png">
+<img src="render/gerbsim-bot.png" /></a>
+
+<a href="https://raw.githubusercontent.com/maugsburger/ucruler/master/render/render-top.png">
+<img src="render/render-top.png" /></a>
+<a href="https://raw.githubusercontent.com/maugsburger/ucruler/master/render/render-bot.png">
+<img src="render/render-bot.png" /></a>
+
+For the current version, but with some problems regarding stop layer and copper order, see [front](ucruler_top.png) and  [back](ucruler_bot.png).
+
 ## Footprints
 
 In contrast to many other projects, I re-created the footprints from their datasheets. Therefore, they don't represent the needed size for soldering on your PCB, but the is-size of the package.
