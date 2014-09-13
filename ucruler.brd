@@ -226,16 +226,16 @@
 <text x="115" y="25.25" size="1.2" layer="21" ratio="13" distance="20" align="center">SMB</text>
 <text x="123" y="25.25" size="1.2" layer="21" ratio="13" distance="20" rot="R180" align="center">SMC</text>
 <text x="111.5" y="20.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MELF</text>
-<text x="109.5" y="17.5" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MiniMELF
+<text x="110.5" y="17.5" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MiniMELF
 SOD80</text>
-<text x="109.5" y="15" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MicroMELF</text>
+<text x="110" y="15" size="1.2" layer="21" ratio="13" distance="20" align="center-left">MicroMELF</text>
 <text x="123" y="11.25" size="1.2" layer="21" ratio="13" distance="20" align="center">PLCC-4</text>
 <text x="123" y="18.5" size="1.2" layer="21" ratio="13" distance="20" align="center">PLCC-6</text>
 <text x="41.75" y="12.75" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SOIC-N/W</text>
 <text x="26.5" y="22.5" size="1.2" layer="21" ratio="13" distance="20" align="top-center">QFN-32</text>
-<text x="109.5" y="12.25" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SOD323
+<text x="110" y="12.25" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SOD323
 SC76</text>
-<text x="109.5" y="9.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SC79</text>
+<text x="110" y="9.75" size="1.2" layer="21" ratio="13" distance="20" align="center-left">SC79</text>
 <text x="51.75" y="10.5" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SSOP</text>
 <text x="51.5" y="20.25" size="1.2" layer="21" ratio="13" distance="20" rot="R90">TSSOP</text>
 <text x="157.5" y="24" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0.8mm</text>
@@ -24188,8 +24188,8 @@ einem neuen Namen ab.
 <element name="E$34" library="ucruler" package="PACK-DO214AB-SMC" value="" x="123" y="23" rot="R270"/>
 <element name="E$35" library="ucruler" package="PACK-DO214AC-SMA" value="" x="108" y="24.75" rot="R270"/>
 <element name="E$36" library="ucruler" package="PACK-MELF" value="" x="108" y="20.75" rot="R90"/>
-<element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="107" y="17.5" rot="R270"/>
-<element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="107" y="15" rot="R270"/>
+<element name="E$37" library="ucruler" package="PACK-MELF-MINI" value="" x="108" y="17.5" rot="R270"/>
+<element name="E$38" library="ucruler" package="PACK-MELF-MICRO" value="" x="108" y="15" rot="R270"/>
 <element name="E$39" library="ucruler" package="PACK-PLCC-4" value="" x="123" y="9" rot="R90"/>
 <element name="E$40" library="ucruler" package="PACK-PLCC-6" value="" x="123" y="15" rot="R90"/>
 <element name="E$41" library="ucruler" package="PACK-0201" value="" x="80.5" y="26.6" rot="R180"/>
@@ -24200,8 +24200,8 @@ einem neuen Namen ab.
 <element name="E$46" library="ucruler" package="PACK-1210" value="" x="80.5" y="18"/>
 <element name="E$47" library="ucruler" package="PACK-SOIC" value="" x="38.5" y="12.5"/>
 <element name="E$48" library="ucruler" package="PACK-QFN-32" value="" x="26.5" y="25.5"/>
-<element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="107" y="12.25" rot="R90"/>
-<element name="E$50" library="ucruler" package="PACK-SC79" value="" x="107" y="9.75" rot="R90"/>
+<element name="E$49" library="ucruler" package="PACK-SOD323" value="" x="108" y="12.25" rot="R90"/>
+<element name="E$50" library="ucruler" package="PACK-SC79" value="" x="108" y="9.75" rot="R90"/>
 <element name="E$51" library="ucruler" package="PACK-ECAP-4.3" value="" x="101" y="24"/>
 <element name="E$52" library="ucruler" package="PACK-ECAP-5.3" value="" x="101" y="17"/>
 <element name="E$53" library="ucruler" package="PACK-ECAP-6.6" value="" x="101" y="9"/>
