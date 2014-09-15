@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,14 +46,14 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -86,14 +86,14 @@
 <hole x="1.5" y="16" drill="0.9"/>
 <hole x="1.5" y="18.1" drill="1"/>
 <hole x="1.5" y="20.1" drill="1.1"/>
-<text x="4.5" y="5.5" size="1.2" layer="21" ratio="13" align="center-left">0.4mm</text>
-<text x="4.5" y="7.6" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
-<text x="4.5" y="9.7" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
-<text x="4.5" y="11.8" size="1.2" layer="21" ratio="13" align="center-left">0.7mm</text>
-<text x="4.5" y="13.9" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
-<text x="4.5" y="16" size="1.2" layer="21" ratio="13" align="center-left">0.9mm</text>
-<text x="4.5" y="18.1" size="1.2" layer="21" ratio="13" align="center-left">1.0mm</text>
-<text x="4.5" y="20.2" size="1.2" layer="21" ratio="13" align="center-left">1.1mm</text>
+<text x="3.25" y="5.5" size="1.2" layer="21" ratio="13" align="center-left">0.4mm</text>
+<text x="3.25" y="7.6" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
+<text x="3.25" y="9.7" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
+<text x="3.25" y="11.8" size="1.2" layer="21" ratio="13" align="center-left">0.7mm</text>
+<text x="3.25" y="13.9" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
+<text x="3.25" y="16" size="1.2" layer="21" ratio="13" align="center-left">0.9mm</text>
+<text x="3.25" y="18.1" size="1.2" layer="21" ratio="13" align="center-left">1.0mm</text>
+<text x="3.25" y="20.2" size="1.2" layer="21" ratio="13" align="center-left">1.1mm</text>
 <text x="51.435" y="2.54" size="2" layer="21" font="fixed">2</text>
 <text x="102.235" y="2.54" size="2" layer="21" font="fixed">4</text>
 <text x="153.035" y="2.54" size="2" layer="21" font="fixed">6</text>
@@ -124,26 +124,26 @@
 <hole x="197.5" y="8" drill="1.6"/>
 <hole x="197.5" y="17" drill="1.9"/>
 <hole x="197.5" y="20" drill="2"/>
-<text x="4.5" y="22.3" size="1.2" layer="21" ratio="13" align="center-left">1.2mm</text>
-<text x="4.5" y="24.4" size="1.2" layer="21" ratio="13" align="center-left">1.3mm</text>
-<text x="4.5" y="26.5" size="1.2" layer="21" font="fixed" ratio="13" rot="R180" align="center-right">1.4mm</text>
+<text x="3.25" y="22.3" size="1.2" layer="21" ratio="13" align="center-left">1.2mm</text>
+<text x="3.25" y="24.4" size="1.2" layer="21" ratio="13" align="center-left">1.3mm</text>
+<text x="3.25" y="26.5" size="1.2" layer="21" font="fixed" ratio="13" rot="R180" align="center-right">1.4mm</text>
 <text x="195" y="5" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.5mm</text>
 <text x="195" y="8" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.6mm</text>
 <text x="195" y="11" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.7mm</text>
 <text x="195" y="14" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.8mm</text>
 <text x="195" y="17" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">1.9mm</text>
 <text x="195" y="20" size="1.2" layer="21" font="fixed" ratio="13" align="center-right">2.0mm</text>
-<text x="17.5" y="24.25" size="1.2" layer="21" ratio="13" align="center-left">0.15mm</text>
-<text x="17.5" y="22.55" size="1.2" layer="21" ratio="13" align="center-left">0.2mm</text>
-<text x="17.5" y="20.6" size="1.2" layer="21" ratio="13" align="center-left">0.3mm</text>
-<text x="17.5" y="18" size="1.2" layer="21" ratio="13" align="center-left">0.4mm</text>
-<text x="17.5" y="14.8" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
-<text x="17.5" y="10.85" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
-<text x="17.5" y="6.15" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
+<text x="17" y="24.25" size="1.2" layer="21" ratio="13" align="center-left">0.15mm</text>
+<text x="17" y="22.55" size="1.2" layer="21" ratio="13" align="center-left">0.2mm</text>
+<text x="17" y="20.6" size="1.2" layer="21" ratio="13" align="center-left">0.3mm</text>
+<text x="17" y="18" size="1.2" layer="21" ratio="13" align="center-left">0.4mm</text>
+<text x="17" y="14.8" size="1.2" layer="21" ratio="13" align="center-left">0.5mm</text>
+<text x="17" y="10.85" size="1.2" layer="21" ratio="13" align="center-left">0.6mm</text>
+<text x="17" y="6.15" size="1.2" layer="21" ratio="13" align="center-left">0.8mm</text>
 <text x="30.25" y="17" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1mm</text>
 <text x="30.25" y="9" size="1.2" layer="21" ratio="13" rot="R90" align="top-center">1.5mm</text>
 <rectangle x1="23" y1="4.8" x2="30" y2="20" layer="29"/>
-<rectangle x1="10" y1="3.6" x2="17" y2="26.75" layer="29"/>
+<rectangle x1="9.5" y1="3.6" x2="16.5" y2="26.75" layer="29"/>
 <text x="194.55" y="3" size="1.5" layer="22" rot="MR90" align="top-left">Owner</text>
 <hole x="198.755" y="1.905" drill="0.8"/>
 <hole x="196.215" y="1.905" drill="0.8"/>
@@ -243,7 +243,7 @@ SC76</text>
 <text x="51.75" y="10.5" size="1.2" layer="21" ratio="13" distance="20" rot="R90">SSOP</text>
 <text x="51.5" y="20.25" size="1.2" layer="21" ratio="13" distance="20" rot="R90">TSSOP</text>
 <text x="157.5" y="24" size="1.2" layer="21" font="fixed" ratio="13" rot="R90">0.8mm</text>
-<text x="17.5" y="26" size="1.2" layer="21" ratio="13" align="center-left">0.1mm</text>
+<text x="17" y="26" size="1.2" layer="21" ratio="13" align="center-left">0.1mm</text>
 <text x="83" y="10" size="1.2" layer="21" ratio="13" distance="20" align="center">G</text>
 <text x="93" y="20" size="1.2" layer="21" ratio="13" distance="20" align="center">E</text>
 <text x="93" y="9.5" size="1.2" layer="21" ratio="13" distance="20" align="center">F</text>
@@ -259,7 +259,7 @@ SC76</text>
 <hole x="22.479" y="0.889" drill="0.6"/>
 <hole x="23.749" y="0.889" drill="0.6"/>
 <hole x="25.019" y="0.889" drill="0.6"/>
-<text x="4.5" y="3.5" size="1.2" layer="21" ratio="13" align="center-left">0.3mm</text>
+<text x="3.25" y="3.5" size="1.2" layer="21" ratio="13" align="center-left">0.3mm</text>
 <text x="190.5" y="29.5" size="2" layer="21" font="fixed" align="top-left">19</text>
 <wire x1="47.5" y1="5" x2="89.5" y2="5" width="0.1524" layer="28"/>
 <hole x="1.5" y="30.25" drill="0.6"/>
@@ -24076,13 +24076,13 @@ einem neuen Namen ab.
 </pass>
 </autorouter>
 <elements>
-<element name="E$1" library="ucruler" package="COPPER-0,15" value="" x="10.5" y="24.25"/>
-<element name="E$2" library="ucruler" package="COPPER-0,2" value="" x="10.5" y="22.55"/>
-<element name="E$3" library="ucruler" package="COPPER-0,3" value="" x="10.5" y="20.6"/>
-<element name="E$4" library="ucruler" package="COPPER-0,4" value="" x="10.5" y="18"/>
-<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="10.5" y="14.8"/>
-<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="10.5" y="10.85"/>
-<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="10.5" y="6.15"/>
+<element name="E$1" library="ucruler" package="COPPER-0,15" value="" x="10" y="24.25"/>
+<element name="E$2" library="ucruler" package="COPPER-0,2" value="" x="10" y="22.55"/>
+<element name="E$3" library="ucruler" package="COPPER-0,3" value="" x="10" y="20.6"/>
+<element name="E$4" library="ucruler" package="COPPER-0,4" value="" x="10" y="18"/>
+<element name="E$5" library="ucruler" package="COPPER-0,5" value="" x="10" y="14.8"/>
+<element name="E$11" library="ucruler" package="COPPER-0,6" value="" x="10" y="10.85"/>
+<element name="E$12" library="ucruler" package="COPPER-0,8" value="" x="10" y="6.15"/>
 <element name="E$13" library="ucruler" package="COPPER-1,0" value="" x="23.5" y="17"/>
 <element name="E$14" library="ucruler" package="COPPER-1,5" value="" x="23.5" y="9"/>
 <element name="E$15" library="ucruler" package="PACK-SC70-6" value="" x="56.5" y="26" rot="R180"/>
@@ -24095,7 +24095,7 @@ einem neuen Namen ab.
 <element name="E$26" library="ucruler" package="SILK-NPN-4" value="" x="145.6" y="15" rot="MR0"/>
 <element name="E$27" library="ucruler" package="SILK-PNP-4" value="" x="145.6" y="24" rot="MR0"/>
 <element name="E$20" library="ucruler" package="SILK-DIODE" value="" x="148.85" y="19.5" rot="MR0"/>
-<element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="10.5" y="26"/>
+<element name="E$21" library="ucruler" package="COPPER-0,1" value="" x="10" y="26"/>
 <element name="E$22" library="ucruler" package="SILK-FONT" value="" x="142.9" y="28.6" rot="MR270"/>
 <element name="E$23" library="ucruler" package="SILK-TABLE-SMDR" value="" x="194" y="29.1" rot="MR0"/>
 <element name="E$29" library="ucruler" package="SILK-TABLE-MM-MIL" value="" x="168.7" y="29.1" rot="MR0"/>
