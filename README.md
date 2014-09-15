@@ -1,4 +1,4 @@
-µcruler
+ε²ruler
 =======
 
 inspired by dave jone's [µruler](http://www.eevblog.com/projects/uruler/) and adafruit's [PCB ruler](http://www.adafruit.com/products/1554)
