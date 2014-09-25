@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5544,261 +5544,13 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.15" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.15" layer="21"/>
 <wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.15" layer="21"/>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="0.125"/>
-<vertex x="-2.2" y="0.125" curve="90"/>
-<vertex x="-2.1" y="0.225"/>
-<vertex x="-2.1" y="0.275" curve="90"/>
-<vertex x="-2.2" y="0.375"/>
-<vertex x="-2.575" y="0.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="0.625"/>
-<vertex x="-2.2" y="0.625" curve="90"/>
-<vertex x="-2.1" y="0.725"/>
-<vertex x="-2.1" y="0.775" curve="90"/>
-<vertex x="-2.2" y="0.875"/>
-<vertex x="-2.575" y="0.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="1.125"/>
-<vertex x="-2.2" y="1.125" curve="90"/>
-<vertex x="-2.1" y="1.225"/>
-<vertex x="-2.1" y="1.275" curve="90"/>
-<vertex x="-2.2" y="1.375"/>
-<vertex x="-2.575" y="1.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="1.625"/>
-<vertex x="-2.2" y="1.625" curve="90"/>
-<vertex x="-2.1" y="1.725"/>
-<vertex x="-2.1" y="1.775" curve="90"/>
-<vertex x="-2.2" y="1.875"/>
-<vertex x="-2.575" y="1.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="-1.875"/>
-<vertex x="-2.2" y="-1.875" curve="90"/>
-<vertex x="-2.1" y="-1.775"/>
-<vertex x="-2.1" y="-1.725" curve="90"/>
-<vertex x="-2.2" y="-1.625"/>
-<vertex x="-2.575" y="-1.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="-1.375"/>
-<vertex x="-2.2" y="-1.375" curve="90"/>
-<vertex x="-2.1" y="-1.275"/>
-<vertex x="-2.1" y="-1.225" curve="90"/>
-<vertex x="-2.2" y="-1.125"/>
-<vertex x="-2.575" y="-1.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="-0.875"/>
-<vertex x="-2.2" y="-0.875" curve="90"/>
-<vertex x="-2.1" y="-0.775"/>
-<vertex x="-2.1" y="-0.725" curve="90"/>
-<vertex x="-2.2" y="-0.625"/>
-<vertex x="-2.575" y="-0.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.575" y="-0.375"/>
-<vertex x="-2.2" y="-0.375" curve="90"/>
-<vertex x="-2.1" y="-0.275"/>
-<vertex x="-2.1" y="-0.225" curve="90"/>
-<vertex x="-2.2" y="-0.125"/>
-<vertex x="-2.575" y="-0.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="-0.125"/>
-<vertex x="2.2" y="-0.125" curve="90"/>
-<vertex x="2.1" y="-0.225"/>
-<vertex x="2.1" y="-0.275" curve="90"/>
-<vertex x="2.2" y="-0.375"/>
-<vertex x="2.575" y="-0.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="-0.625"/>
-<vertex x="2.2" y="-0.625" curve="90"/>
-<vertex x="2.1" y="-0.725"/>
-<vertex x="2.1" y="-0.775" curve="90"/>
-<vertex x="2.2" y="-0.875"/>
-<vertex x="2.575" y="-0.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="-1.125"/>
-<vertex x="2.2" y="-1.125" curve="90"/>
-<vertex x="2.1" y="-1.225"/>
-<vertex x="2.1" y="-1.275" curve="90"/>
-<vertex x="2.2" y="-1.375"/>
-<vertex x="2.575" y="-1.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="-1.625"/>
-<vertex x="2.2" y="-1.625" curve="90"/>
-<vertex x="2.1" y="-1.725"/>
-<vertex x="2.1" y="-1.775" curve="90"/>
-<vertex x="2.2" y="-1.875"/>
-<vertex x="2.575" y="-1.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="1.875"/>
-<vertex x="2.2" y="1.875" curve="90"/>
-<vertex x="2.1" y="1.775"/>
-<vertex x="2.1" y="1.725" curve="90"/>
-<vertex x="2.2" y="1.625"/>
-<vertex x="2.575" y="1.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="1.375"/>
-<vertex x="2.2" y="1.375" curve="90"/>
-<vertex x="2.1" y="1.275"/>
-<vertex x="2.1" y="1.225" curve="90"/>
-<vertex x="2.2" y="1.125"/>
-<vertex x="2.575" y="1.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="0.875"/>
-<vertex x="2.2" y="0.875" curve="90"/>
-<vertex x="2.1" y="0.775"/>
-<vertex x="2.1" y="0.725" curve="90"/>
-<vertex x="2.2" y="0.625"/>
-<vertex x="2.575" y="0.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="2.575" y="0.375"/>
-<vertex x="2.2" y="0.375" curve="90"/>
-<vertex x="2.1" y="0.275"/>
-<vertex x="2.1" y="0.225" curve="90"/>
-<vertex x="2.2" y="0.125"/>
-<vertex x="2.575" y="0.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.125" y="2.575"/>
-<vertex x="0.125" y="2.2" curve="90"/>
-<vertex x="0.225" y="2.1"/>
-<vertex x="0.275" y="2.1" curve="90"/>
-<vertex x="0.375" y="2.2"/>
-<vertex x="0.375" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.625" y="2.575"/>
-<vertex x="0.625" y="2.2" curve="90"/>
-<vertex x="0.725" y="2.1"/>
-<vertex x="0.775" y="2.1" curve="90"/>
-<vertex x="0.875" y="2.2"/>
-<vertex x="0.875" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.125" y="2.575"/>
-<vertex x="1.125" y="2.2" curve="90"/>
-<vertex x="1.225" y="2.1"/>
-<vertex x="1.275" y="2.1" curve="90"/>
-<vertex x="1.375" y="2.2"/>
-<vertex x="1.375" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.625" y="2.575"/>
-<vertex x="1.625" y="2.2" curve="90"/>
-<vertex x="1.725" y="2.1"/>
-<vertex x="1.775" y="2.1" curve="90"/>
-<vertex x="1.875" y="2.2"/>
-<vertex x="1.875" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.875" y="2.575"/>
-<vertex x="-1.875" y="2.2" curve="90"/>
-<vertex x="-1.775" y="2.1"/>
-<vertex x="-1.725" y="2.1" curve="90"/>
-<vertex x="-1.625" y="2.2"/>
-<vertex x="-1.625" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.375" y="2.575"/>
-<vertex x="-1.375" y="2.2" curve="90"/>
-<vertex x="-1.275" y="2.1"/>
-<vertex x="-1.225" y="2.1" curve="90"/>
-<vertex x="-1.125" y="2.2"/>
-<vertex x="-1.125" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.875" y="2.575"/>
-<vertex x="-0.875" y="2.2" curve="90"/>
-<vertex x="-0.775" y="2.1"/>
-<vertex x="-0.725" y="2.1" curve="90"/>
-<vertex x="-0.625" y="2.2"/>
-<vertex x="-0.625" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.375" y="2.575"/>
-<vertex x="-0.375" y="2.2" curve="90"/>
-<vertex x="-0.275" y="2.1"/>
-<vertex x="-0.225" y="2.1" curve="90"/>
-<vertex x="-0.125" y="2.2"/>
-<vertex x="-0.125" y="2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.125" y="-2.575"/>
-<vertex x="-0.125" y="-2.2" curve="90"/>
-<vertex x="-0.225" y="-2.1"/>
-<vertex x="-0.275" y="-2.1" curve="90"/>
-<vertex x="-0.375" y="-2.2"/>
-<vertex x="-0.375" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.625" y="-2.575"/>
-<vertex x="-0.625" y="-2.2" curve="90"/>
-<vertex x="-0.725" y="-2.1"/>
-<vertex x="-0.775" y="-2.1" curve="90"/>
-<vertex x="-0.875" y="-2.2"/>
-<vertex x="-0.875" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.125" y="-2.575"/>
-<vertex x="-1.125" y="-2.2" curve="90"/>
-<vertex x="-1.225" y="-2.1"/>
-<vertex x="-1.275" y="-2.1" curve="90"/>
-<vertex x="-1.375" y="-2.2"/>
-<vertex x="-1.375" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.625" y="-2.575"/>
-<vertex x="-1.625" y="-2.2" curve="90"/>
-<vertex x="-1.725" y="-2.1"/>
-<vertex x="-1.775" y="-2.1" curve="90"/>
-<vertex x="-1.875" y="-2.2"/>
-<vertex x="-1.875" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.875" y="-2.575"/>
-<vertex x="1.875" y="-2.2" curve="90"/>
-<vertex x="1.775" y="-2.1"/>
-<vertex x="1.725" y="-2.1" curve="90"/>
-<vertex x="1.625" y="-2.2"/>
-<vertex x="1.625" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.375" y="-2.575"/>
-<vertex x="1.375" y="-2.2" curve="90"/>
-<vertex x="1.275" y="-2.1"/>
-<vertex x="1.225" y="-2.1" curve="90"/>
-<vertex x="1.125" y="-2.2"/>
-<vertex x="1.125" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.875" y="-2.575"/>
-<vertex x="0.875" y="-2.2" curve="90"/>
-<vertex x="0.775" y="-2.1"/>
-<vertex x="0.725" y="-2.1" curve="90"/>
-<vertex x="0.625" y="-2.2"/>
-<vertex x="0.625" y="-2.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.375" y="-2.575"/>
-<vertex x="0.375" y="-2.2" curve="90"/>
-<vertex x="0.275" y="-2.1"/>
-<vertex x="0.225" y="-2.1" curve="90"/>
-<vertex x="0.125" y="-2.2"/>
-<vertex x="0.125" y="-2.575"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="1.825"/>
+<vertex x="2.2" y="1.825" curve="90"/>
+<vertex x="2.15" y="1.775"/>
+<vertex x="2.15" y="1.725" curve="90"/>
+<vertex x="2.2" y="1.675"/>
+<vertex x="2.275" y="1.675"/>
 </polygon>
 <circle x="-1.725" y="1.725" radius="0.335409375" width="0.1" layer="21"/>
 <polygon width="0.1" layer="1">
@@ -5808,6 +5560,286 @@ http://www.ti.com/lit/ml/slup230/slup230.pdf&lt;br/&gt;
 <vertex x="1.675" y="1.675"/>
 <vertex x="-1.385" y="1.675" curve="-90"/>
 </polygon>
+<rectangle x1="2.25" y1="1.625" x2="2.575" y2="1.875" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="1.325"/>
+<vertex x="2.2" y="1.325" curve="90"/>
+<vertex x="2.15" y="1.275"/>
+<vertex x="2.15" y="1.225" curve="90"/>
+<vertex x="2.2" y="1.175"/>
+<vertex x="2.275" y="1.175"/>
+</polygon>
+<rectangle x1="2.25" y1="1.125" x2="2.575" y2="1.375" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="0.825"/>
+<vertex x="2.2" y="0.825" curve="90"/>
+<vertex x="2.15" y="0.775"/>
+<vertex x="2.15" y="0.725" curve="90"/>
+<vertex x="2.2" y="0.675"/>
+<vertex x="2.275" y="0.675"/>
+</polygon>
+<rectangle x1="2.25" y1="0.625" x2="2.575" y2="0.875" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="0.325"/>
+<vertex x="2.2" y="0.325" curve="90"/>
+<vertex x="2.15" y="0.275"/>
+<vertex x="2.15" y="0.225" curve="90"/>
+<vertex x="2.2" y="0.175"/>
+<vertex x="2.275" y="0.175"/>
+</polygon>
+<rectangle x1="2.25" y1="0.125" x2="2.575" y2="0.375" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="-0.175"/>
+<vertex x="2.2" y="-0.175" curve="90"/>
+<vertex x="2.15" y="-0.225"/>
+<vertex x="2.15" y="-0.275" curve="90"/>
+<vertex x="2.2" y="-0.325"/>
+<vertex x="2.275" y="-0.325"/>
+</polygon>
+<rectangle x1="2.25" y1="-0.375" x2="2.575" y2="-0.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="-0.675"/>
+<vertex x="2.2" y="-0.675" curve="90"/>
+<vertex x="2.15" y="-0.725"/>
+<vertex x="2.15" y="-0.775" curve="90"/>
+<vertex x="2.2" y="-0.825"/>
+<vertex x="2.275" y="-0.825"/>
+</polygon>
+<rectangle x1="2.25" y1="-0.875" x2="2.575" y2="-0.625" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="-1.175"/>
+<vertex x="2.2" y="-1.175" curve="90"/>
+<vertex x="2.15" y="-1.225"/>
+<vertex x="2.15" y="-1.275" curve="90"/>
+<vertex x="2.2" y="-1.325"/>
+<vertex x="2.275" y="-1.325"/>
+</polygon>
+<rectangle x1="2.25" y1="-1.375" x2="2.575" y2="-1.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="2.275" y="-1.675"/>
+<vertex x="2.2" y="-1.675" curve="90"/>
+<vertex x="2.15" y="-1.725"/>
+<vertex x="2.15" y="-1.775" curve="90"/>
+<vertex x="2.2" y="-1.825"/>
+<vertex x="2.275" y="-1.825"/>
+</polygon>
+<rectangle x1="2.25" y1="-1.875" x2="2.575" y2="-1.625" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="-1.825"/>
+<vertex x="-2.2" y="-1.825" curve="90"/>
+<vertex x="-2.15" y="-1.775"/>
+<vertex x="-2.15" y="-1.725" curve="90"/>
+<vertex x="-2.2" y="-1.675"/>
+<vertex x="-2.275" y="-1.675"/>
+</polygon>
+<rectangle x1="-2.575" y1="-1.875" x2="-2.25" y2="-1.625" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="-1.325"/>
+<vertex x="-2.2" y="-1.325" curve="90"/>
+<vertex x="-2.15" y="-1.275"/>
+<vertex x="-2.15" y="-1.225" curve="90"/>
+<vertex x="-2.2" y="-1.175"/>
+<vertex x="-2.275" y="-1.175"/>
+</polygon>
+<rectangle x1="-2.575" y1="-1.375" x2="-2.25" y2="-1.125" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="-0.825"/>
+<vertex x="-2.2" y="-0.825" curve="90"/>
+<vertex x="-2.15" y="-0.775"/>
+<vertex x="-2.15" y="-0.725" curve="90"/>
+<vertex x="-2.2" y="-0.675"/>
+<vertex x="-2.275" y="-0.675"/>
+</polygon>
+<rectangle x1="-2.575" y1="-0.875" x2="-2.25" y2="-0.625" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="-0.325"/>
+<vertex x="-2.2" y="-0.325" curve="90"/>
+<vertex x="-2.15" y="-0.275"/>
+<vertex x="-2.15" y="-0.225" curve="90"/>
+<vertex x="-2.2" y="-0.175"/>
+<vertex x="-2.275" y="-0.175"/>
+</polygon>
+<rectangle x1="-2.575" y1="-0.375" x2="-2.25" y2="-0.125" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="0.175"/>
+<vertex x="-2.2" y="0.175" curve="90"/>
+<vertex x="-2.15" y="0.225"/>
+<vertex x="-2.15" y="0.275" curve="90"/>
+<vertex x="-2.2" y="0.325"/>
+<vertex x="-2.275" y="0.325"/>
+</polygon>
+<rectangle x1="-2.575" y1="0.125" x2="-2.25" y2="0.375" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="0.675"/>
+<vertex x="-2.2" y="0.675" curve="90"/>
+<vertex x="-2.15" y="0.725"/>
+<vertex x="-2.15" y="0.775" curve="90"/>
+<vertex x="-2.2" y="0.825"/>
+<vertex x="-2.275" y="0.825"/>
+</polygon>
+<rectangle x1="-2.575" y1="0.625" x2="-2.25" y2="0.875" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="1.175"/>
+<vertex x="-2.2" y="1.175" curve="90"/>
+<vertex x="-2.15" y="1.225"/>
+<vertex x="-2.15" y="1.275" curve="90"/>
+<vertex x="-2.2" y="1.325"/>
+<vertex x="-2.275" y="1.325"/>
+</polygon>
+<rectangle x1="-2.575" y1="1.125" x2="-2.25" y2="1.375" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-2.275" y="1.675"/>
+<vertex x="-2.2" y="1.675" curve="90"/>
+<vertex x="-2.15" y="1.725"/>
+<vertex x="-2.15" y="1.775" curve="90"/>
+<vertex x="-2.2" y="1.825"/>
+<vertex x="-2.275" y="1.825"/>
+</polygon>
+<rectangle x1="-2.575" y1="1.625" x2="-2.25" y2="1.875" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.825" y="2.275"/>
+<vertex x="-1.825" y="2.2" curve="90"/>
+<vertex x="-1.775" y="2.15"/>
+<vertex x="-1.725" y="2.15" curve="90"/>
+<vertex x="-1.675" y="2.2"/>
+<vertex x="-1.675" y="2.275"/>
+</polygon>
+<rectangle x1="-1.9125" y1="2.2875" x2="-1.5875" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.325" y="2.275"/>
+<vertex x="-1.325" y="2.2" curve="90"/>
+<vertex x="-1.275" y="2.15"/>
+<vertex x="-1.225" y="2.15" curve="90"/>
+<vertex x="-1.175" y="2.2"/>
+<vertex x="-1.175" y="2.275"/>
+</polygon>
+<rectangle x1="-1.4125" y1="2.2875" x2="-1.0875" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.825" y="2.275"/>
+<vertex x="-0.825" y="2.2" curve="90"/>
+<vertex x="-0.775" y="2.15"/>
+<vertex x="-0.725" y="2.15" curve="90"/>
+<vertex x="-0.675" y="2.2"/>
+<vertex x="-0.675" y="2.275"/>
+</polygon>
+<rectangle x1="-0.9125" y1="2.2875" x2="-0.5875" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.325" y="2.275"/>
+<vertex x="-0.325" y="2.2" curve="90"/>
+<vertex x="-0.275" y="2.15"/>
+<vertex x="-0.225" y="2.15" curve="90"/>
+<vertex x="-0.175" y="2.2"/>
+<vertex x="-0.175" y="2.275"/>
+</polygon>
+<rectangle x1="-0.4125" y1="2.2875" x2="-0.0875" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.175" y="2.275"/>
+<vertex x="0.175" y="2.2" curve="90"/>
+<vertex x="0.225" y="2.15"/>
+<vertex x="0.275" y="2.15" curve="90"/>
+<vertex x="0.325" y="2.2"/>
+<vertex x="0.325" y="2.275"/>
+</polygon>
+<rectangle x1="0.0875" y1="2.2875" x2="0.4125" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.675" y="2.275"/>
+<vertex x="0.675" y="2.2" curve="90"/>
+<vertex x="0.725" y="2.15"/>
+<vertex x="0.775" y="2.15" curve="90"/>
+<vertex x="0.825" y="2.2"/>
+<vertex x="0.825" y="2.275"/>
+</polygon>
+<rectangle x1="0.5875" y1="2.2875" x2="0.9125" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.175" y="2.275"/>
+<vertex x="1.175" y="2.2" curve="90"/>
+<vertex x="1.225" y="2.15"/>
+<vertex x="1.275" y="2.15" curve="90"/>
+<vertex x="1.325" y="2.2"/>
+<vertex x="1.325" y="2.275"/>
+</polygon>
+<rectangle x1="1.0875" y1="2.2875" x2="1.4125" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.675" y="2.275"/>
+<vertex x="1.675" y="2.2" curve="90"/>
+<vertex x="1.725" y="2.15"/>
+<vertex x="1.775" y="2.15" curve="90"/>
+<vertex x="1.825" y="2.2"/>
+<vertex x="1.825" y="2.275"/>
+</polygon>
+<rectangle x1="1.5875" y1="2.2875" x2="1.9125" y2="2.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.825" y="-2.275"/>
+<vertex x="1.825" y="-2.2" curve="90"/>
+<vertex x="1.775" y="-2.15"/>
+<vertex x="1.725" y="-2.15" curve="90"/>
+<vertex x="1.675" y="-2.2"/>
+<vertex x="1.675" y="-2.275"/>
+</polygon>
+<rectangle x1="1.5875" y1="-2.5375" x2="1.9125" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.325" y="-2.275"/>
+<vertex x="1.325" y="-2.2" curve="90"/>
+<vertex x="1.275" y="-2.15"/>
+<vertex x="1.225" y="-2.15" curve="90"/>
+<vertex x="1.175" y="-2.2"/>
+<vertex x="1.175" y="-2.275"/>
+</polygon>
+<rectangle x1="1.0875" y1="-2.5375" x2="1.4125" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.825" y="-2.275"/>
+<vertex x="0.825" y="-2.2" curve="90"/>
+<vertex x="0.775" y="-2.15"/>
+<vertex x="0.725" y="-2.15" curve="90"/>
+<vertex x="0.675" y="-2.2"/>
+<vertex x="0.675" y="-2.275"/>
+</polygon>
+<rectangle x1="0.5875" y1="-2.5375" x2="0.9125" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.325" y="-2.275"/>
+<vertex x="0.325" y="-2.2" curve="90"/>
+<vertex x="0.275" y="-2.15"/>
+<vertex x="0.225" y="-2.15" curve="90"/>
+<vertex x="0.175" y="-2.2"/>
+<vertex x="0.175" y="-2.275"/>
+</polygon>
+<rectangle x1="0.0875" y1="-2.5375" x2="0.4125" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.175" y="-2.275"/>
+<vertex x="-0.175" y="-2.2" curve="90"/>
+<vertex x="-0.225" y="-2.15"/>
+<vertex x="-0.275" y="-2.15" curve="90"/>
+<vertex x="-0.325" y="-2.2"/>
+<vertex x="-0.325" y="-2.275"/>
+</polygon>
+<rectangle x1="-0.4125" y1="-2.5375" x2="-0.0875" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.675" y="-2.275"/>
+<vertex x="-0.675" y="-2.2" curve="90"/>
+<vertex x="-0.725" y="-2.15"/>
+<vertex x="-0.775" y="-2.15" curve="90"/>
+<vertex x="-0.825" y="-2.2"/>
+<vertex x="-0.825" y="-2.275"/>
+</polygon>
+<rectangle x1="-0.9125" y1="-2.5375" x2="-0.5875" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.175" y="-2.275"/>
+<vertex x="-1.175" y="-2.2" curve="90"/>
+<vertex x="-1.225" y="-2.15"/>
+<vertex x="-1.275" y="-2.15" curve="90"/>
+<vertex x="-1.325" y="-2.2"/>
+<vertex x="-1.325" y="-2.275"/>
+</polygon>
+<rectangle x1="-1.4125" y1="-2.5375" x2="-1.0875" y2="-2.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.675" y="-2.275"/>
+<vertex x="-1.675" y="-2.2" curve="90"/>
+<vertex x="-1.725" y="-2.15"/>
+<vertex x="-1.775" y="-2.15" curve="90"/>
+<vertex x="-1.825" y="-2.2"/>
+<vertex x="-1.825" y="-2.275"/>
+</polygon>
+<rectangle x1="-1.9125" y1="-2.5375" x2="-1.5875" y2="-2.2875" layer="1" rot="R270"/>
 </package>
 <package name="PACK-SOD323">
 <description>http://www.infineon.com/dgdl/SOD323-Package_Overview.pdf?folderId=db3a30431936bc4b011952aab84f3bbe&amp;fileId=db3a30431936bc4b011952beed653be3</description>
@@ -29374,134 +29406,6 @@ K16</text>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.15" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.15" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.15" layer="21"/>
-<polygon width="0" layer="1">
-<vertex x="-1.575" y="0.125"/>
-<vertex x="-1.2" y="0.125" curve="90"/>
-<vertex x="-1.1" y="0.225"/>
-<vertex x="-1.1" y="0.275" curve="90"/>
-<vertex x="-1.2" y="0.375"/>
-<vertex x="-1.575" y="0.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.575" y="0.625"/>
-<vertex x="-1.2" y="0.625" curve="90"/>
-<vertex x="-1.1" y="0.725"/>
-<vertex x="-1.1" y="0.775" curve="90"/>
-<vertex x="-1.2" y="0.875"/>
-<vertex x="-1.575" y="0.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.575" y="-0.875"/>
-<vertex x="-1.2" y="-0.875" curve="90"/>
-<vertex x="-1.1" y="-0.775"/>
-<vertex x="-1.1" y="-0.725" curve="90"/>
-<vertex x="-1.2" y="-0.625"/>
-<vertex x="-1.575" y="-0.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.575" y="-0.375"/>
-<vertex x="-1.2" y="-0.375" curve="90"/>
-<vertex x="-1.1" y="-0.275"/>
-<vertex x="-1.1" y="-0.225" curve="90"/>
-<vertex x="-1.2" y="-0.125"/>
-<vertex x="-1.575" y="-0.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.575" y="-0.125"/>
-<vertex x="1.2" y="-0.125" curve="90"/>
-<vertex x="1.1" y="-0.225"/>
-<vertex x="1.1" y="-0.275" curve="90"/>
-<vertex x="1.2" y="-0.375"/>
-<vertex x="1.575" y="-0.375"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.575" y="-0.625"/>
-<vertex x="1.2" y="-0.625" curve="90"/>
-<vertex x="1.1" y="-0.725"/>
-<vertex x="1.1" y="-0.775" curve="90"/>
-<vertex x="1.2" y="-0.875"/>
-<vertex x="1.575" y="-0.875"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.575" y="0.875"/>
-<vertex x="1.2" y="0.875" curve="90"/>
-<vertex x="1.1" y="0.775"/>
-<vertex x="1.1" y="0.725" curve="90"/>
-<vertex x="1.2" y="0.625"/>
-<vertex x="1.575" y="0.625"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="1.575" y="0.375"/>
-<vertex x="1.2" y="0.375" curve="90"/>
-<vertex x="1.1" y="0.275"/>
-<vertex x="1.1" y="0.225" curve="90"/>
-<vertex x="1.2" y="0.125"/>
-<vertex x="1.575" y="0.125"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.125" y="1.575"/>
-<vertex x="0.125" y="1.2" curve="90"/>
-<vertex x="0.225" y="1.1"/>
-<vertex x="0.275" y="1.1" curve="90"/>
-<vertex x="0.375" y="1.2"/>
-<vertex x="0.375" y="1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.625" y="1.575"/>
-<vertex x="0.625" y="1.2" curve="90"/>
-<vertex x="0.725" y="1.1"/>
-<vertex x="0.775" y="1.1" curve="90"/>
-<vertex x="0.875" y="1.2"/>
-<vertex x="0.875" y="1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.875" y="1.575"/>
-<vertex x="-0.875" y="1.2" curve="90"/>
-<vertex x="-0.775" y="1.1"/>
-<vertex x="-0.725" y="1.1" curve="90"/>
-<vertex x="-0.625" y="1.2"/>
-<vertex x="-0.625" y="1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.375" y="1.575"/>
-<vertex x="-0.375" y="1.2" curve="90"/>
-<vertex x="-0.275" y="1.1"/>
-<vertex x="-0.225" y="1.1" curve="90"/>
-<vertex x="-0.125" y="1.2"/>
-<vertex x="-0.125" y="1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.125" y="-1.575"/>
-<vertex x="-0.125" y="-1.2" curve="90"/>
-<vertex x="-0.225" y="-1.1"/>
-<vertex x="-0.275" y="-1.1" curve="90"/>
-<vertex x="-0.375" y="-1.2"/>
-<vertex x="-0.375" y="-1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.625" y="-1.575"/>
-<vertex x="-0.625" y="-1.2" curve="90"/>
-<vertex x="-0.725" y="-1.1"/>
-<vertex x="-0.775" y="-1.1" curve="90"/>
-<vertex x="-0.875" y="-1.2"/>
-<vertex x="-0.875" y="-1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.875" y="-1.575"/>
-<vertex x="0.875" y="-1.2" curve="90"/>
-<vertex x="0.775" y="-1.1"/>
-<vertex x="0.725" y="-1.1" curve="90"/>
-<vertex x="0.625" y="-1.2"/>
-<vertex x="0.625" y="-1.575"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.375" y="-1.575"/>
-<vertex x="0.375" y="-1.2" curve="90"/>
-<vertex x="0.275" y="-1.1"/>
-<vertex x="0.225" y="-1.1" curve="90"/>
-<vertex x="0.125" y="-1.2"/>
-<vertex x="0.125" y="-1.575"/>
-</polygon>
 <circle x="-0.9" y="0.9" radius="0.335409375" width="0.1" layer="21"/>
 <polygon width="0.1" layer="1">
 <vertex x="-0.825" y="-0.825"/>
@@ -29510,6 +29414,150 @@ K16</text>
 <vertex x="-0.575" y="0.825"/>
 <vertex x="-0.825" y="0.575"/>
 </polygon>
+<polygon width="0.1" layer="1">
+<vertex x="1.275" y="0.825"/>
+<vertex x="1.2" y="0.825" curve="90"/>
+<vertex x="1.15" y="0.775"/>
+<vertex x="1.15" y="0.725" curve="90"/>
+<vertex x="1.2" y="0.675"/>
+<vertex x="1.275" y="0.675"/>
+</polygon>
+<rectangle x1="1.25" y1="0.625" x2="1.575" y2="0.875" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.275" y="0.325"/>
+<vertex x="1.2" y="0.325" curve="90"/>
+<vertex x="1.15" y="0.275"/>
+<vertex x="1.15" y="0.225" curve="90"/>
+<vertex x="1.2" y="0.175"/>
+<vertex x="1.275" y="0.175"/>
+</polygon>
+<rectangle x1="1.25" y1="0.125" x2="1.575" y2="0.375" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.275" y="-0.175"/>
+<vertex x="1.2" y="-0.175" curve="90"/>
+<vertex x="1.15" y="-0.225"/>
+<vertex x="1.15" y="-0.275" curve="90"/>
+<vertex x="1.2" y="-0.325"/>
+<vertex x="1.275" y="-0.325"/>
+</polygon>
+<rectangle x1="1.25" y1="-0.375" x2="1.575" y2="-0.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.275" y="-0.675"/>
+<vertex x="1.2" y="-0.675" curve="90"/>
+<vertex x="1.15" y="-0.725"/>
+<vertex x="1.15" y="-0.775" curve="90"/>
+<vertex x="1.2" y="-0.825"/>
+<vertex x="1.275" y="-0.825"/>
+</polygon>
+<rectangle x1="1.25" y1="-0.875" x2="1.575" y2="-0.625" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.275" y="-0.825"/>
+<vertex x="-1.2" y="-0.825" curve="90"/>
+<vertex x="-1.15" y="-0.775"/>
+<vertex x="-1.15" y="-0.725" curve="90"/>
+<vertex x="-1.2" y="-0.675"/>
+<vertex x="-1.275" y="-0.675"/>
+</polygon>
+<rectangle x1="-1.575" y1="-0.875" x2="-1.25" y2="-0.625" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.275" y="-0.325"/>
+<vertex x="-1.2" y="-0.325" curve="90"/>
+<vertex x="-1.15" y="-0.275"/>
+<vertex x="-1.15" y="-0.225" curve="90"/>
+<vertex x="-1.2" y="-0.175"/>
+<vertex x="-1.275" y="-0.175"/>
+</polygon>
+<rectangle x1="-1.575" y1="-0.375" x2="-1.25" y2="-0.125" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.275" y="0.175"/>
+<vertex x="-1.2" y="0.175" curve="90"/>
+<vertex x="-1.15" y="0.225"/>
+<vertex x="-1.15" y="0.275" curve="90"/>
+<vertex x="-1.2" y="0.325"/>
+<vertex x="-1.275" y="0.325"/>
+</polygon>
+<rectangle x1="-1.575" y1="0.125" x2="-1.25" y2="0.375" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.275" y="0.675"/>
+<vertex x="-1.2" y="0.675" curve="90"/>
+<vertex x="-1.15" y="0.725"/>
+<vertex x="-1.15" y="0.775" curve="90"/>
+<vertex x="-1.2" y="0.825"/>
+<vertex x="-1.275" y="0.825"/>
+</polygon>
+<rectangle x1="-1.575" y1="0.625" x2="-1.25" y2="0.875" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.825" y="-1.275"/>
+<vertex x="0.825" y="-1.2" curve="90"/>
+<vertex x="0.775" y="-1.15"/>
+<vertex x="0.725" y="-1.15" curve="90"/>
+<vertex x="0.675" y="-1.2"/>
+<vertex x="0.675" y="-1.275"/>
+</polygon>
+<rectangle x1="0.5875" y1="-1.5375" x2="0.9125" y2="-1.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.325" y="-1.275"/>
+<vertex x="0.325" y="-1.2" curve="90"/>
+<vertex x="0.275" y="-1.15"/>
+<vertex x="0.225" y="-1.15" curve="90"/>
+<vertex x="0.175" y="-1.2"/>
+<vertex x="0.175" y="-1.275"/>
+</polygon>
+<rectangle x1="0.0875" y1="-1.5375" x2="0.4125" y2="-1.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.175" y="-1.275"/>
+<vertex x="-0.175" y="-1.2" curve="90"/>
+<vertex x="-0.225" y="-1.15"/>
+<vertex x="-0.275" y="-1.15" curve="90"/>
+<vertex x="-0.325" y="-1.2"/>
+<vertex x="-0.325" y="-1.275"/>
+</polygon>
+<rectangle x1="-0.4125" y1="-1.5375" x2="-0.0875" y2="-1.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.675" y="-1.275"/>
+<vertex x="-0.675" y="-1.2" curve="90"/>
+<vertex x="-0.725" y="-1.15"/>
+<vertex x="-0.775" y="-1.15" curve="90"/>
+<vertex x="-0.825" y="-1.2"/>
+<vertex x="-0.825" y="-1.275"/>
+</polygon>
+<rectangle x1="-0.9125" y1="-1.5375" x2="-0.5875" y2="-1.2875" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.825" y="1.275"/>
+<vertex x="-0.825" y="1.2" curve="90"/>
+<vertex x="-0.775" y="1.15"/>
+<vertex x="-0.725" y="1.15" curve="90"/>
+<vertex x="-0.675" y="1.2"/>
+<vertex x="-0.675" y="1.275"/>
+</polygon>
+<rectangle x1="-0.9125" y1="1.2875" x2="-0.5875" y2="1.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.325" y="1.275"/>
+<vertex x="-0.325" y="1.2" curve="90"/>
+<vertex x="-0.275" y="1.15"/>
+<vertex x="-0.225" y="1.15" curve="90"/>
+<vertex x="-0.175" y="1.2"/>
+<vertex x="-0.175" y="1.275"/>
+</polygon>
+<rectangle x1="-0.4125" y1="1.2875" x2="-0.0875" y2="1.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.175" y="1.275"/>
+<vertex x="0.175" y="1.2" curve="90"/>
+<vertex x="0.225" y="1.15"/>
+<vertex x="0.275" y="1.15" curve="90"/>
+<vertex x="0.325" y="1.2"/>
+<vertex x="0.325" y="1.275"/>
+</polygon>
+<rectangle x1="0.0875" y1="1.2875" x2="0.4125" y2="1.5375" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.675" y="1.275"/>
+<vertex x="0.675" y="1.2" curve="90"/>
+<vertex x="0.725" y="1.15"/>
+<vertex x="0.775" y="1.15" curve="90"/>
+<vertex x="0.825" y="1.2"/>
+<vertex x="0.825" y="1.275"/>
+</polygon>
+<rectangle x1="0.5875" y1="1.2875" x2="0.9125" y2="1.5375" layer="1" rot="R90"/>
 </package>
 <package name="PACK-QFN-16-4">
 <description>http://cds.linear.com/docs/en/packaging/QFN_16_05-08-1692.pdf</description>
@@ -29517,14 +29565,6 @@ K16</text>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.15" layer="21"/>
 <wire x1="2" y1="2" x2="-2" y2="2" width="0.15" layer="21"/>
 <wire x1="-2" y1="2" x2="-2" y2="-2" width="0.15" layer="21"/>
-<polygon width="0" layer="1">
-<vertex x="2.075" y="0.475"/>
-<vertex x="1.65" y="0.475" curve="90"/>
-<vertex x="1.5" y="0.35"/>
-<vertex x="1.5" y="0.3" curve="90"/>
-<vertex x="1.65" y="0.175"/>
-<vertex x="2.075" y="0.175"/>
-</polygon>
 <circle x="-1.2" y="1.2" radius="0.335409375" width="0.1" layer="21"/>
 <polygon width="0.1" layer="1">
 <vertex x="-1.075" y="-1.075"/>
@@ -29533,125 +29573,101 @@ K16</text>
 <vertex x="-0.725" y="1.075"/>
 <vertex x="-1.075" y="0.725"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="2.075" y="-0.175"/>
-<vertex x="1.65" y="-0.175" curve="90"/>
-<vertex x="1.5" y="-0.3"/>
-<vertex x="1.5" y="-0.35" curve="90"/>
-<vertex x="1.65" y="-0.475"/>
-<vertex x="2.075" y="-0.475"/>
+<rectangle x1="1.65" y1="0.175" x2="2.075" y2="0.475" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.65" y="0.425" curve="90"/>
+<vertex x="1.55" y="0.325" curve="90"/>
+<vertex x="1.65" y="0.225"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="2.075" y="1.125"/>
-<vertex x="1.65" y="1.125" curve="90"/>
-<vertex x="1.5" y="1"/>
-<vertex x="1.5" y="0.95" curve="90"/>
-<vertex x="1.65" y="0.825"/>
-<vertex x="2.075" y="0.825"/>
+<rectangle x1="1.65" y1="0.825" x2="2.075" y2="1.125" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.65" y="1.075" curve="90"/>
+<vertex x="1.55" y="0.975" curve="90"/>
+<vertex x="1.65" y="0.875"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="2.075" y="-0.825"/>
-<vertex x="1.65" y="-0.825" curve="90"/>
-<vertex x="1.5" y="-0.95"/>
-<vertex x="1.5" y="-1" curve="90"/>
-<vertex x="1.65" y="-1.125"/>
-<vertex x="2.075" y="-1.125"/>
+<rectangle x1="1.65" y1="-1.125" x2="2.075" y2="-0.825" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.65" y="-0.875" curve="90"/>
+<vertex x="1.55" y="-0.975" curve="90"/>
+<vertex x="1.65" y="-1.075"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.075" y="-0.475"/>
-<vertex x="-1.65" y="-0.475" curve="90"/>
-<vertex x="-1.5" y="-0.35"/>
-<vertex x="-1.5" y="-0.3" curve="90"/>
-<vertex x="-1.65" y="-0.175"/>
-<vertex x="-2.075" y="-0.175"/>
+<rectangle x1="1.65" y1="-0.475" x2="2.075" y2="-0.175" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.65" y="-0.225" curve="90"/>
+<vertex x="1.55" y="-0.325" curve="90"/>
+<vertex x="1.65" y="-0.425"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.075" y="0.175"/>
-<vertex x="-1.65" y="0.175" curve="90"/>
-<vertex x="-1.5" y="0.3"/>
-<vertex x="-1.5" y="0.35" curve="90"/>
-<vertex x="-1.65" y="0.475"/>
-<vertex x="-2.075" y="0.475"/>
+<rectangle x1="-2.075" y1="-0.475" x2="-1.65" y2="-0.175" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.65" y="-0.425" curve="90"/>
+<vertex x="-1.55" y="-0.325" curve="90"/>
+<vertex x="-1.65" y="-0.225"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.075" y="-1.125"/>
-<vertex x="-1.65" y="-1.125" curve="90"/>
-<vertex x="-1.5" y="-1"/>
-<vertex x="-1.5" y="-0.95" curve="90"/>
-<vertex x="-1.65" y="-0.825"/>
-<vertex x="-2.075" y="-0.825"/>
+<rectangle x1="-2.075" y1="-1.125" x2="-1.65" y2="-0.825" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.65" y="-1.075" curve="90"/>
+<vertex x="-1.55" y="-0.975" curve="90"/>
+<vertex x="-1.65" y="-0.875"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-2.075" y="0.825"/>
-<vertex x="-1.65" y="0.825" curve="90"/>
-<vertex x="-1.5" y="0.95"/>
-<vertex x="-1.5" y="1" curve="90"/>
-<vertex x="-1.65" y="1.125"/>
-<vertex x="-2.075" y="1.125"/>
+<rectangle x1="-2.075" y1="0.825" x2="-1.65" y2="1.125" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.65" y="0.875" curve="90"/>
+<vertex x="-1.55" y="0.975" curve="90"/>
+<vertex x="-1.65" y="1.075"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.475" y="2.075"/>
-<vertex x="-0.475" y="1.65" curve="90"/>
-<vertex x="-0.35" y="1.5"/>
-<vertex x="-0.3" y="1.5" curve="90"/>
-<vertex x="-0.175" y="1.65"/>
-<vertex x="-0.175" y="2.075"/>
+<rectangle x1="-2.075" y1="0.175" x2="-1.65" y2="0.475" layer="1" rot="R180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.65" y="0.225" curve="90"/>
+<vertex x="-1.55" y="0.325" curve="90"/>
+<vertex x="-1.65" y="0.425"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="0.175" y="2.075"/>
-<vertex x="0.175" y="1.65" curve="90"/>
-<vertex x="0.3" y="1.5"/>
-<vertex x="0.35" y="1.5" curve="90"/>
-<vertex x="0.475" y="1.65"/>
-<vertex x="0.475" y="2.075"/>
+<rectangle x1="0.1125" y1="-2.0125" x2="0.5375" y2="-1.7125" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.425" y="-1.65" curve="90"/>
+<vertex x="0.325" y="-1.55" curve="90"/>
+<vertex x="0.225" y="-1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-1.125" y="2.075"/>
-<vertex x="-1.125" y="1.65" curve="90"/>
-<vertex x="-1" y="1.5"/>
-<vertex x="-0.95" y="1.5" curve="90"/>
-<vertex x="-0.825" y="1.65"/>
-<vertex x="-0.825" y="2.075"/>
+<rectangle x1="0.7625" y1="-2.0125" x2="1.1875" y2="-1.7125" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="1.075" y="-1.65" curve="90"/>
+<vertex x="0.975" y="-1.55" curve="90"/>
+<vertex x="0.875" y="-1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="0.825" y="2.075"/>
-<vertex x="0.825" y="1.65" curve="90"/>
-<vertex x="0.95" y="1.5"/>
-<vertex x="1" y="1.5" curve="90"/>
-<vertex x="1.125" y="1.65"/>
-<vertex x="1.125" y="2.075"/>
+<rectangle x1="-1.1875" y1="-2.0125" x2="-0.7625" y2="-1.7125" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.875" y="-1.65" curve="90"/>
+<vertex x="-0.975" y="-1.55" curve="90"/>
+<vertex x="-1.075" y="-1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="0.475" y="-2.075"/>
-<vertex x="0.475" y="-1.65" curve="90"/>
-<vertex x="0.35" y="-1.5"/>
-<vertex x="0.3" y="-1.5" curve="90"/>
-<vertex x="0.175" y="-1.65"/>
-<vertex x="0.175" y="-2.075"/>
+<rectangle x1="-0.5375" y1="-2.0125" x2="-0.1125" y2="-1.7125" layer="1" rot="R270"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.225" y="-1.65" curve="90"/>
+<vertex x="-0.325" y="-1.55" curve="90"/>
+<vertex x="-0.425" y="-1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.175" y="-2.075"/>
-<vertex x="-0.175" y="-1.65" curve="90"/>
-<vertex x="-0.3" y="-1.5"/>
-<vertex x="-0.35" y="-1.5" curve="90"/>
-<vertex x="-0.475" y="-1.65"/>
-<vertex x="-0.475" y="-2.075"/>
+<rectangle x1="-0.5375" y1="1.7125" x2="-0.1125" y2="2.0125" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.425" y="1.65" curve="90"/>
+<vertex x="-0.325" y="1.55" curve="90"/>
+<vertex x="-0.225" y="1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="1.125" y="-2.075"/>
-<vertex x="1.125" y="-1.65" curve="90"/>
-<vertex x="1" y="-1.5"/>
-<vertex x="0.95" y="-1.5" curve="90"/>
-<vertex x="0.825" y="-1.65"/>
-<vertex x="0.825" y="-2.075"/>
+<rectangle x1="-1.1875" y1="1.7125" x2="-0.7625" y2="2.0125" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.075" y="1.65" curve="90"/>
+<vertex x="-0.975" y="1.55" curve="90"/>
+<vertex x="-0.875" y="1.65"/>
 </polygon>
-<polygon width="0" layer="1">
-<vertex x="-0.825" y="-2.075"/>
-<vertex x="-0.825" y="-1.65" curve="90"/>
-<vertex x="-0.95" y="-1.5"/>
-<vertex x="-1" y="-1.5" curve="90"/>
-<vertex x="-1.125" y="-1.65"/>
-<vertex x="-1.125" y="-2.075"/>
+<rectangle x1="0.7625" y1="1.7125" x2="1.1875" y2="2.0125" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.875" y="1.65" curve="90"/>
+<vertex x="0.975" y="1.55" curve="90"/>
+<vertex x="1.075" y="1.65"/>
+</polygon>
+<rectangle x1="0.1125" y1="1.7125" x2="0.5375" y2="2.0125" layer="1" rot="R90"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.225" y="1.65" curve="90"/>
+<vertex x="0.325" y="1.55" curve="90"/>
+<vertex x="0.425" y="1.65"/>
 </polygon>
 </package>
 <package name="SILK-TABLE-E-ROW">
