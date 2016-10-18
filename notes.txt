@@ -1,0 +1,8 @@
+crystal 4-SMD (DFN, LCC) sizes according to digikey, n>1k
+
+1.60x1.20 7455
+2.00x1.60 2169
+2.50x2.00 1339
+3.20x2.50 4240
+5.00x3.20 1303
+
