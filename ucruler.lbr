@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6232,12 +6232,12 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$8" x="1.5" y="-0.5" dx="3" dy="0.2" layer="1"/>
 <smd name="P$9" x="1.5" y="-0.1" dx="3" dy="0.2" layer="1"/>
 <wire x1="3" y1="-3.5" x2="-2" y2="-3.5" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="-2.1" x2="-1.4" y2="-2.1" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-0.5" x2="-1.4" y2="-0.5" width="0.1" layer="21"/>
-<text x="-1.4" y="-2.1" size="1" layer="21" align="center-right">4</text>
-<text x="-1.4" y="-0.5" size="1" layer="21" align="center-right">8</text>
-<wire x1="-0.2" y1="-2.9" x2="-1" y2="-2.9" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-1.3" x2="-1" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-1.9" x2="-1.4" y2="-1.9" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.3" x2="-1.4" y2="-0.3" width="0.1" layer="21"/>
+<text x="-1.4" y="-1.9" size="1" layer="21" align="center-right">4</text>
+<text x="-1.4" y="-0.3" size="1" layer="21" align="center-right">8</text>
+<wire x1="-0.2" y1="-2.7" x2="-1" y2="-2.7" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-1.1" x2="-1" y2="-1.1" width="0.1" layer="21"/>
 <smd name="P$10" x="1.5" y="-3.7" dx="3" dy="0.2" layer="1"/>
 <smd name="P$11" x="1.5" y="-4.1" dx="3" dy="0.2" layer="1"/>
 <smd name="P$12" x="1.5" y="-4.5" dx="3" dy="0.2" layer="1"/>
@@ -6248,8 +6248,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$17" x="1.5" y="-6.5" dx="3" dy="0.2" layer="1"/>
 <smd name="P$18" x="1.5" y="-6.9" dx="3" dy="0.2" layer="1"/>
 <smd name="P$19" x="1.5" y="-7.3" dx="3" dy="0.2" layer="1"/>
-<wire x1="-0.2" y1="-7.3" x2="-1.4" y2="-7.3" width="0.1" layer="21"/>
-<text x="-0.4" y="-6.6" size="1" layer="21" align="center-right">10</text>
+<wire x1="-0.2" y1="-7.5" x2="-1.4" y2="-7.5" width="0.1" layer="21"/>
+<text x="-0.4" y="-6.8" size="1" layer="21" align="center-right">10</text>
 <smd name="P$20" x="1.5" y="-7.7" dx="3" dy="0.2" layer="1"/>
 <smd name="P$21" x="1.5" y="-8.1" dx="3" dy="0.2" layer="1"/>
 <smd name="P$22" x="1.5" y="-8.5" dx="3" dy="0.2" layer="1"/>
@@ -6260,8 +6260,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$27" x="1.5" y="-10.5" dx="3" dy="0.2" layer="1"/>
 <smd name="P$28" x="1.5" y="-10.9" dx="3" dy="0.2" layer="1"/>
 <smd name="P$29" x="1.5" y="-11.3" dx="3" dy="0.2" layer="1"/>
-<wire x1="-0.2" y1="-11.3" x2="-1.4" y2="-11.3" width="0.1" layer="21"/>
-<text x="-0.4" y="-10.6" size="1" layer="21" align="center-right">20</text>
+<wire x1="-0.2" y1="-11.5" x2="-1.4" y2="-11.5" width="0.1" layer="21"/>
+<text x="-0.4" y="-10.8" size="1" layer="21" align="center-right">20</text>
 <smd name="P$30" x="1.5" y="-11.7" dx="3" dy="0.2" layer="1"/>
 <smd name="P$31" x="1.5" y="-12.1" dx="3" dy="0.2" layer="1"/>
 <smd name="P$32" x="1.5" y="-12.5" dx="3" dy="0.2" layer="1"/>
@@ -6272,8 +6272,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$37" x="1.5" y="-14.5" dx="3" dy="0.2" layer="1"/>
 <smd name="P$38" x="1.5" y="-14.9" dx="3" dy="0.2" layer="1"/>
 <smd name="P$39" x="1.5" y="-15.3" dx="3" dy="0.2" layer="1"/>
-<wire x1="-0.2" y1="-15.3" x2="-1.4" y2="-15.3" width="0.1" layer="21"/>
-<text x="-0.4" y="-14.6" size="1" layer="21" align="center-right">30</text>
+<wire x1="-0.2" y1="-15.5" x2="-1.4" y2="-15.5" width="0.1" layer="21"/>
+<text x="-0.4" y="-14.8" size="1" layer="21" align="center-right">30</text>
 <smd name="P$40" x="1.5" y="-15.7" dx="3" dy="0.2" layer="1"/>
 <smd name="P$41" x="1.5" y="-16.1" dx="3" dy="0.2" layer="1"/>
 <smd name="P$42" x="1.5" y="-16.5" dx="3" dy="0.2" layer="1"/>
@@ -6284,8 +6284,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$47" x="1.5" y="-18.5" dx="3" dy="0.2" layer="1"/>
 <smd name="P$48" x="1.5" y="-18.9" dx="3" dy="0.2" layer="1"/>
 <smd name="P$49" x="1.5" y="-19.3" dx="3" dy="0.2" layer="1"/>
-<wire x1="-0.2" y1="-19.3" x2="-1.4" y2="-19.3" width="0.1" layer="21"/>
-<text x="-0.4" y="-18.6" size="1" layer="21" align="center-right">40</text>
+<wire x1="-0.2" y1="-19.5" x2="-1.4" y2="-19.5" width="0.1" layer="21"/>
+<text x="-0.4" y="-18.8" size="1" layer="21" align="center-right">40</text>
 <rectangle x1="-0.1" y1="-19.5" x2="3.1" y2="0.1" layer="29"/>
 </package>
 <package name="PINCOUNT-0,5">
@@ -6299,10 +6299,10 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$8" x="1.5" y="-0.125" dx="3" dy="0.25" layer="1"/>
 <smd name="P$9" x="1.5" y="-0.625" dx="3" dy="0.25" layer="1"/>
 <wire x1="3" y1="-4.375" x2="-2" y2="-4.375" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="-3.625" x2="-1" y2="-3.625" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-2.625" x2="-1.4" y2="-2.625" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-1.625" x2="-1" y2="-1.625" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-0.625" x2="-1.4" y2="-0.625" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-3.375" x2="-1" y2="-3.375" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-2.375" x2="-1.4" y2="-2.375" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-1.375" x2="-1" y2="-1.375" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.375" x2="-1.4" y2="-0.375" width="0.1" layer="21"/>
 <smd name="P$10" x="1.5" y="-8.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$11" x="1.5" y="-8.125" dx="3" dy="0.25" layer="1"/>
 <smd name="P$12" x="1.5" y="-7.625" dx="3" dy="0.25" layer="1"/>
@@ -6312,7 +6312,7 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$16" x="1.5" y="-5.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$17" x="1.5" y="-4.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$18" x="1.5" y="-5.125" dx="3" dy="0.25" layer="1"/>
-<wire x1="-0.2" y1="-9.125" x2="-1.4" y2="-9.125" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-9.375" x2="-1.4" y2="-9.375" width="0.1" layer="21"/>
 <smd name="P$19" x="1.5" y="-9.125" dx="3" dy="0.25" layer="1"/>
 <smd name="P$20" x="1.5" y="-13.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$21" x="1.5" y="-13.125" dx="3" dy="0.25" layer="1"/>
@@ -6323,7 +6323,7 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$26" x="1.5" y="-10.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$27" x="1.5" y="-9.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$28" x="1.5" y="-10.125" dx="3" dy="0.25" layer="1"/>
-<wire x1="-0.2" y1="-14.125" x2="-1.4" y2="-14.125" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-14.375" x2="-1.4" y2="-14.375" width="0.1" layer="21"/>
 <smd name="P$29" x="1.5" y="-14.125" dx="3" dy="0.25" layer="1"/>
 <smd name="P$30" x="1.5" y="-18.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$31" x="1.5" y="-18.125" dx="3" dy="0.25" layer="1"/>
@@ -6334,7 +6334,7 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$36" x="1.5" y="-15.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$37" x="1.5" y="-14.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$38" x="1.5" y="-15.125" dx="3" dy="0.25" layer="1"/>
-<wire x1="-0.2" y1="-19.125" x2="-1.4" y2="-19.125" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-19.375" x2="-1.4" y2="-19.375" width="0.1" layer="21"/>
 <smd name="P$39" x="1.5" y="-19.125" dx="3" dy="0.25" layer="1"/>
 <smd name="P$40" x="1.5" y="-23.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$41" x="1.5" y="-23.125" dx="3" dy="0.25" layer="1"/>
@@ -6345,14 +6345,14 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$46" x="1.5" y="-20.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$47" x="1.5" y="-19.625" dx="3" dy="0.25" layer="1"/>
 <smd name="P$48" x="1.5" y="-20.125" dx="3" dy="0.25" layer="1"/>
-<wire x1="-0.2" y1="-24.125" x2="-1.4" y2="-24.125" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-24.375" x2="-1.4" y2="-24.375" width="0.1" layer="21"/>
 <smd name="P$49" x="1.5" y="-24.125" dx="3" dy="0.25" layer="1"/>
-<text x="-1.4" y="-2.625" size="1" layer="21" align="center-right">4</text>
-<text x="-1.4" y="-0.625" size="1" layer="21" align="center-right">8</text>
-<text x="-0.4" y="-8.325" size="1" layer="21" align="center-right">10</text>
-<text x="-0.4" y="-13.325" size="1" layer="21" align="center-right">20</text>
-<text x="-0.4" y="-18.325" size="1" layer="21" align="center-right">30</text>
-<text x="-0.4" y="-23.325" size="1" layer="21" align="center-right">40</text>
+<text x="-1.4" y="-2.375" size="1" layer="21" align="center-right">4</text>
+<text x="-1.4" y="-0.375" size="1" layer="21" align="center-right">8</text>
+<text x="-0.4" y="-8.575" size="1" layer="21" align="center-right">10</text>
+<text x="-0.4" y="-13.575" size="1" layer="21" align="center-right">20</text>
+<text x="-0.4" y="-18.575" size="1" layer="21" align="center-right">30</text>
+<text x="-0.4" y="-23.575" size="1" layer="21" align="center-right">40</text>
 <rectangle x1="-0.1" y1="-24.3" x2="3.1" y2="0.1" layer="29"/>
 </package>
 <package name="PINCOUNT-0,635">
@@ -6367,12 +6367,12 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$9" x="1.5" y="-5.23875" dx="3" dy="0.3175" layer="1"/>
 <wire x1="-2" y1="-5.55625" x2="3" y2="-5.55625" width="0.15" layer="21"/>
 <smd name="P$10" x="1.5" y="-5.87375" dx="3" dy="0.3175" layer="1"/>
-<wire x1="-1" y1="-4.60375" x2="-0.2" y2="-4.60375" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="-3.33375" x2="-0.2" y2="-3.33375" width="0.1" layer="21"/>
-<wire x1="-1" y1="-2.06375" x2="-0.2" y2="-2.06375" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="-0.79375" x2="-0.2" y2="-0.79375" width="0.1" layer="21"/>
-<text x="-1.4" y="-3.33375" size="1" layer="21" align="center-right">4</text>
-<text x="-1.4" y="-0.79375" size="1" layer="21" align="center-right">8</text>
+<wire x1="-1" y1="-4.28625" x2="-0.2" y2="-4.28625" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="-3.01625" x2="-0.2" y2="-3.01625" width="0.1" layer="21"/>
+<wire x1="-1" y1="-1.74625" x2="-0.2" y2="-1.74625" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="-0.47625" x2="-0.2" y2="-0.47625" width="0.1" layer="21"/>
+<text x="-1.4" y="-3.01625" size="1" layer="21" align="center-right">4</text>
+<text x="-1.4" y="-0.47625" size="1" layer="21" align="center-right">8</text>
 <smd name="P$11" x="1.5" y="-6.50875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$12" x="1.5" y="-7.14375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$13" x="1.5" y="-7.77875" dx="3" dy="0.3175" layer="1"/>
@@ -6382,8 +6382,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$17" x="1.5" y="-10.31875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$18" x="1.5" y="-10.95375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$19" x="1.5" y="-11.58875" dx="3" dy="0.3175" layer="1"/>
-<wire x1="-1.4" y1="-11.58875" x2="-0.2" y2="-11.58875" width="0.1" layer="21"/>
-<text x="-0.4" y="-10.83" size="1" layer="21" align="center-right">10</text>
+<wire x1="-1.4" y1="-11.90625" x2="-0.2" y2="-11.90625" width="0.1" layer="21"/>
+<text x="-0.4" y="-11.1475" size="1" layer="21" align="center-right">10</text>
 <smd name="P$20" x="1.5" y="-12.22375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$21" x="1.5" y="-12.85875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$22" x="1.5" y="-13.49375" dx="3" dy="0.3175" layer="1"/>
@@ -6393,8 +6393,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$26" x="1.5" y="-16.03375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$27" x="1.5" y="-16.66875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$28" x="1.5" y="-17.30375" dx="3" dy="0.3175" layer="1"/>
-<wire x1="-1.4" y1="-17.30375" x2="-0.2" y2="-17.30375" width="0.1" layer="21"/>
-<text x="-0.4" y="-16.545" size="1" layer="21" align="center-right">20</text>
+<wire x1="-1.4" y1="-17.62125" x2="-0.2" y2="-17.62125" width="0.1" layer="21"/>
+<text x="-0.4" y="-16.8625" size="1" layer="21" align="center-right">20</text>
 <smd name="P$29" x="1.5" y="-17.93875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$30" x="1.5" y="-18.57375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$31" x="1.5" y="-19.20875" dx="3" dy="0.3175" layer="1"/>
@@ -6404,8 +6404,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$35" x="1.5" y="-21.74875" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$36" x="1.5" y="-22.38375" dx="3" dy="0.3175" layer="1"/>
 <smd name="P$37" x="1.5" y="-23.01875" dx="3" dy="0.3175" layer="1"/>
-<wire x1="-1.4" y1="-23.01875" x2="-0.2" y2="-23.01875" width="0.1" layer="21"/>
-<text x="-0.4" y="-22.26" size="1" layer="21" align="center-right">30</text>
+<wire x1="-1.4" y1="-23.33625" x2="-0.2" y2="-23.33625" width="0.1" layer="21"/>
+<text x="-0.4" y="-22.5775" size="1" layer="21" align="center-right">30</text>
 <rectangle x1="-0.1" y1="-23.2" x2="3.1" y2="0.1" layer="29"/>
 </package>
 <package name="PINCOUNT-0,65">
@@ -6420,12 +6420,12 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$9" x="1.5" y="-5.3625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$10" x="1.5" y="-6.0125" dx="3" dy="0.325" layer="1"/>
 <wire x1="3" y1="-5.6875" x2="-2" y2="-5.6875" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="-2.1125" x2="-1" y2="-2.1125" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-0.8125" x2="-1.4" y2="-0.8125" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-4.7125" x2="-1" y2="-4.7125" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-3.4125" x2="-1.4" y2="-3.4125" width="0.1" layer="21"/>
-<text x="-1.4" y="-3.4125" size="1" layer="21" align="center-right">4</text>
-<text x="-1.4" y="-0.8125" size="1" layer="21" align="center-right">8</text>
+<wire x1="-0.2" y1="-1.7875" x2="-1" y2="-1.7875" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.4875" x2="-1.4" y2="-0.4875" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-4.3875" x2="-1" y2="-4.3875" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-3.0875" x2="-1.4" y2="-3.0875" width="0.1" layer="21"/>
+<text x="-1.4" y="-3.0875" size="1" layer="21" align="center-right">4</text>
+<text x="-1.4" y="-0.4875" size="1" layer="21" align="center-right">8</text>
 <smd name="P$11" x="1.5" y="-6.6625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$12" x="1.5" y="-7.3125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$13" x="1.5" y="-7.9625" dx="3" dy="0.325" layer="1"/>
@@ -6435,8 +6435,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$17" x="1.5" y="-10.5625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$18" x="1.5" y="-11.2125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$19" x="1.5" y="-11.8625" dx="3" dy="0.325" layer="1"/>
-<wire x1="-0.2" y1="-11.8625" x2="-1.4" y2="-11.8625" width="0.1" layer="21"/>
-<text x="-0.4" y="-11.0625" size="1" layer="21" align="center-right">10</text>
+<wire x1="-0.2" y1="-12.1875" x2="-1.4" y2="-12.1875" width="0.1" layer="21"/>
+<text x="-0.4" y="-11.3875" size="1" layer="21" align="center-right">10</text>
 <smd name="P$20" x="1.5" y="-12.5125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$21" x="1.5" y="-13.1625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$22" x="1.5" y="-13.8125" dx="3" dy="0.325" layer="1"/>
@@ -6447,8 +6447,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$27" x="1.5" y="-17.0625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$28" x="1.5" y="-17.7125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$29" x="1.5" y="-18.3625" dx="3" dy="0.325" layer="1"/>
-<wire x1="-0.2" y1="-18.3625" x2="-1.4" y2="-18.3625" width="0.1" layer="21"/>
-<text x="-0.4" y="-17.5625" size="1" layer="21" align="center-right">20</text>
+<wire x1="-0.2" y1="-18.6875" x2="-1.4" y2="-18.6875" width="0.1" layer="21"/>
+<text x="-0.4" y="-17.8875" size="1" layer="21" align="center-right">20</text>
 <smd name="P$30" x="1.5" y="-19.0125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$31" x="1.5" y="-19.6625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$32" x="1.5" y="-20.3125" dx="3" dy="0.325" layer="1"/>
@@ -6459,8 +6459,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$37" x="1.5" y="-23.5625" dx="3" dy="0.325" layer="1"/>
 <smd name="P$38" x="1.5" y="-24.2125" dx="3" dy="0.325" layer="1"/>
 <smd name="P$39" x="1.5" y="-24.8625" dx="3" dy="0.325" layer="1"/>
-<wire x1="-0.2" y1="-24.8625" x2="-1.4" y2="-24.8625" width="0.1" layer="21"/>
-<text x="-0.4" y="-24.0625" size="1" layer="21" align="center-right">30</text>
+<wire x1="-0.2" y1="-25.1875" x2="-1.4" y2="-25.1875" width="0.1" layer="21"/>
+<text x="-0.4" y="-24.3875" size="1" layer="21" align="center-right">30</text>
 <rectangle x1="-0.1" y1="-25.1" x2="3.1" y2="0.1" layer="29"/>
 </package>
 <package name="PINCOUNT-0,8">
@@ -6484,14 +6484,14 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$18" x="1.5" y="-13.8" dx="3" dy="0.4" layer="1"/>
 <smd name="P$19" x="1.5" y="-14.6" dx="3" dy="0.4" layer="1"/>
 <wire x1="3" y1="-7" x2="-2" y2="-7" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="-5.8" x2="-1" y2="-5.8" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-4.2" x2="-1.4" y2="-4.2" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-2.6" x2="-1" y2="-2.6" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-1" x2="-1.4" y2="-1" width="0.1" layer="21"/>
-<text x="-1.4" y="-4.2" size="1" layer="21" align="center-right">4</text>
-<text x="-1.4" y="-1" size="1" layer="21" align="center-right">8</text>
-<wire x1="-0.2" y1="-14.6" x2="-1.4" y2="-14.6" width="0.1" layer="21"/>
-<text x="-0.4" y="-13.8" size="1" layer="21" align="center-right">10</text>
+<wire x1="-0.2" y1="-5.4" x2="-1" y2="-5.4" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-3.8" x2="-1.4" y2="-3.8" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-2.2" x2="-1" y2="-2.2" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.6" x2="-1.4" y2="-0.6" width="0.1" layer="21"/>
+<text x="-1.4" y="-3.8" size="1" layer="21" align="center-right">4</text>
+<text x="-1.4" y="-0.6" size="1" layer="21" align="center-right">8</text>
+<wire x1="-0.2" y1="-15" x2="-1.4" y2="-15" width="0.1" layer="21"/>
+<text x="-0.4" y="-14.2" size="1" layer="21" align="center-right">10</text>
 <smd name="P$20" x="1.5" y="-15.4" dx="3" dy="0.4" layer="1"/>
 <smd name="P$21" x="1.5" y="-16.2" dx="3" dy="0.4" layer="1"/>
 <smd name="P$22" x="1.5" y="-17" dx="3" dy="0.4" layer="1"/>
@@ -6502,8 +6502,8 @@ http://www.analog.com/en/technical-library/packages/sop-small-outline-package/ts
 <smd name="P$27" x="1.5" y="-21" dx="3" dy="0.4" layer="1"/>
 <smd name="P$28" x="1.5" y="-21.8" dx="3" dy="0.4" layer="1"/>
 <smd name="P$29" x="1.5" y="-22.6" dx="3" dy="0.4" layer="1"/>
-<wire x1="-0.2" y1="-22.6" x2="-1.4" y2="-22.6" width="0.1" layer="21"/>
-<text x="-0.4" y="-21.8" size="1" layer="21" align="center-right">20</text>
+<wire x1="-0.2" y1="-23" x2="-1.4" y2="-23" width="0.1" layer="21"/>
+<text x="-0.4" y="-22.2" size="1" layer="21" align="center-right">20</text>
 <rectangle x1="-0.1" y1="-22.9" x2="3.1" y2="0.1" layer="29"/>
 </package>
 <package name="PINCOUNT-0,5-R">
