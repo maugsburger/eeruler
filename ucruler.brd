@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,21 +23,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -227,36 +227,35 @@ SC76</text>
 2016</text>
 <text x="194.4" y="8.9" size="1" layer="22" distance="30" rot="MR90">units default to SI/mm</text>
 <wire x1="200" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<text x="190" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">1</text>
-<text x="180" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">2</text>
-<text x="170" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">3</text>
-<text x="160" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">4</text>
-<text x="150" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">5</text>
-<text x="140" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">6</text>
-<text x="130" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">7</text>
-<text x="120" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">8</text>
-<text x="110" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">9</text>
-<text x="100" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">10</text>
-<text x="100" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">10</text>
-<text x="90" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">11</text>
-<text x="80" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">12</text>
-<text x="70" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">13</text>
-<text x="60" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">14</text>
-<text x="50" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">15</text>
-<text x="40" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">16</text>
-<text x="30" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">17</text>
-<text x="20" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">18</text>
-<text x="10" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">19</text>
-<text x="0" y="28" size="1.6" layer="22" rot="MR0" align="bottom-right">20</text>
-<text x="7.75" y="26.5" size="1.2" layer="22" rot="MR90" align="bottom-right">50/100mil   1.25/2.5mm</text>
-<wire x1="9" y1="16" x2="7.75" y2="16" width="0.15" layer="22"/>
-<wire x1="7.75" y1="16" x2="8" y2="16.25" width="0.15" layer="22"/>
-<wire x1="8" y1="16.25" x2="8" y2="15.75" width="0.15" layer="22"/>
-<wire x1="8" y1="15.75" x2="7.75" y2="16" width="0.15" layer="22"/>
-<wire x1="7.75" y1="3" x2="9" y2="3" width="0.15" layer="22"/>
-<wire x1="9" y1="3" x2="8.75" y2="3.25" width="0.15" layer="22"/>
-<wire x1="8.75" y1="3.25" x2="8.75" y2="2.75" width="0.15" layer="22"/>
-<wire x1="8.75" y1="2.75" x2="9" y2="3" width="0.15" layer="22"/>
+<text x="189.5" y="28" size="1.6" layer="22" rot="MR0">1</text>
+<text x="179.5" y="28" size="1.6" layer="22" rot="MR0">2</text>
+<text x="169.5" y="28" size="1.6" layer="22" rot="MR0">3</text>
+<text x="159.5" y="28" size="1.6" layer="22" rot="MR0">4</text>
+<text x="149.5" y="28" size="1.6" layer="22" rot="MR0">5</text>
+<text x="139.5" y="28" size="1.6" layer="22" rot="MR0">6</text>
+<text x="129.5" y="28" size="1.6" layer="22" rot="MR0">7</text>
+<text x="119.5" y="28" size="1.6" layer="22" rot="MR0">8</text>
+<text x="109.5" y="28" size="1.6" layer="22" rot="MR0">9</text>
+<text x="99.5" y="28" size="1.6" layer="22" rot="MR0">10</text>
+<text x="99.5" y="28" size="1.6" layer="22" rot="MR0">10</text>
+<text x="89.5" y="28" size="1.6" layer="22" rot="MR0">11</text>
+<text x="79.5" y="28" size="1.6" layer="22" rot="MR0">12</text>
+<text x="69.5" y="28" size="1.6" layer="22" rot="MR0">13</text>
+<text x="59.5" y="28" size="1.6" layer="22" rot="MR0">14</text>
+<text x="49.5" y="28" size="1.6" layer="22" rot="MR0">15</text>
+<text x="39.5" y="28" size="1.6" layer="22" rot="MR0">16</text>
+<text x="29.5" y="28" size="1.6" layer="22" rot="MR0">17</text>
+<text x="19.5" y="28" size="1.6" layer="22" rot="MR0">18</text>
+<text x="9.5" y="28" size="1.6" layer="22" rot="MR0">19</text>
+<text x="7.75" y="27" size="1.2" layer="22" rot="MR90" align="bottom-right">50/100mil   1.25/2.5mm</text>
+<wire x1="9" y1="16.5" x2="7.75" y2="16.5" width="0.15" layer="22"/>
+<wire x1="7.75" y1="16.5" x2="8" y2="16.75" width="0.15" layer="22"/>
+<wire x1="8" y1="16.75" x2="8" y2="16.25" width="0.15" layer="22"/>
+<wire x1="8" y1="16.25" x2="7.75" y2="16.5" width="0.15" layer="22"/>
+<wire x1="7.75" y1="3.5" x2="9" y2="3.5" width="0.15" layer="22"/>
+<wire x1="9" y1="3.5" x2="8.75" y2="3.75" width="0.15" layer="22"/>
+<wire x1="8.75" y1="3.75" x2="8.75" y2="3.25" width="0.15" layer="22"/>
+<wire x1="8.75" y1="3.25" x2="9" y2="3.5" width="0.15" layer="22"/>
 <text x="152.5" y="23.5" size="1.2" layer="21" ratio="13" distance="20" align="center">2.5x2.0</text>
 <text x="149.2" y="6.75" size="1.2" layer="21" ratio="13" distance="20" align="center">HC49</text>
 <text x="152.5" y="18" size="1.2" layer="21" ratio="13" distance="20" align="center">3.2x2.5</text>
@@ -18189,8 +18188,8 @@ einem neuen Namen ab.
 <element name="E$134" library="ucruler" package="SILK-RULER-1CM" value="" x="30" y="32" rot="MR0"/>
 <element name="E$135" library="ucruler" package="SILK-RULER-1CM" value="" x="20" y="32" rot="MR0"/>
 <element name="E$136" library="ucruler" package="SILK-RULER-1CM" value="" x="10" y="32" rot="MR0"/>
-<element name="E$137" library="ucruler" package="SILK-RULER-50/100MIL" value="" x="10" y="1" rot="MR90"/>
-<element name="E$138" library="ucruler" package="SILK-RULER-1.25/2.5MM" value="" x="4" y="1" rot="MR90"/>
+<element name="E$137" library="ucruler" package="SILK-RULER-50/100MIL" value="" x="10" y="1.5" rot="MR90"/>
+<element name="E$138" library="ucruler" package="SILK-RULER-1.25/2.5MM" value="" x="4" y="1.5" rot="MR90"/>
 <element name="E$139" library="ucruler" package="SILK-TABLE-ECAP" value="" x="132.7" y="27.1" rot="MR0"/>
 <element name="E$8" library="ucruler" package="PACK-MSOP10" value="" x="65" y="26.5"/>
 <element name="E$60" library="ucruler" package="PACK-MSOP8" value="" x="57" y="26.5"/>
